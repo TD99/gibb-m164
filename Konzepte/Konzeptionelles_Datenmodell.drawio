@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-07T14:02:00.982Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36 Edg/97.0.1072.76" etag="hMAy0tJNiwo1DfKt0lHS" version="16.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-07T14:02:29.743Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36 Edg/97.0.1072.76" etag="CnPJyIZK3OUiT6_cCA8s" version="16.5.3" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1422" dy="698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -119,7 +119,7 @@
           <mxGeometry y="90" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dN4CM6q4estH_T1ahDFu-38" value="Game" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="540" y="380" width="140" height="150" as="geometry" />
+          <mxGeometry x="540" y="380" width="140" height="180" as="geometry" />
         </mxCell>
         <mxCell id="dN4CM6q4estH_T1ahDFu-39" value="GameID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="dN4CM6q4estH_T1ahDFu-38">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
@@ -133,6 +133,9 @@
         <mxCell id="dN4CM6q4estH_T1ahDFu-77" value="Multiplayer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="dN4CM6q4estH_T1ahDFu-38">
           <mxGeometry y="120" width="140" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="dN4CM6q4estH_T1ahDFu-78" value="MinAge" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="dN4CM6q4estH_T1ahDFu-38">
+          <mxGeometry y="150" width="140" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="dN4CM6q4estH_T1ahDFu-53" value="Payment List" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="200" y="50" width="140" height="90" as="geometry" />
         </mxCell>
@@ -143,7 +146,7 @@
           <mxGeometry y="60" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dN4CM6q4estH_T1ahDFu-73" value="Genre" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="540" y="590" width="140" height="90" as="geometry" />
+          <mxGeometry x="550" y="620" width="140" height="90" as="geometry" />
         </mxCell>
         <mxCell id="dN4CM6q4estH_T1ahDFu-74" value="GenreID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="dN4CM6q4estH_T1ahDFu-73">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
