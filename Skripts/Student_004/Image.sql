@@ -5,7 +5,7 @@ IF NOT EXISTS (SELECT * FROM sysobjects WHERE name="Image" and xtype="U")
    CREATE TABLE Image
    (
       ImageID int PRIMARY KEY IDENTITY,
-      ProductID int FOREIGN KEY,
+      ProductID int,
       ImageFile blob
    )
 go
