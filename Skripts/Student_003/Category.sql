@@ -15,3 +15,4 @@ Insert Into Category (Name,Description)
 Values('Jump and Run','Eine berühmte Spielart');
 
 DROP TABLE Category;
+*/
