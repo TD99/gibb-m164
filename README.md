@@ -22,8 +22,6 @@ Modul 164 bei Herr Dummermuth, SQL Server
 | 004      | David      | [Gehe zu](Skripts/Student_004) |
 
 ## Status
-:white_check_mark: Konzepte
-<br>
-:x: CREATE TABLE
-<br>
+:white_check_mark: Konzepte  
+:x: CREATE TABLE  
 :x: INSERT
