@@ -9,3 +9,8 @@ IF NOT EXISTS (SELECT * FROM sysobjects WHERE name="Image" and xtype="U")
       ImageFile blob
    )
 go
+
+/* Beispiele
+SELECT * FROM Image;
+DROP TABLE Image;
+*/
