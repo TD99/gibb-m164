@@ -1,16 +1,17 @@
 --DEFALUT USER IDENTIFIER: dro135638 <-- DO NOT MODIFY
 use test
-IF NOT EXISTS (SELECT * FROM sysobjects WHERE name="Image" and xtype="U")
+IF NOT EXISTS (SELECT * FROM sysobjects WHERE name='Platform' and xtype='U')
 
-   CREATE TABLE Image
+   CREATE TABLE Platform
    (
-      ImageID int PRIMARY KEY IDENTITY,
-      ProductID int,
-      ImageFile blob
+      PlatformID int PRIMARY KEY IDENTITY,
+      Name varchar (50),
+      MinSoftwareVersion varchar (50),
+      MaxSoftwareVersion varchar (50)
    )
 go
 
 /* Beispiele
-SELECT * FROM Image;
+SELECT * FROM Platform;
 DROP TABLE Image;
 */
