@@ -1,7 +1,7 @@
 # gibb-m164
 Modul 164 bei Herr Dummermuth, SQL Server
 
-[![Thumbnail](Zusatzmaterial/thumbnail.jpg)](./)
+[![Thumbnail](Zusatzmaterial/thumbnail.jpg)]()
 
 ### Schnellwahl
 - [Dokumentation](Dokumentation/IET-164_Dokumentation_Dummermuth.docx?raw=1)
