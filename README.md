@@ -1,5 +1,5 @@
 # gibb-m164
-Modul 164 bei Herr Dummermuth, SQL Server
+Modul 164 bei Herr Dummermuth, MS SQL-Server
 
 ![Thumbnail](Zusatzmaterial/thumbnail.jpg)
 
@@ -13,6 +13,11 @@ Modul 164 bei Herr Dummermuth, SQL Server
   - [Groupwork](Skripts/Groupwork)
   - [Student_001 - 004](#gruppenskripts)
 
+## Status
+:white_check_mark: Konzepte  
+:x: CREATE TABLE  
+:x: INSERT
+
 ## Gruppenskripts
 | ***ID*** | ***Name*** | ***Skripts***                  |
 | :------- | :--------- | :----------------------------- |
@@ -21,7 +26,10 @@ Modul 164 bei Herr Dummermuth, SQL Server
 | 003      | Oliver     | [Gehe zu](Skripts/Student_003) |
 | 004      | David      | [Gehe zu](Skripts/Student_004) |
 
-## Status
-:white_check_mark: Konzepte  
-:x: CREATE TABLE  
-:x: INSERT
+## Benutzte Tools
+- draw.io
+  - [Webseite](https://app.diagrams.net/)
+  - [Desktop-App](https://github.com/jgraph/drawio-desktop/releases/latest)
+- GitHub
+  - [Webseite](https://github.com/)
+  - [Desktop-App](https://github.com/desktop/desktop#where-can-i-get-it)
