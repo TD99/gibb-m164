@@ -1,15 +1,16 @@
 --DEFALUT USER IDENTIFIER: dro135638 <-- DO NOT MODIFY
-use test
-IF NOT EXISTS (SELECT * FROM sysobjects WHERE name='Tag' and xtype='U')
 
-   CREATE TABLE Tag
-   (
-      TagID int PRIMARY KEY IDENTITY,
-      Name varchar (50)
-   )
-go
+--CREATE TABLE TAG
+	USE test;
+	IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='Tag' AND xtype='U')
+		CREATE TABLE Tag(
+			TagID INT PRIMARY KEY IDENTITY,
+			Name VARCHAR(50)
+		);
+	GO;
 
-/* Beispiele
-SELECT * FROM Tag;
-DROP TABLE Image;
-*/
+	/* Examples:
+	SELECT * FROM Tag;
+	DROP TABLE Tag;
+	*/
+--END

@@ -1,15 +1,16 @@
 --DEFALUT USER IDENTIFIER: dro135638 <-- DO NOT MODIFY
-use test
-IF NOT EXISTS (SELECT * FROM sysobjects WHERE name='Image' and xtype='U')
 
-   CREATE TABLE Image
-   (
-      ImageID int PRIMARY KEY IDENTITY,
-      ImageURL nvarchar(300)
-   )
-go
+--CREATE TABLE IMAGE
+	USE test;
+	IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='Image' AND xtype='U')
+		CREATE TABLE Image(
+			ImageID INT PRIMARY KEY IDENTITY,
+			ImageURL NVARCHAR(300)
+		);
+	GO;
 
-/* Beispiele
-SELECT * FROM Image;
-DROP TABLE Image;
-*/
+	/* Examples:
+	SELECT * FROM Image;
+	DROP TABLE Image;
+	*/
+--END
