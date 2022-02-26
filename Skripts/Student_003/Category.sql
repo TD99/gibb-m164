@@ -12,7 +12,7 @@ GO
 SELECT * FROM Category;
 
 Insert Into Category (Name,Description)
-Values('Jump and Run','Eine berühmte Spielart');
+Values('Jump and Run','Eine berÃ¼hmte Spielart');
 
 DROP TABLE Category;
 */
