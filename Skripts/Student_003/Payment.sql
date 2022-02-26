@@ -1,17 +1,20 @@
 --DEFALUT USER IDENTIFIER: olo135597 <-- DO NOT MODIFY
-use test
-IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='Payment' and xtype='U')
-	Create Table Payment(
-	PaymentID int identity Primary Key,
-	Amount SMALLMONEY,
-	)
-GO
 
-/* Beispiele
-SELECT * FROM Payment;
+--CREATE TABLE PAYMENT
+	USE test
+	IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='Payment' AND xtype='U')
+		CREATE TABLE Payment(
+			PaymentID INT PRIMARY KEY IDENTITY,
+			Amount SMALLMONEY
+		)
+	GO
 
-Insert Into Payment(Amount)
-Values(200);
+	/* Beispiele
+	SELECT * FROM Payment;
 
-DROP TABLE Payment;
-*/
+	INSERT INTO Payment(Amount)
+	VALUES(200);
+
+	DROP TABLE Payment;
+	*/
+--END
