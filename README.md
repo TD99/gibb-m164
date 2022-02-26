@@ -2,6 +2,7 @@
 Modul 164 bei Herr Dummermuth, MS SQL-Server
 
 ![Thumbnail](Zusatzmaterial/thumbnail.jpg)
+> Image by [Pixabay](https://pixabay.com/)
 
 ## Schnellwahl
 - [Dokumentation](Dokumentation/IET-164_Dokumentation_Dummermuth.docx?raw=1)
@@ -15,11 +16,39 @@ Modul 164 bei Herr Dummermuth, MS SQL-Server
 
 ## Status
 :white_check_mark: Konzepte  
-:x: CREATE TABLE  
-:x: INSERT
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:white_check_mark: Datenmodelle  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:white_check_mark: Konzeptionell  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:white_check_mark: Logisch  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:white_check_mark: Physisch  
 
-## Gruppenskripts
-| ***ID*** | ***Name*** | ***Skripts***                  |
+:x: Skripts   
+| ***Name***                         | ***CREATE TABLE*** | ***ForeignKeys***  |
+| :--------------------------------- | :----------------- | :----------------- |
+| [Student_001](Skripts/Student_001) | :x:                | :x:                |
+| Address                            | :x:                | :x:                |
+| City                               | :x:                | :x:                |
+| Country                            | :x:                | :white_check_mark: |
+| Customer                           | :x:                | :white_check_mark: |
+| [Student_002](Skripts/Student_002) | :x:                | :x:                |
+| Coupon                             | :x:                | :white_check_mark: |
+| Order                              | :x:                | :x:                |
+| OrderItem                          | :x:                | :x:                |
+| OwnedProduct                       | :x:                | :x:                |
+| Wishlist                           | :x:                | :x:                |
+| [Student_003](Skripts/Student_003) | :x:                | :x:                |
+| Category                           | :x:                | :white_check_mark: |
+| Payment                            | :x:                | :x:                |
+| PaymentMethod                      | :x:                | :white_check_mark: |
+| Product                            | :x:                | :x:                |
+| ProductTag                         | :x:                | :x:                |
+| [Student_004](Skripts/Student_004) | :x:                | :x:                |
+| Image                              | :x:                | :x:                |
+| Platform                           | :x:                | :white_check_mark: |
+| Publisher                          | :x:                | :white_check_mark: |
+| Tag                                | :x:                | :white_check_mark: |
+               
+## Gruppenmitglieder
+| ***ID*** | ***Name*** | ***Verzeichnis***              |
 | :------- | :--------- | :----------------------------- |
 | 001      | Tim D.     | [Gehe zu](Skripts/Student_001) |
 | 002      | Isha       | [Gehe zu](Skripts/Student_002) |
