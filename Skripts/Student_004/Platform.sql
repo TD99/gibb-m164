@@ -13,6 +13,6 @@
 
 	/* Examples:
 	SELECT * FROM Platform;
-	DROP TABLE Image;
+	DROP TABLE Platform;
 	*/
 --END

@@ -4,14 +4,15 @@
 	USE test;
 	IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='Publisher' AND xtype='U')
 		CREATE TABLE Publisher(
-			PublisherID int PRIMARY KEY IDENTITY,
-			Name varchar (50),
-			Website varchar (50),
-			RemoveDate date
-		)
-	go
+			PublisherID INT PRIMARY KEY IDENTITY,
+			Name VARCHAR(50),
+			Website VARCHAR(50),
+			RemoveDate DATE
+		);
+	GO;
 
-	/* Beispiele
+	/* Examples:
 	SELECT * FROM Publisher;
-	DROP TABLE Image;
+	DROP TABLE Publisher;
 	*/
+--END
