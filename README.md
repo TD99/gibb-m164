@@ -15,8 +15,36 @@ Modul 164 bei Herr Dummermuth, MS SQL-Server
 
 ## Status
 :white_check_mark: Konzepte  
-:x: CREATE TABLE  
-:x: INSERT
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:white_check_mark: Datenmodelle  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:white_check_mark: Konzeptionell  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:white_check_mark: Logisch  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:white_check_mark: Physisch  
+
+:x: Skripts 
+| ***Name***                         | ***CREATE TABLE*** | ***INSERT*** |
+| :--------------------------------- | :----------------- | :----------- |
+| [Student_001](Skripts/Student_001) | :x:                | :x:          |
+| Address                            | :x:                | :x:          |
+| City                               | :x:                | :x:          |
+| Country                            | :x:                | :x:          |
+| Customer                           | :x:                | :x:          |
+| [Student_002](Skripts/Student_002) | :x:                | :x:          |
+| Coupon                             | :x:                | :x:          |
+| Order                              | :x:                | :x:          |
+| OrderItem                          | :x:                | :x:          |
+| OwnedProduct                       | :x:                | :x:          |
+| Wishlist                           | :x:                | :x:          |
+| [Student_003](Skripts/Student_003) | :x:                | :x:          |
+| Category                           | :x:                | :x:          |
+| Payment                            | :x:                | :x:          |
+| PaymentMethod                      | :x:                | :x:          |
+| Product                            | :x:                | :x:          |
+| ProductTag                         | :x:                | :x:          |
+| [Student_004](Skripts/Student_004) | :x:                | :x:          |
+| Image                              | :x:                | :x:          |
+| Platform                           | :x:                | :x:          |
+| Publisher                          | :x:                | :x:          |
+| Tag                                | :x:                | :x:          |
 
 ## Gruppenskripts
 | ***ID*** | ***Name*** | ***Skripts***                  |
