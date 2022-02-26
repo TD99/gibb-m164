@@ -7,7 +7,7 @@
 			CategoryID INT PRIMARY KEY IDENTITY,
 			Name VARCHAR(50) NOT NULL UNIQUE,
 			Description VARCHAR(500)
-		)
+		);
 	GO;
 
 	/* Examples:
