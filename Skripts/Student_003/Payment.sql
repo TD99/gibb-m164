@@ -9,7 +9,7 @@
 		);
 	GO;
 
-	/* Beispiele
+	/* Examples:
 	SELECT * FROM Payment;
 
 	INSERT INTO Payment(Amount)

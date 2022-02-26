@@ -1,17 +1,18 @@
 --DEFALUT USER IDENTIFIER: dro135638 <-- DO NOT MODIFY
-use test
-IF NOT EXISTS (SELECT * FROM sysobjects WHERE name='Platform' and xtype='U')
 
-   CREATE TABLE Platform
-   (
-      PlatformID int PRIMARY KEY IDENTITY,
-      Name varchar (50),
-      MinSoftwareVersion varchar (50),
-      MaxSoftwareVersion varchar (50)
-   )
-go
+--CREATE TABLE PLATFORM
+	USE test;
+	IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='Platform' AND xtype='U')
+    	CREATE TABLE Platform(
+			PlatformID INT PRIMARY KEY IDENTITY,
+			Name VARCHAR(50) NOT NULL,
+			MinSoftwareVersion VARCHAR(50),
+			MaxSoftwareVersion VARCHAR(50)
+      	);
+   	GO;
 
-/* Beispiele
-SELECT * FROM Platform;
-DROP TABLE Image;
-*/
+	/* Examples:
+	SELECT * FROM Platform;
+	DROP TABLE Image;
+	*/
+--END
