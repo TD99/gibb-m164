@@ -47,8 +47,8 @@ Modul 164 bei Herr Dummermuth, MS SQL-Server
 | Publisher                          | :x:                | :white_check_mark: |
 | Tag                                | :x:                | :white_check_mark: |
                
-## Gruppenskripts
-| ***ID*** | ***Name*** | ***Skripts***                  |
+## Gruppenmitglieder
+| ***ID*** | ***Name*** | ***Verzeichnis***              |
 | :------- | :--------- | :----------------------------- |
 | 001      | Tim D.     | [Gehe zu](Skripts/Student_001) |
 | 002      | Isha       | [Gehe zu](Skripts/Student_002) |
