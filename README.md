@@ -2,6 +2,7 @@
 Modul 164 bei Herr Dummermuth, MS SQL-Server
 
 ![Thumbnail](Zusatzmaterial/thumbnail.jpg)
+> Image by [Pixabay](https://pixabay.com/)
 
 ## Schnellwahl
 - [Dokumentation](Dokumentation/IET-164_Dokumentation_Dummermuth.docx?raw=1)
@@ -20,32 +21,32 @@ Modul 164 bei Herr Dummermuth, MS SQL-Server
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:white_check_mark: Logisch  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:white_check_mark: Physisch  
 
-:x: Skripts 
-| ***Name***                         | ***CREATE TABLE*** | ***ForeignKeys*** |
-| :--------------------------------- | :----------------- | :---------------- |
-| [Student_001](Skripts/Student_001) | :x:                | :x:               |
-| Address                            | :x:                | :x:               |
-| City                               | :x:                | :x:               |
-| Country                            | :x:                | :x:               |
-| Customer                           | :x:                | :x:               |
-| [Student_002](Skripts/Student_002) | :x:                | :x:               |
-| Coupon                             | :x:                | :x:               |
-| Order                              | :x:                | :x:               |
-| OrderItem                          | :x:                | :x:               |
-| OwnedProduct                       | :x:                | :x:               |
-| Wishlist                           | :x:                | :x:               |
-| [Student_003](Skripts/Student_003) | :x:                | :x:               |
-| Category                           | :x:                | :x:               |
-| Payment                            | :x:                | :x:               |
-| PaymentMethod                      | :x:                | :x:               |
-| Product                            | :x:                | :x:               |
-| ProductTag                         | :x:                | :x:               |
-| [Student_004](Skripts/Student_004) | :x:                | :x:               |
-| Image                              | :x:                | :x:               |
-| Platform                           | :x:                | :x:               |
-| Publisher                          | :x:                | :x:               |
-| Tag                                | :x:                | :x:               |
-
+:x: Skripts   
+| ***Name***                         | ***CREATE TABLE*** | ***ForeignKeys***  |
+| :--------------------------------- | :----------------- | :----------------- |
+| [Student_001](Skripts/Student_001) | :x:                | :x:                |
+| Address                            | :x:                | :x:                |
+| City                               | :x:                | :x:                |
+| Country                            | :x:                | :white_check_mark: |
+| Customer                           | :x:                | :white_check_mark: |
+| [Student_002](Skripts/Student_002) | :x:                | :x:                |
+| Coupon                             | :x:                | :white_check_mark: |
+| Order                              | :x:                | :x:                |
+| OrderItem                          | :x:                | :x:                |
+| OwnedProduct                       | :x:                | :x:                |
+| Wishlist                           | :x:                | :x:                |
+| [Student_003](Skripts/Student_003) | :x:                | :x:                |
+| Category                           | :x:                | :white_check_mark: |
+| Payment                            | :x:                | :x:                |
+| PaymentMethod                      | :x:                | :white_check_mark: |
+| Product                            | :x:                | :x:                |
+| ProductTag                         | :x:                | :x:                |
+| [Student_004](Skripts/Student_004) | :x:                | :x:                |
+| Image                              | :x:                | :x:                |
+| Platform                           | :x:                | :white_check_mark: |
+| Publisher                          | :x:                | :white_check_mark: |
+| Tag                                | :x:                | :white_check_mark: |
+               
 ## Gruppenskripts
 | ***ID*** | ***Name*** | ***Skripts***                  |
 | :------- | :--------- | :----------------------------- |
