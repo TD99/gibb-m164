@@ -1,20 +1,23 @@
---DEFALUT USER IDENTIFIER: ile135624 <-- DO NOT MODIFY 
-use test
-IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='Coupon' and xtype='U')
-	Create Table Coupon(
-	CouponID int identity Primary Key,
-	Code varchar(50) NOT NULL UNIQUE,
-	StartDate Date NOT NULL,
-	EndDate Date NOT NULL,
-	Percentage REAL NOT NULL,
-	)
-GO
+--DEFALUT USER IDENTIFIER: ile135624 <-- DO NOT MODIFY
 
-/* 
-SELECT * FROM Coupon; 
+--CREATE TABLE COUPON
+	USE test
+	IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='Coupon' AND xtype='U')
+		CREATE TABLE Coupon(
+		CouponID INT PRIMARY KEY IDENTITY,
+		Code VARCHAR(50) NOT NULL UNIQUE,
+		StartDate DATE NOT NULL,
+		EndDate DATE NOT NULL,
+		Percentage REAL NOT NULL,
+		)
+	GO
 
-INSERT INTO Coupon(Code,StartDate,EndDate,Percentage)
-Values('Hello World','2022-01-22','2022-02-22',89.6); 
+	/* 
+	SELECT * FROM Coupon; 
 
-DROP TABLE Coupon;
-*/
+	INSERT INTO Coupon(Code,StartDate,EndDate,Percentage)
+	VALUES('Hello World','2022-01-22','2022-02-22',89.6); 
+
+	DROP TABLE Coupon;
+	*/
+--END

@@ -1,15 +1,19 @@
 --DEFALUT USER IDENTIFIER: ile135624 <-- DO NOT MODIFY
-use test
-IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='OwnedProduct' and xtype='U')
-	Create Table OwnedProduct(
-	LicenceHash varchar(30) NOT NULL UNIQUE
-	)
-GO
 
-/*
-SELECT * FROM OwnedProduct;
+--CREATE TABLE OWNERPRODUCT
+	USE test;
+	IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='OwnedProduct' AND xtype='U')
+		CREATE TABLE OwnedProduct(
+			LicenceHash VARCHAR(30) NOT NULL UNIQUE
+		);
+	GO;
 
-INSERT INTO OwnedProduct(LicenceHash)
-Values('Hello World');
+	/* Examples:
+	SELECT * FROM OwnedProduct;
 
-DROP TABLE OwnedProduct;
+	INSERT INTO OwnedProduct(LicenceHash)
+	VALUES('Hello World');
+
+	DROP TABLE OwnedProduct;
+	*/
+--END
