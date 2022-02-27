@@ -7,7 +7,7 @@
 			ImageID INT PRIMARY KEY IDENTITY,
 			ImageURL NVARCHAR(300)
 		);
-	GO;
+	GO
 
 	/* Examples:
 	SELECT * FROM Image;

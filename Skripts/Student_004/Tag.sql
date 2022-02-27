@@ -7,7 +7,7 @@
 			TagID INT PRIMARY KEY IDENTITY,
 			Name VARCHAR(50)
 		);
-	GO;
+	GO
 
 	/* Examples:
 	SELECT * FROM Tag;

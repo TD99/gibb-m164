@@ -6,7 +6,7 @@
 		CREATE TABLE OwnedProduct(
 			LicenceHash VARCHAR(30) NOT NULL UNIQUE
 		);
-	GO;
+	GO
 
 	/* Examples:
 	SELECT * FROM OwnedProduct;

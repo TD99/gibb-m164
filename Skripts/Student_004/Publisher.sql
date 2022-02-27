@@ -9,7 +9,7 @@
 			Website VARCHAR(50),
 			RemoveDate DATE
 		);
-	GO;
+	GO
 
 	/* Examples:
 	SELECT * FROM Publisher;

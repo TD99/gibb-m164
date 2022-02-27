@@ -9,7 +9,7 @@
 			MinSoftwareVersion VARCHAR(50),
 			MaxSoftwareVersion VARCHAR(50)
       	);
-   	GO;
+   	GO
 
 	/* Examples:
 	SELECT * FROM Platform;

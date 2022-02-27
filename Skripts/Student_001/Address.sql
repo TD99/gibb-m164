@@ -1,4 +1,11 @@
 --DEFALUT USER IDENTIFIER: tdu135585 <-- DO NOT MODIFY
 
 --CREATE TABLE ADDRESS
+	USE test;
+	IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='Address' AND xtype='U')
+		CREATE TABLE Address(
+			AddressID INT PRIMARY KEY IDENTITY,
+
+		);
+	GO
 --END
