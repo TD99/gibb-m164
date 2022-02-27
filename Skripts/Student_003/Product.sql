@@ -13,7 +13,7 @@
 			MinAge TINYINT NOT NULL,
 			RemoveDate DATE
 		);
-	GO;
+	GO
 
 	/* Examples:
 	SELECT * FROM Product;
