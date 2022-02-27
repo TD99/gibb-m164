@@ -7,7 +7,7 @@
 			PaymentID INT PRIMARY KEY IDENTITY,
 			Amount SMALLMONEY
 		);
-	GO;
+	GO
 
 	/* Examples:
 	SELECT * FROM Payment;
