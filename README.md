@@ -62,3 +62,6 @@ Modul 164 bei Herr Dummermuth, MS SQL-Server
 - GitHub
   - [Webseite](https://github.com/)
   - [Desktop-App](https://github.com/desktop/desktop#where-can-i-get-it)
+- Tabnine
+  - [Webseite](https://www.tabnine.com/)
+  - [Addon for VS Code](https://www.tabnine.com/install/vscode)
