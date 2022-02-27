@@ -22,30 +22,30 @@ Modul 164 bei Herr Dummermuth, MS SQL-Server
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:white_check_mark: Physisch  
 
 :x: Skripts   
-| ***Name***                         | ***CREATE TABLE*** | ***ForeignKeys***  |
-| :--------------------------------- | :----------------- | :----------------- |
-| [Student_001](Skripts/Student_001) | :x:                | :x:                |
-| Address                            | :x:                | :x:                |
-| City                               | :x:                | :x:                |
-| Country                            | :x:                | :white_check_mark: |
-| Customer                           | :x:                | :white_check_mark: |
-| [Student_002](Skripts/Student_002) | :x:                | :x:                |
-| Coupon                             | :x:                | :white_check_mark: |
-| Order                              | :x:                | :x:                |
-| OrderItem                          | :x:                | :x:                |
-| OwnedProduct                       | :x:                | :x:                |
-| Wishlist                           | :x:                | :x:                |
-| [Student_003](Skripts/Student_003) | :x:                | :x:                |
-| Category                           | :x:                | :white_check_mark: |
-| Payment                            | :x:                | :x:                |
-| PaymentMethod                      | :x:                | :white_check_mark: |
-| Product                            | :x:                | :x:                |
-| ProductTag                         | :x:                | :x:                |
-| [Student_004](Skripts/Student_004) | :x:                | :x:                |
-| Image                              | :x:                | :x:                |
-| Platform                           | :x:                | :white_check_mark: |
-| Publisher                          | :x:                | :white_check_mark: |
-| Tag                                | :x:                | :white_check_mark: |
+| ***Name***                         | ***CREATE TABLE*** | ***ForeignKeys***  | ***TODO***                 |
+| :--------------------------------- | :----------------- | :----------------- | :------------------------- |
+| [Student_001](Skripts/Student_001) | :x:                | :x:                |                            |
+| Customer                           | :x:                | :white_check_mark: |                            |
+| Address                            | :x:                | :x:                |                            |
+| City                               | :x:                | :x:                |                            |
+| Country                            | :x:                | :white_check_mark: | Attribut `Ländervorwahl`   |
+| [Student_002](Skripts/Student_002) | :x:                | :x:                |                            |
+| OwnedProduct                       | :x:                | :x:                |                            |
+| Wishlist                           | :x:                | :x:                |                            |
+| OrderItem                          | :x:                | :x:                |                            |
+| Order                              | :x:                | :x:                |                            |
+| Coupon                             | :x:                | :white_check_mark: |                            |
+| [Student_003](Skripts/Student_003) | :x:                | :x:                |                            |
+| Category                           | :x:                | :white_check_mark: |                            |
+| Product                            | :x:                | :x:                |                            |
+| ProductTag                         | :x:                | :x:                |                            |
+| Payment                            | :x:                | :x:                |                            |
+| PaymentMethod                      | :x:                | :white_check_mark: |                            |
+| [Student_004](Skripts/Student_004) | :x:                | :x:                |                            |
+| Image                              | :x:                | :x:                |                            |
+| Publisher                          | :x:                | :white_check_mark: |                            |
+| Tag                                | :x:                | :white_check_mark: |                            |
+| Platform                           | :x:                | :white_check_mark: |                            |
                
 ## Gruppenmitglieder
 | ***ID*** | ***Name*** | ***Verzeichnis***              |
@@ -62,3 +62,6 @@ Modul 164 bei Herr Dummermuth, MS SQL-Server
 - GitHub
   - [Webseite](https://github.com/)
   - [Desktop-App](https://github.com/desktop/desktop#where-can-i-get-it)
+- Tabnine
+  - [Webseite](https://www.tabnine.com/)
+  - [Addon for VS Code](https://www.tabnine.com/install/vscode)
