@@ -24,11 +24,11 @@ Modul 164 bei Herr Dummermuth, MS SQL-Server
 :x: Skripts   
 | ***Name***                         | ***CREATE TABLE*** | ***ForeignKeys***  | ***TODO***                                |
 | :--------------------------------- | :----------------- | :----------------- | :---------------------------------------- |
-| [Student_001](Skripts/Student_001) | :x:                | :x:                |                                           |
-| Customer                           | :x:                | :white_check_mark: | Attribut `RemoveDate`                     |
-| Address                            | :x:                | :x:                |                                           |
-| City                               | :x:                | :x:                |                                           |
-| Country                            | :x:                | :white_check_mark: | Attribut `Ländervorwahl`                  |
+| [Student_001](Skripts/Student_001) | :white_check_mark: | :x:                |                                           |
+| Customer                           | :white_check_mark: | :white_check_mark: | Attribut `RemoveDate`                     |
+| Address                            | :white_check_mark: | :x:                |                                           |
+| City                               | :white_check_mark: | :x:                |                                           |
+| Country                            | :white_check_mark: | :white_check_mark: | Attribut `Ländervorwahl`                  |
 | [Student_002](Skripts/Student_002) | :x:                | :x:                |                                           |
 | OwnedProduct                       | :x:                | :x:                |                                           |
 | Wishlist                           | :x:                | :x:                |                                           |
