@@ -5,7 +5,7 @@
 	IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='Country' AND xtype='U')
 		CREATE TABLE Country(
 			CountryID INT PRIMARY KEY IDENTITY,
-			Name VARCHAR(100) NOT NULL,
+			Name VARCHAR(100) NOT NULL UNIQUE,
 		);
 	GO
 
