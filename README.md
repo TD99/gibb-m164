@@ -25,7 +25,7 @@ Modul 164 bei Herr Dummermuth, MS SQL-Server
 | ***Name***                         | ***CREATE TABLE*** | ***ForeignKeys***  | ***TODO***                 |
 | :--------------------------------- | :----------------- | :----------------- | :------------------------- |
 | [Student_001](Skripts/Student_001) | :x:                | :x:                |                            |
-| Customer                           | :x:                | :white_check_mark: |                            |
+| Customer                           | :x:                | :white_check_mark: | Attribut `RemoveDate`      |
 | Address                            | :x:                | :x:                |                            |
 | City                               | :x:                | :x:                |                            |
 | Country                            | :x:                | :white_check_mark: | Attribut `Ländervorwahl`   |
