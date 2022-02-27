@@ -1,4 +1,7 @@
 --DEFALUT USER IDENTIFIER: tdu135585 <-- DO NOT MODIFY
 
 --CREATE TABLE COUNTRY
+	USE test;
+	IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='Country' AND xtype='U')
+	GO;
 --END
