@@ -5,7 +5,7 @@
 	IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='Customer' AND xtype='U')
 		CREATE TABLE "Customer"(
 			"CustomerID" INT PRIMARY KEY IDENTITY,
-			"FirstName" VARCHAR(50),
+			"FirstName" VARCHAR(50) NOT NULL,
 			"LastName" VARCHAR(50) NOT NULL,
 			"Birthday" DATE NOT NULL,
 			"Gender" VARCHAR(1) NOT NULL,
