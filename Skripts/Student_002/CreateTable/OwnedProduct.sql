@@ -1,6 +1,6 @@
 --DEFALUT USER IDENTIFIER: ile135624 <-- DO NOT MODIFY
 
---CREATE TABLE OWNERPRODUCT
+--CREATE TABLE OWNEDPRODUCT
 	USE "test";
 	IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='OwnedProduct' AND xtype='U')
 		CREATE TABLE "OwnedProduct"(
@@ -16,4 +16,3 @@
 
 	DROP TABLE "OwnedProduct";
 	*/
---END
