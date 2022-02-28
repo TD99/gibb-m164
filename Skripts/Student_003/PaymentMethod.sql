@@ -1,20 +1,20 @@
 --DEFALUT USER IDENTIFIER: olo135597 <-- DO NOT MODIFY
 
 --CREATE TABLE PAYMENTMETHOD
-	USE test;
+	USE "test";
 	IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='PaymentMethod' AND xtype='U')
-		CREATE TABLE PaymentMethod(
-			PaymentMethodID INT PRIMARY KEY IDENTITY,
-			Name VARCHAR(50) NOT NULL UNIQUE
+		CREATE TABLE "PaymentMethod"(
+			"PaymentMethodID" INT PRIMARY KEY IDENTITY,
+			"Name" VARCHAR(50) NOT NULL UNIQUE
 		);
 	GO
 
 	/* Examples:
-	SELECT * FROM PaymentMethod;
+	SELECT * FROM "PaymentMethod";
 
-	INSERT INTO PaymentMethod(Name)
+	INSERT INTO "PaymentMethod"("Name")
 	VALUES('Jump and Run');
 
-	DROP TABLE PaymentMethod;
+	DROP TABLE "PaymentMethod";
 	*/
 --END
