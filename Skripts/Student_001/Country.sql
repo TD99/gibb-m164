@@ -12,7 +12,7 @@
 	/* Examples:
 	SELECT * FROM "Country";
 
-	INSERT INTO "Country" ("Name")
+	INSERT INTO "Country"("Name")
 	VALUES('Switzerland');
 
 	DROP TABLE "Country";

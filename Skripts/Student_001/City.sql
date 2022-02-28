@@ -13,7 +13,7 @@
 	/* Examples:
 	SELECT * FROM "City";
 
-	INSERT INTO "City" ("ZIPCode","Name")
+	INSERT INTO "City"("ZIPCode","Name")
 	VALUES('8590A','Musterstadt');
 
 	DROP TABLE "City";
