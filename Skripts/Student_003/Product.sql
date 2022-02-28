@@ -11,7 +11,7 @@
 			ReleaseYear SMALLINT,
 			Price SMALLMONEY NOT NULL,
 			MinAge TINYINT NOT NULL,
-			RemoveDate DATE
+			RemoveDate DATE,
 		);
 	GO
 
