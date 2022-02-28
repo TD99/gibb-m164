@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-28T13:36:20.310Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 Edg/98.0.1108.62" etag="1KvpyP2iQSJkN_apsoJi" version="16.6.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-02-28T14:41:20.382Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 Edg/98.0.1108.62" etag="60RtInS3QJmj2PQZRJhd" version="16.6.4" type="github" pages="3">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Konzeptionell">
-    <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1278" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1704,7 +1704,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Physisch" id="54gyhOqW0QC2bzefUM2q">
-    <mxGraphModel dx="1221" dy="681" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="dm3h_SQO7j6FwwRblfGQ-0" />
         <mxCell id="dm3h_SQO7j6FwwRblfGQ-1" parent="dm3h_SQO7j6FwwRblfGQ-0" />
@@ -1751,7 +1751,7 @@
             <mxRectangle width="100" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_UOZEylNoLlur7EwdiV7-4" value="VC(50)" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=10;spacing=2;fontStyle=2;fillColor=default;strokeColor=default;" parent="dm3h_SQO7j6FwwRblfGQ-8" vertex="1">
+        <mxCell id="_UOZEylNoLlur7EwdiV7-4" value="VC(50)" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=10;spacing=2;fontStyle=2;fillColor=#f8cecc;strokeColor=#b85450;" parent="dm3h_SQO7j6FwwRblfGQ-8" vertex="1">
           <mxGeometry x="130" width="50" height="30" as="geometry">
             <mxRectangle width="50" height="30" as="alternateBounds" />
           </mxGeometry>
