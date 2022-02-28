@@ -36,11 +36,11 @@ Modul 164 bei Herr Dummermuth, MS SQL-Server
 | Order                              | :x:                | :x:                |                                           |
 | Coupon                             | :x:                | :heavy_check_mark: |                                           |
 | [Student_003](Skripts/Student_003) | :x:                | :x:                |                                           |
-| Category                           | :x:                | :heavy_check_mark: |                                           |
-| Product                            | :x:                | :x:                |                                           |
+| Category                           | :heavy_check_mark: | :heavy_check_mark: |                                           |
+| Product                            | :heavy_check_mark: | :x:                |                                           |
 | ProductTag                         | :x:                | :x:                |                                           |
-| Payment                            | :x:                | :x:                |                                           |
-| PaymentMethod                      | :x:                | :heavy_check_mark: |                                           |
+| Payment                            | :heavy_check_mark: | :x:                |                                           |
+| PaymentMethod                      | :heavy_check_mark: | :heavy_check_mark: |                                           |
 | [Student_004](Skripts/Student_004) | :x:                | :x:                |                                           |
 | Image                              | :x:                | :x:                |                                           |
 | Publisher                          | :x:                | :heavy_check_mark: |                                           |
