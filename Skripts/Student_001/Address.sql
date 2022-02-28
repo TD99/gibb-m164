@@ -15,7 +15,7 @@
 	/* Examples:
 	SELECT * FROM "Address";
 
-	INSERT INTO "Address" ("Street","StreetNr","IsPrimaryAddress","RemoveDate")
+	INSERT INTO "Address"("Street","StreetNr","IsPrimaryAddress","RemoveDate")
 	VALUES('Musterstrasse','13A',1,'2020-09-04');
 
 	DROP TABLE "Address";
