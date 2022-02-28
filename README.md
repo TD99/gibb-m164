@@ -15,37 +15,37 @@ Modul 164 bei Herr Dummermuth, MS SQL-Server
   - [Student_001 - 004](#gruppenskripts)
 
 ## Status
-:white_check_mark: Konzepte  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:white_check_mark: Datenmodelle  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:white_check_mark: Konzeptionell  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:white_check_mark: Logisch  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:white_check_mark: Physisch  
+:heavy_check_mark: Konzepte  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:heavy_check_mark: Datenmodelle  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:heavy_check_mark: Konzeptionell  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:heavy_check_mark: Logisch  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:heavy_check_mark: Physisch  
 
 :x: Skripts   
 | ***Name***                         | ***CREATE TABLE*** | ***ForeignKeys***  | ***TODO***                                |
 | :--------------------------------- | :----------------- | :----------------- | :---------------------------------------- |
-| [Student_001](Skripts/Student_001) | :white_check_mark: | :x:                |                                           |
-| Customer                           | :white_check_mark: | :white_check_mark: | Attribut `RemoveDate`                     |
-| Address                            | :white_check_mark: | :x:                |                                           |
-| City                               | :white_check_mark: | :x:                |                                           |
-| Country                            | :white_check_mark: | :white_check_mark: | Attribut `Ländervorwahl`                  |
+| [Student_001](Skripts/Student_001) | :heavy_check_mark: | :x:                |                                           |
+| Customer                           | :heavy_check_mark: | :heavy_check_mark: | Attribut `RemoveDate`                     |
+| Address                            | :heavy_check_mark: | :x:                |                                           |
+| City                               | :heavy_check_mark: | :x:                |                                           |
+| Country                            | :heavy_check_mark: | :heavy_check_mark: | Attribut `Ländervorwahl`                  |
 | [Student_002](Skripts/Student_002) | :x:                | :x:                |                                           |
 | OwnedProduct                       | :x:                | :x:                |                                           |
 | Wishlist                           | :x:                | :x:                |                                           |
 | OrderItem                          | :x:                | :x:                |                                           |
 | Order                              | :x:                | :x:                |                                           |
-| Coupon                             | :x:                | :white_check_mark: |                                           |
+| Coupon                             | :x:                | :heavy_check_mark: |                                           |
 | [Student_003](Skripts/Student_003) | :x:                | :x:                |                                           |
-| Category                           | :x:                | :white_check_mark: |                                           |
+| Category                           | :x:                | :heavy_check_mark: |                                           |
 | Product                            | :x:                | :x:                |                                           |
 | ProductTag                         | :x:                | :x:                |                                           |
 | Payment                            | :x:                | :x:                |                                           |
-| PaymentMethod                      | :x:                | :white_check_mark: |                                           |
+| PaymentMethod                      | :x:                | :heavy_check_mark: |                                           |
 | [Student_004](Skripts/Student_004) | :x:                | :x:                |                                           |
 | Image                              | :x:                | :x:                |                                           |
-| Publisher                          | :x:                | :white_check_mark: |                                           |
-| Tag                                | :x:                | :white_check_mark: |                                           |
-| Platform                           | :x:                | :white_check_mark: |                                           |
+| Publisher                          | :x:                | :heavy_check_mark: |                                           |
+| Tag                                | :x:                | :heavy_check_mark: |                                           |
+| Platform                           | :x:                | :heavy_check_mark: |                                           |
                
 ## Gruppenmitglieder
 | ***ID*** | ***Name*** | ***Verzeichnis***              |
