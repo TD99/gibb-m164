@@ -9,6 +9,21 @@
 	 REFERENCES "Publisher"("PublisherID")
 	 ON DELETE SET NULL
 	 ON UPDATE NO ACTION
+	 
+	
+	 ALTER TABLE "Product"
+	 ADD CONSTRAINT "FK_CategoryID" FOREIGN KEY ("FK_CategoryID")
+	 REFERENCES "Category"("CategoryID")
+	 On DELETE SET NULL
+	 ON UPDATE NO ACTION 
+
+	  ALTER TABLE "Product"
+	 ADD CONSTRAINT "FK_PlatformID" FOREIGN KEY ("FK_PlatformID")
+	 REFERENCES "Platform"("PlatformID")
+	 On DELETE SET NULL
+	 ON UPDATE NO ACTION 
+
+
 
 
     
