@@ -5,6 +5,9 @@
 	IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='Order' AND xtype='U')
 		CREATE TABLE "Order"(
 			"OrderID" INT PRIMARY KEY IDENTITY, 
+			"FK_CustomerID" INT,
+			"FK_AddressID" INT,
+			"FK_CouponID" INT,
 			"BuyDate" Date NOT NULL, 
 			"IsPaid" BIT NOT NULL, 
 			"ReturnDate" Date,  
