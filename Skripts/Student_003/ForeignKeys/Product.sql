@@ -19,8 +19,9 @@
 	 VALUES('Test')
 	SELECT * FROM Publisher
 	SELECT * FROM Product 
-	INSERT INTO "Product"("Name","DownloadURL","Price","MinAge")
-	VALUES('Nintendo', 'Nintendo', 20.5, 9)*/
+	INSERT INTO "Product"("FK_PublisherID","Name","DownloadURL","Price","MinAge")
+	VALUES(1,'Nintendo', 'Nintendo', 20.5, 9)
+	*/
 		
 	
 --END
