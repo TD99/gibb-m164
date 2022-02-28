@@ -24,24 +24,24 @@ Modul 164 bei Herr Dummermuth, MS SQL-Server
 :x: Skripts   
 | ***Name***                         | ***CREATE TABLE*** | ***ForeignKeys***  | ***TODO***                                |
 | :--------------------------------- | :----------------- | :----------------- | :---------------------------------------- |
-| [Student_001](Skripts/Student_001) | :heavy_check_mark: | :x:                |                                           |
+| [Student_001](Skripts/Student_001) | :heavy_check_mark: | :orange_circle:    |                                           |
 | Customer                           | :heavy_check_mark: | :heavy_check_mark: | Attribut `RemoveDate`                     |
 | Address                            | :heavy_check_mark: | :x:                |                                           |
 | City                               | :heavy_check_mark: | :x:                |                                           |
 | Country                            | :heavy_check_mark: | :heavy_check_mark: | Attribut `Ländervorwahl`                  |
-| [Student_002](Skripts/Student_002) | :x:                | :x:                |                                           |
-| OwnedProduct                       | :x:                | :x:                |                                           |
+| [Student_002](Skripts/Student_002) | :orange_circle:    | :orange_circle:    |                                           |
+| OwnedProduct                       | :heavy_check_mark: | :x:                |                                           |
 | Wishlist                           | :x:                | :x:                |                                           |
 | OrderItem                          | :x:                | :x:                |                                           |
 | Order                              | :x:                | :x:                |                                           |
-| Coupon                             | :x:                | :heavy_check_mark: |                                           |
-| [Student_003](Skripts/Student_003) | :x:                | :x:                |                                           |
+| Coupon                             | :heavy_check_mark: | :heavy_check_mark: |                                           |
+| [Student_003](Skripts/Student_003) | :orange_circle:    | :orange_circle:    |                                           |
 | Category                           | :heavy_check_mark: | :heavy_check_mark: |                                           |
 | Product                            | :heavy_check_mark: | :x:                | `LicenseHash`                             |
 | ProductTag                         | :x:                | :x:                |                                           |
 | Payment                            | :heavy_check_mark: | :x:                |                                           |
 | PaymentMethod                      | :heavy_check_mark: | :heavy_check_mark: |                                           |
-| [Student_004](Skripts/Student_004) | :x:                | :x:                |                                           |
+| [Student_004](Skripts/Student_004) | :orange_circle:    | :orange_circle:    |                                           |
 | Image                              | :x:                | :x:                |                                           |
 | Publisher                          | :x:                | :heavy_check_mark: |                                           |
 | Tag                                | :x:                | :heavy_check_mark: |                                           |
