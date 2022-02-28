@@ -5,7 +5,7 @@
 	IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='Payment' AND xtype='U')
 		CREATE TABLE Payment(
 			PaymentID INT PRIMARY KEY IDENTITY,
-			Amount SMALLMONEY
+			Amount SMALLMONEY NOT NULL
 		);
 	GO
 
