@@ -14,7 +14,7 @@
 	SELECT * FROM "Category";
 
 	INSERT INTO "Category"("Name","Description")
-	VALUES('Jump and Run','Eine berühmte Spielart');
+	VALUES('Jump and Run','Eine beruehmte Spielart');
 
 	DROP TABLE "Category";
 	*/
