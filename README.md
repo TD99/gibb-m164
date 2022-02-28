@@ -30,11 +30,11 @@ Modul 164 bei Herr Dummermuth, MS SQL-Server
 | City                               | :heavy_check_mark: | :x:                |                                           |
 | Country                            | :heavy_check_mark: | :heavy_check_mark: | Attribut `Ländervorwahl`                  |
 | [Student_002](Skripts/Student_002) | :x:                | :x:                |                                           |
-| OwnedProduct                       | :x:                | :x:                |                                           |
+| OwnedProduct                       | :heavy_check_mark: | :x:                |                                           |
 | Wishlist                           | :x:                | :x:                |                                           |
 | OrderItem                          | :x:                | :x:                |                                           |
 | Order                              | :x:                | :x:                |                                           |
-| Coupon                             | :x:                | :heavy_check_mark: |                                           |
+| Coupon                             | :heavy_check_mark: | :heavy_check_mark: |                                           |
 | [Student_003](Skripts/Student_003) | :x:                | :x:                |                                           |
 | Category                           | :heavy_check_mark: | :heavy_check_mark: |                                           |
 | Product                            | :heavy_check_mark: | :x:                | `LicenseHash`                             |
