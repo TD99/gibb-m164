@@ -5,6 +5,7 @@
 	IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='Product' AND xtype='U')
 		CREATE TABLE "Product"(
 			"ProductID" INT PRIMARY KEY IDENTITY, 
+			"FK_PublisherID" INT,
 			"Name" VARCHAR(50) NOT NULL,
 			"DownloadURL" NVARCHAR(300) NOT NULL,
 			"Description" VARCHAR(500),
