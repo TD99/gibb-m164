@@ -2,19 +2,36 @@
 
 --INSERT INTO ADDRESS
 	USE "test";
-	--Zeile 1
+	--ROW 1
 		INSERT INTO "Customer"("FirstName","LastName","Birthday","Gender","Email","PhoneHome")
 		VALUES('Izaak','Riley','2017-06-09','m','izaak.riley@gmail.com','+45543466576');
-	--Zeile 2
+	--ROW 2
 		INSERT INTO "Customer"("FirstName","LastName","Birthday","Gender","Email","PhoneHome")
 		VALUES('Melanie','Wannemaker','1950-04-20','f','melanie.wannemaker@einrot.com','+41315219062');
-	--Zeile 3
+	--ROW 3
 		INSERT INTO "Customer"("FirstName","LastName","Birthday","Gender","Email","PhoneMobile")
 		VALUES('Teresio','Greece','1999-02-02','d','teresio.greece@cuvox.it','+393609230031');
-	--Zeile 4
+	--ROW 4
 		INSERT INTO "Customer"("FirstName","LastName","Birthday","Gender","Email")
 		VALUES('Ishin','Kumagai','2001-06-01','m','ishin.kumagai@salessquad.com.au');
-	--Zeile 5
+	--ROW 5
+		INSERT INTO "Customer"("FirstName","LastName","Birthday","Gender","Email")
+		VALUES('Myra','Kovalyova','2005-03-05','f','myra.kovalyova@freemail.co.uk');
+	--ROW 6
+		INSERT INTO "Customer"("FirstName","LastName","Birthday","Gender","Email","PhoneHome","PhoneMobile")
+		VALUES('Wyatt','Lagacé','1967-07-17','m','lagace.wyatt@thecompany.ch','+41629227849','+41769872934');
+	--ROW 7
+		INSERT INTO "Customer"("FirstName","LastName","Birthday","Gender","Email","PhoneHome")
+		VALUES('Þrúður','Þorvarðardóttir','1941-11-13','f','thrudurthorvardardottir@httpmagazine.gl','+299323494');
+	--ROW 8
+		INSERT INTO "Customer"("FirstName","LastName","Birthday","Gender","Email")
+		VALUES('Keir','Macleod','1980-01-18','d','keir@macleod.co.za');
+	--ROW 9
+		INSERT INTO "Customer"("FirstName","LastName","Birthday","Gender","Email")
+		VALUES('Ghenet','Luwam','1983-12-31','f','luwam.ghenet@survivalzoo.cn');
+	--ROW 10
+		INSERT INTO "Customer"("FirstName","LastName","Birthday","Gender","Email")
+		VALUES('Lavinia','Underhill','1965-04-01','d','lavinia@langschool.nz');
 --END
 
 SELECT * FROM Customer
