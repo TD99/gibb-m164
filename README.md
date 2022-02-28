@@ -37,7 +37,7 @@ Modul 164 bei Herr Dummermuth, MS SQL-Server
 | Coupon                             | :x:                | :heavy_check_mark: |                                           |
 | [Student_003](Skripts/Student_003) | :x:                | :x:                |                                           |
 | Category                           | :heavy_check_mark: | :heavy_check_mark: |                                           |
-| Product                            | :heavy_check_mark: | :x:                |                                           |
+| Product                            | :heavy_check_mark: | :x:                | `LicenseHash`                             |
 | ProductTag                         | :x:                | :x:                |                                           |
 | Payment                            | :heavy_check_mark: | :x:                |                                           |
 | PaymentMethod                      | :heavy_check_mark: | :heavy_check_mark: |                                           |
