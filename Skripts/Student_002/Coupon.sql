@@ -7,7 +7,7 @@
 		CouponID INT PRIMARY KEY IDENTITY,
 		Code VARCHAR(50) NOT NULL UNIQUE,
 		StartDate DATE NOT NULL,
-		EndDate DATE NOT NULL,
+		EndDate DATE,
 		Percentage REAL NOT NULL,
 		)
 	GO
