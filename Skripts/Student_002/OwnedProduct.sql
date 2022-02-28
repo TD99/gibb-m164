@@ -4,7 +4,7 @@
 	USE test;
 	IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='OwnedProduct' AND xtype='U')
 		CREATE TABLE OwnedProduct(
-			LicenceHash VARCHAR(30) NOT NULL UNIQUE
+			LicenceHash VARCHAR(30) NOT NULL
 		);
 	GO
 
