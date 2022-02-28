@@ -6,6 +6,8 @@
 		CREATE TABLE "Product"(
 			"ProductID" INT PRIMARY KEY IDENTITY, 
 			"FK_PublisherID" INT,
+			"FK_CategoryID" INT,
+			"FK_PlatformID" INT,
 			"Name" VARCHAR(50) NOT NULL,
 			"DownloadURL" NVARCHAR(300) NOT NULL,
 			"Description" VARCHAR(500),

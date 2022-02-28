@@ -1,4 +1,13 @@
 --DEFALUT USER IDENTIFIER: olo135597 <-- DO NOT MODIFY
 
 --CREATE TABLE PRODUCTTAG
+use test;
+
+ CREATE TABLE "ProductTag"(
+ "FK_ProductID" INT,
+ "FK_TagID" INT,
+ )
+GO
+
+--SELECT*FROM "ProductTag";
 --END
