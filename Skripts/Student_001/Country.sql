@@ -3,18 +3,18 @@
 --CREATE TABLE COUNTRY
 	USE test;
 	IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='Country' AND xtype='U')
-		CREATE TABLE Country(
+		CREATE TABLE "Country"(
 			CountryID INT PRIMARY KEY IDENTITY,
 			Name VARCHAR(100) NOT NULL UNIQUE,
 		);
 	GO
 
 	/* Examples:
-	SELECT * FROM Country;
+	SELECT * FROM "Country";
 
-	INSERT INTO Country (Name)
+	INSERT INTO "Country" (Name)
 	VALUES('Switzerland');
 
-	DROP TABLE Country;
+	DROP TABLE "Country";
 	*/
 --END
