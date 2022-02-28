@@ -13,6 +13,8 @@
 
 	/* Examples:
 	SELECT * FROM "Platform";
+	INSERT INTO "Platform"("Name","MinSoftwareVersion","MaxSoftwareVersion")
+	VALUES('name','1.1.1','2.1.1')
 	DROP TABLE "Platform";
 	*/
 --END
