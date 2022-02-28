@@ -3,7 +3,7 @@
 --CREATE TABLE CUSTOMER
 	USE test;
 	IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='Customer' AND xtype='U')
-		CREATE TABLE Customer(
+		CREATE TABLE "Customer"(
 			CustomerID INT PRIMARY KEY IDENTITY,
 			FirstName VARCHAR(50),
 			LastName VARCHAR(50) NOT NULL,
@@ -16,11 +16,11 @@
 	GO
 
 	/* Examples:
-	SELECT * FROM Customer;
+	SELECT * FROM "Customer";
 
-	INSERT INTO Customer (FirstName,LastName,Birthday,Gender,Email,PhoneHome,PhoneMobile)
+	INSERT INTO "Customer" (FirstName,LastName,Birthday,Gender,Email,PhoneHome,PhoneMobile)
 	VALUES('Max','Mustermann','2019-01-02','m','max.mustermann@gmail.com','+41 31 334 56 43','+41 79 553 66 44');
 
-	DROP TABLE Customer;
+	DROP TABLE "Customer";
 	*/
 --END

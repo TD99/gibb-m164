@@ -3,7 +3,7 @@
 --CREATE TABLE PLATFORM
 	USE test;
 	IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='Platform' AND xtype='U')
-    	CREATE TABLE Platform(
+    	CREATE TABLE "Platform"(
 			PlatformID INT PRIMARY KEY IDENTITY,
 			Name VARCHAR(50) NOT NULL,
 			MinSoftwareVersion VARCHAR(50),
@@ -12,7 +12,7 @@
    	GO
 
 	/* Examples:
-	SELECT * FROM Platform;
-	DROP TABLE Platform;
+	SELECT * FROM "Platform";
+	DROP TABLE "Platform";
 	*/
 --END
