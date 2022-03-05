@@ -34,6 +34,6 @@
 		VALUES('Lavinia','Underhill','1965-04-01','d','lavinia@langschool.nz');
 
 	/* Examples:
-	SELECT * FROM "Customer";
+	SELECT * FROM "Customer" ORDER BY "CustomerID" ASC;
 	*/
 --END

@@ -34,6 +34,6 @@
 		VALUES('Ireland');
 
 	/* Examples:
-	SELECT * FROM "Country";
+	SELECT * FROM "Country" ORDER BY "CountryID" ASC;
 	*/
 --END
