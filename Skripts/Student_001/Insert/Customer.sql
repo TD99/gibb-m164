@@ -12,8 +12,8 @@
 		INSERT INTO "Customer"("FirstName","LastName","Birthday","Gender","Email","PhoneMobile")
 		VALUES('Teresio','Greece','1999-02-02','d','teresio.greece@cuvox.it','+393609230031');
 	--ROW 4
-		INSERT INTO "Customer"("FirstName","LastName","Birthday","Gender","Email")
-		VALUES('Ishin','Kumagai','2001-06-01','m','ishin.kumagai@salessquad.com.au');
+		INSERT INTO "Customer"("FirstName","LastName","Birthday","Gender","Email", "RemoveDate")
+		VALUES('Ishin','Kumagai','2001-06-01','m','ishin.kumagai@salessquad.com.au', '2020-10-03');
 	--ROW 5
 		INSERT INTO "Customer"("FirstName","LastName","Birthday","Gender","Email")
 		VALUES('Myra','Kovalyova','2005-03-05','f','myra.kovalyova@freemail.co.uk');
@@ -27,8 +27,8 @@
 		INSERT INTO "Customer"("FirstName","LastName","Birthday","Gender","Email")
 		VALUES('Keir','Macleod','1980-01-18','d','keir@macleod.co.za');
 	--ROW 9
-		INSERT INTO "Customer"("FirstName","LastName","Birthday","Gender","Email")
-		VALUES('Ghenet','Luwam','1983-12-31','f','luwam.ghenet@survivalzoo.cn');
+		INSERT INTO "Customer"("FirstName","LastName","Birthday","Gender","Email", "RemoveDate")
+		VALUES('Ghenet','Luwam','1983-12-31','f','luwam.ghenet@survivalzoo.cn', '2022-02-12');
 	--ROW 10
 		INSERT INTO "Customer"("FirstName","LastName","Birthday","Gender","Email")
 		VALUES('Lavinia','Underhill','1965-04-01','d','lavinia@langschool.nz');

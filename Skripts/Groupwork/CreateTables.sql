@@ -17,6 +17,7 @@
 				"Email" VARCHAR(200),
 				"PhoneHome" VARCHAR(50),
 				"PhoneMobile" VARCHAR(50),
+				"RemoveDate" DATE,
 			);
 		GO
 	--END

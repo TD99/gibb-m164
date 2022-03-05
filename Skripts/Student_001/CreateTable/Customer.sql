@@ -12,14 +12,15 @@
 			"Email" VARCHAR(200),
 			"PhoneHome" VARCHAR(50),
 			"PhoneMobile" VARCHAR(50),
+			"RemoveDate" DATE,
 		);
 	GO
 
 	/* Examples:
 	SELECT * FROM "Customer";
 
-	INSERT INTO "Customer"("FirstName","LastName","Birthday","Gender","Email","PhoneHome","PhoneMobile")
-	VALUES('Max','Mustermann','2019-01-02','m','max.mustermann@gmail.com','+41 31 334 56 43','+41 79 553 66 44');
+	INSERT INTO "Customer"("FirstName","LastName","Birthday","Gender","Email","PhoneHome","PhoneMobile","RemoveDate")
+	VALUES('Max','Mustermann','2019-01-02','m','max.mustermann@gmail.com','+41 31 334 56 43','+41 79 553 66 44','2021-05-12');
 
 	DROP TABLE "Customer";
 	*/
