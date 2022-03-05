@@ -32,6 +32,8 @@
 	--ROW 10
 		INSERT INTO "Customer"("FirstName","LastName","Birthday","Gender","Email")
 		VALUES('Lavinia','Underhill','1965-04-01','d','lavinia@langschool.nz');
---END
 
-SELECT * FROM Customer;
+	/* Examples:
+	SELECT * FROM "Customer";
+	*/
+--END
