@@ -3,45 +3,38 @@
 --INSERT INTO TAG
 	USE "test";
 
-	--ZEILE 1
+	--ROW 1
 		INSERT INTO "Tag"("Name")
 		VALUES('Einzelspieler');
-
-	--ZEILE 2
+	--ROW 2
 		INSERT INTO "Tag"("Name")
 		VALUES('Online-PvP');
-
-	--ZEILE 3
+	--ROW 3
 		INSERT INTO "Tag"("Name")
 		VALUES('Online-Koop');
-
-	--ZEILE 4
+	--ROW 4
 		INSERT INTO "Tag"("Name")
 		VALUES('LAN-PvP');
-
-	--ZEILE 5
+	--ROW 5
 		INSERT INTO "Tag"("Name")
-		VALUES('Käufe im Spiel');
-
-	--ZEILE 6
+		VALUES('Kaeufe im Spiel');
+	--ROW 6
 		INSERT INTO "Tag"("Name")
 		VALUES('Statistiken');
-
-	--ZEILE 7
+	--ROW 7
 		INSERT INTO "Tag"("Name")
-		VALUES('Volle Controllerunterstützung');
-
-	--ZEILE 8
+		VALUES('Volle Controllerunterstuetzung');
+	--ROW 8
 		INSERT INTO "Tag"("Name")
 		VALUES('Lokaler Koopmodus');
-
-	--ZEILE 9
+	--ROW 9
 		INSERT INTO "Tag"("Name")
-		VALUES('Enthält Level-Editor');
-
-	--ZEILE 10
+		VALUES('Mit Level-Editor');
+	--ROW 10
 		INSERT INTO "Tag"("Name")
-		VALUES('Plattformübergreifender Mehrspieler');
+		VALUES('Plattformuebergreifender Mehrspieler');
 
-
+	/* Examples:
+	SELECT * FROM "Tag" ORDER BY "TagID" ASC;
+	*/
 --END

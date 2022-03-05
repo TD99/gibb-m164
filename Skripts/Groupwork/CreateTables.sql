@@ -103,7 +103,10 @@
 	--CREATE TABLE PRODUCT
 		IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='Product' AND xtype='U')
 			CREATE TABLE "Product"(
-				"ProductID" INT PRIMARY KEY IDENTITY, 
+				"ProductID" INT PRIMARY KEY IDENTITY,
+				"FK_PublisherID" INT,
+				"FK_CategoryID" INT,
+				"FK_PlatformID" INT,
 				"Name" VARCHAR(50) NOT NULL,
 				"DownloadURL" NVARCHAR(300) NOT NULL,
 				"Description" VARCHAR(500),
@@ -128,6 +131,8 @@
 		IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='Payment' AND xtype='U')
 			CREATE TABLE "Payment"(
 				"PaymentID" INT PRIMARY KEY IDENTITY,
+				"FK_PaymentMethodID" INT,
+				"FK_OrderID" INT,
 				"Amount" SMALLMONEY NOT NULL,
 			);
 		GO

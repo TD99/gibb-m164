@@ -5,6 +5,7 @@
 	IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='Image' AND xtype='U')
 		CREATE TABLE "Image"(
 			"ImageID" INT PRIMARY KEY IDENTITY,
+			"FK_ProductID" INT,
 			"ImageURL" NVARCHAR(300),
 		);
 	GO
