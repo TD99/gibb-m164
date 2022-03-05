@@ -19,10 +19,10 @@
 		VALUES('Myra','Kovalyova','2005-03-05','f','myra.kovalyova@freemail.co.uk');
 	--ROW 6
 		INSERT INTO "Customer"("FirstName","LastName","Birthday","Gender","Email","PhoneHome","PhoneMobile")
-		VALUES('Wyatt','Lagacé','1967-07-17','m','lagace.wyatt@thecompany.ch','+41629227849','+41769872934');
+		VALUES('Wyatt','Lagace','1967-07-17','m','lagace.wyatt@thecompany.ch','+41629227849','+41769872934');
 	--ROW 7
 		INSERT INTO "Customer"("FirstName","LastName","Birthday","Gender","Email","PhoneHome")
-		VALUES('Þrúður','Þorvarðardóttir','1941-11-13','f','thrudurthorvardardottir@httpmagazine.gl','+299323494');
+		VALUES('Trudur','Dottir','1941-11-13','f','thrudurthorvardardottir@httpmagazine.gl','+299323494');
 	--ROW 8
 		INSERT INTO "Customer"("FirstName","LastName","Birthday","Gender","Email")
 		VALUES('Keir','Macleod','1980-01-18','d','keir@macleod.co.za');
@@ -34,4 +34,4 @@
 		VALUES('Lavinia','Underhill','1965-04-01','d','lavinia@langschool.nz');
 --END
 
-SELECT * FROM Customer
+SELECT * FROM Customer;
