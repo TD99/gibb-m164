@@ -116,6 +116,12 @@
 	--END
 
 	--CREATE TABLE PRODUCTTAG
+		IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='ProductTag' AND xtype='U')
+			CREATE TABLE "ProductTag"(
+				"FK_ProductID" INT,
+				"FK_TagID" INT,
+			);
+		GO
 	--END
 
 	--CREATE TABLE PAYMENT
