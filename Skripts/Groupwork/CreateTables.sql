@@ -7,6 +7,9 @@
 
 --CREATE TABLES
 	--CREATE TABLE CUSTOMER
+		IF EXISTS(SELECT * FROM sysobjects WHERE name='Customer' AND xtype='U')
+			DROP TABLE "Customer";
+		GO
 		IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='Customer' AND xtype='U')
 			CREATE TABLE "Customer"(
 				"CustomerID" INT PRIMARY KEY IDENTITY,
@@ -23,6 +26,9 @@
 	--END
 
 	--CREATE TABLE ADDRESS
+		IF EXISTS(SELECT * FROM sysobjects WHERE name='Address' AND xtype='U')
+			DROP TABLE "Address";
+		GO
 		IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='Address' AND xtype='U')
 			CREATE TABLE "Address"(
 				"AddressID" INT PRIMARY KEY IDENTITY,
@@ -35,6 +41,9 @@
 	--END
 
 	--CREATE TABLE CITY
+		IF EXISTS(SELECT * FROM sysobjects WHERE name='City' AND xtype='U')
+			DROP TABLE "City";
+		GO
 		IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='City' AND xtype='U')
 			CREATE TABLE "City"(
 				"CityID" INT PRIMARY KEY IDENTITY,
@@ -46,6 +55,9 @@
 	--END
 
 	--CREATE TABLE COUNTRY
+		IF EXISTS(SELECT * FROM sysobjects WHERE name='Country' AND xtype='U')
+			DROP TABLE "Country";
+		GO
 		IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='Country' AND xtype='U')
 			CREATE TABLE "Country"(
 				"CountryID" INT PRIMARY KEY IDENTITY,
@@ -56,6 +68,9 @@
 	--END
 
 	--CREATE TABLE OWNEDPRODUCT
+		IF EXISTS(SELECT * FROM sysobjects WHERE name='OwnedProduct' AND xtype='U')
+			DROP TABLE "OwnedProduct";
+		GO
 		IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='OwnedProduct' AND xtype='U')
 			CREATE TABLE "OwnedProduct"(
 				"LicenceHash" VARCHAR(30) NOT NULL,
@@ -64,12 +79,24 @@
 	--END
 
 	--CREATE TABLE WISHLIST
+		IF EXISTS(SELECT * FROM sysobjects WHERE name='Wishlist' AND xtype='U')
+			DROP TABLE "Wishlist";
+		GO
+		IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='Wishlist' AND xtype='U')
+			CREATE TABLE "Wishlist"(
+				"FK_CustomerID" INT,
+				"FK_ProductID" INT,
+			);
+		GO
 	--END
 
 	--CREATE TABLE ORDERITEM
 	--END
 
 	--CREATE TABLE ORDER
+		IF EXISTS(SELECT * FROM sysobjects WHERE name='Order' AND xtype='U')
+			DROP TABLE "Order";
+		GO
 		IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='Order' AND xtype='U')
 			CREATE TABLE "Order"(
 				"OrderID" INT PRIMARY KEY IDENTITY, 
@@ -80,6 +107,9 @@
 	--END
 
 	--CREATE TABLE COUPON
+		IF EXISTS(SELECT * FROM sysobjects WHERE name='Coupon' AND xtype='U')
+			DROP TABLE "Coupon";
+		GO
 		IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='Coupon' AND xtype='U')
 			CREATE TABLE "Coupon"(
 				"CouponID" INT PRIMARY KEY IDENTITY,
@@ -92,6 +122,9 @@
 	--END
 
 	--CREATE TABLE CATEGORY
+		IF EXISTS(SELECT * FROM sysobjects WHERE name='Category' AND xtype='U')
+			DROP TABLE "Category";
+		GO
 		IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='Category' AND xtype='U')
 			CREATE TABLE "Category"(
 				"CategoryID" INT PRIMARY KEY IDENTITY,
@@ -103,6 +136,9 @@
 	--END
 
 	--CREATE TABLE PRODUCT
+		IF EXISTS(SELECT * FROM sysobjects WHERE name='Product' AND xtype='U')
+			DROP TABLE "Product";
+		GO
 		IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='Product' AND xtype='U')
 			CREATE TABLE "Product"(
 				"ProductID" INT PRIMARY KEY IDENTITY,
@@ -122,6 +158,9 @@
 	--END
 
 	--CREATE TABLE PRODUCTTAG
+		IF EXISTS(SELECT * FROM sysobjects WHERE name='ProductTag' AND xtype='U')
+			DROP TABLE "ProductTag";
+		GO
 		IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='ProductTag' AND xtype='U')
 			CREATE TABLE "ProductTag"(
 				"FK_ProductID" INT,
@@ -131,6 +170,9 @@
 	--END
 
 	--CREATE TABLE PAYMENT
+		IF EXISTS(SELECT * FROM sysobjects WHERE name='Payment' AND xtype='U')
+			DROP TABLE "Payment";
+		GO
 		IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='Payment' AND xtype='U')
 			CREATE TABLE "Payment"(
 				"PaymentID" INT PRIMARY KEY IDENTITY,
@@ -142,6 +184,9 @@
 	--END
 
 	--CREATE TABLE PAYMENTMETHOD
+		IF EXISTS(SELECT * FROM sysobjects WHERE name='PaymentMethod' AND xtype='U')
+			DROP TABLE "PaymentMethod";
+		GO
 		IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='PaymentMethod' AND xtype='U')
 			CREATE TABLE "PaymentMethod"(
 				"PaymentMethodID" INT PRIMARY KEY IDENTITY,
@@ -152,6 +197,9 @@
 	--END
 
 	--CREATE TABLE IMAGE
+		IF EXISTS(SELECT * FROM sysobjects WHERE name='Image' AND xtype='U')
+			DROP TABLE "Image";
+		GO
 		IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='Image' AND xtype='U')
 			CREATE TABLE "Image"(
 				"ImageID" INT PRIMARY KEY IDENTITY,
@@ -161,6 +209,9 @@
 	--END
 
 	--CREATE TABLE PUBLISHER
+		IF EXISTS(SELECT * FROM sysobjects WHERE name='Publisher' AND xtype='U')
+			DROP TABLE "Publisher";
+		GO
 		IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='Publisher' AND xtype='U')
 			CREATE TABLE "Publisher"(
 				"PublisherID" INT PRIMARY KEY IDENTITY,
@@ -172,6 +223,9 @@
 	--END
 
 	--CREATE TABLE TAG
+		IF EXISTS(SELECT * FROM sysobjects WHERE name='Tag' AND xtype='U')
+			DROP TABLE "Tag";
+		GO
 		IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='Tag' AND xtype='U')
 			CREATE TABLE "Tag"(
 				"TagID" INT PRIMARY KEY IDENTITY,
@@ -181,6 +235,9 @@
 	--END
 
 	--CREATE TABLE PLATFORM
+		IF EXISTS(SELECT * FROM sysobjects WHERE name='Platform' AND xtype='U')
+			DROP TABLE "Platform";
+		GO
 		IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='Platform' AND xtype='U')
 			CREATE TABLE "Platform"(
 				"PlatformID" INT PRIMARY KEY IDENTITY,

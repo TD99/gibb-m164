@@ -8,8 +8,7 @@
 			"FK_ProductID" INT,
 			"FK_CouponID" INT,
 			"Quantity" INT NOT NULL, 
-			"TotalPricePerProduct" SMALLMONEY, 
-			 
+			"TotalPricePerProduct" SMALLMONEY,
 		);
 	GO
 --END
