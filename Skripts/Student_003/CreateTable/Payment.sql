@@ -5,8 +5,8 @@
 	IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='Payment' AND xtype='U')
 		CREATE TABLE "Payment"(
 			"PaymentID" INT PRIMARY KEY IDENTITY,
-			"FK_PaymentMethodID" INT,
-			"FK_OrderID" INT,
+			"FK_PaymentMethodID" INT NOT NULL,
+			"FK_OrderID" INT NOT NULL,
 			"Amount" SMALLMONEY NOT NULL,
 		);
 	GO

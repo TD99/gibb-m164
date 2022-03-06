@@ -4,8 +4,8 @@
 	USE "test";
 	IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='ProductTag' AND xtype='U')
 		CREATE TABLE "ProductTag"(
-			"FK_ProductID" INT,
-			"FK_TagID" INT,
+			"FK_ProductID" INT NOT NULL,
+			"FK_TagID" INT NOT NULL,
 		);
 	GO
 	/* Examples:

@@ -101,8 +101,9 @@
 			CREATE TABLE "OrderItem"( 
 				"FK_OrderID" INT,
 				"FK_ProductID" INT,
-				"Quantity" INT NOT NULL, 
-				"TotalPricePerProduct" SMALLMONEY,
+				"Quantity" INT NOT NULL,
+				"Price" SMALLMONEY,
+				"TotalPricePerItem" AS Quantity*Price,
 			);
 		GO
 	--END
