@@ -6,8 +6,8 @@
     	CREATE TABLE "Platform"(
 			"PlatformID" INT PRIMARY KEY IDENTITY,
 			"Name" VARCHAR(50) NOT NULL,
-			"MinSoftwareVersion" VARCHAR(50),
-			"MaxSoftwareVersion" VARCHAR(50),
+			"Version" VARCHAR(30),
+			"RemoveDate" DATE,
       	);
    	GO
 

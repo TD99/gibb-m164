@@ -9,7 +9,7 @@
 			"FK_AddressID" INT,
 			"FK_CouponID" INT,
 			"BuyDate" Date NOT NULL, 
-			"IsPaid" BIT NOT NULL, 
+			"IsPaid" BIT NOT NULL,
 		);
 	GO
 /* 
