@@ -22,30 +22,30 @@ Modul 164 bei Herr Dummermuth, MS SQL-Server
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:heavy_check_mark: Physisch  
 
 :orange_circle: Skripts   
-| ***Name***                         | ***CREATE TABLE*** | ***ForeignKeys***  | ***INSERT***       | ***TODO***                                |
-| :--------------------------------- | :----------------- | :----------------- | :----------------- | :---------------------------------------- |
-| [Student_001](Skripts/Student_001) | :heavy_check_mark: | :x:                | :orange_circle:    |                                           |
-| Customer                           | :heavy_check_mark: | :black_circle:     | :heavy_check_mark: |                                           |
-| Address                            | :heavy_check_mark: | :x:                | :x:                |                                           |
-| City                               | :heavy_check_mark: | :x:                | :x:                |                                           |
-| Country                            | :heavy_check_mark: | :black_circle:     | :heavy_check_mark: | Attribut `Ländervorwahl`                  |
-| [Student_002](Skripts/Student_002) | :orange_circle:    | :x:                | :x:                |                                           |
-| OwnedProduct                       | :orange_circle:    | :x:                | :x:                |                                           |
-| Wishlist                           | :orange_circle:    | :x:                | :x:                |                                           |
-| OrderItem                          | :orange_circle:    | :x:                | :x:                |                                           |
-| Order                              | :orange_circle:    | :x:                | :x:                |                                           |
-| Coupon                             | :orange_circle:    | :black_circle:     | :x:                |                                           |
-| [Student_003](Skripts/Student_003) | :heavy_check_mark: | :orange_circle:    | :x:                |                                           |
-| Category                           | :heavy_check_mark: | :black_circle:     | :x:                |                                           |
-| Product                            | :heavy_check_mark: | :orange_circle:    | :x:                | `LicenseHash`                             |
-| ProductTag                         | :heavy_check_mark: | :orange_circle:    | :x:                |                                           |
-| Payment                            | :heavy_check_mark: | :orange_circle:    | :x:                |                                           |
-| PaymentMethod                      | :heavy_check_mark: | :black_circle:     | :x:                |                                           |
-| [Student_004](Skripts/Student_004) | :heavy_check_mark: | :orange_circle:    | :orange_circle:    |                                           |
-| Image                              | :heavy_check_mark: | :orange_circle:    | :x:                |                                           |
-| Publisher                          | :heavy_check_mark: | :black_circle:     | :heavy_check_mark: |                                           |
-| Tag                                | :heavy_check_mark: | :black_circle:     | :heavy_check_mark: |                                           |
-| Platform                           | :heavy_check_mark: | :black_circle:     | :orange_circle:    |                                           |
+| ***Name***                         | ***CREATE TABLE*** | ***ForeignKeys***  | ***INSERT***       | ***TRIGGERS***     | ***TODO***                                |
+| :--------------------------------- | :----------------- | :----------------- | :----------------- | :----------------- | :---------------------------------------- |
+| [Student_001](Skripts/Student_001) | :heavy_check_mark: | :heavy_check_mark: | :orange_circle:    | :x:                |                                           |
+| Customer                           | :heavy_check_mark: | :black_circle:     | :heavy_check_mark: | :x:                |                                           |
+| Address                            | :heavy_check_mark: | :heavy_check_mark: | :x:                | :x:                |                                           |
+| City                               | :heavy_check_mark: | :heavy_check_mark: | :x:                | :x:                |                                           |
+| Country                            | :heavy_check_mark: | :black_circle:     | :heavy_check_mark: | :x:                | Attribut `Ländervorwahl`                  |
+| [Student_002](Skripts/Student_002) | :orange_circle:    | :x:                | :x:                | :x:                |                                           |
+| OwnedProduct                       | :orange_circle:    | :x:                | :x:                | :x:                |                                           |
+| Wishlist                           | :orange_circle:    | :x:                | :x:                | :x:                |                                           |
+| OrderItem                          | :orange_circle:    | :x:                | :x:                | :x:                |                                           |
+| Order                              | :orange_circle:    | :x:                | :x:                | :x:                |                                           |
+| Coupon                             | :orange_circle:    | :black_circle:     | :x:                | :x:                |                                           |
+| [Student_003](Skripts/Student_003) | :heavy_check_mark: | :heavy_check_mark: | :x:                | :x:                |                                           |
+| Category                           | :heavy_check_mark: | :black_circle:     | :x:                | :x:                |                                           |
+| Product                            | :heavy_check_mark: | :heavy_check_mark: | :x:                | :x:                | `LicenseHash`                             |
+| ProductTag                         | :heavy_check_mark: | :heavy_check_mark: | :x:                | :x:                |                                           |
+| Payment                            | :heavy_check_mark: | :heavy_check_mark: | :x:                | :x:                |                                           |
+| PaymentMethod                      | :heavy_check_mark: | :black_circle:     | :x:                | :x:                |                                           |
+| [Student_004](Skripts/Student_004) | :heavy_check_mark: | :heavy_check_mark: | :orange_circle:    | :x:                |                                           |
+| Image                              | :heavy_check_mark: | :heavy_check_mark: | :x:                | :x:                |                                           |
+| Publisher                          | :heavy_check_mark: | :black_circle:     | :heavy_check_mark: | :x:                |                                           |
+| Tag                                | :heavy_check_mark: | :black_circle:     | :heavy_check_mark: | :x:                |                                           |
+| Platform                           | :heavy_check_mark: | :black_circle:     | :orange_circle:    | :x:                |                                           |
                
 ## Gruppenmitglieder
 | ***ID*** | ***Name*** | ***Verzeichnis***              |
