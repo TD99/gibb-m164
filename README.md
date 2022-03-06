@@ -29,12 +29,12 @@ Modul 164 bei Herr Dummermuth, MS SQL-Server
 | Address                            | :heavy_check_mark: | :heavy_check_mark: | :x:                | :x:                |                                           |
 | City                               | :heavy_check_mark: | :heavy_check_mark: | :x:                | :x:                |                                           |
 | Country                            | :heavy_check_mark: | :black_circle:     | :heavy_check_mark: | :x:                | Attribut `Ländervorwahl`                  |
-| [Student_002](Skripts/Student_002) | :orange_circle:    | :x:                | :x:                | :x:                |                                           |
-| OwnedProduct                       | :orange_circle:    | :x:                | :x:                | :x:                |                                           |
-| Wishlist                           | :orange_circle:    | :x:                | :x:                | :x:                |                                           |
-| OrderItem                          | :orange_circle:    | :x:                | :x:                | :x:                |                                           |
-| Order                              | :orange_circle:    | :x:                | :x:                | :x:                |                                           |
-| Coupon                             | :orange_circle:    | :black_circle:     | :x:                | :x:                |                                           |
+| [Student_002](Skripts/Student_002) | :heavy_check_mark: | :heavy_check_mark: | :x:                | :x:                |                                           |
+| OwnedProduct                       | :heavy_check_mark: | :heavy_check_mark: | :x:                | :x:                |                                           |
+| Wishlist                           | :heavy_check_mark: | :heavy_check_mark: | :x:                | :x:                |                                           |
+| OrderItem                          | :heavy_check_mark: | :heavy_check_mark: | :x:                | :x:                |                                           |
+| Order                              | :heavy_check_mark: | :heavy_check_mark: | :x:                | :x:                |                                           |
+| Coupon                             | :heavy_check_mark: | :black_circle:     | :x:                | :x:                |                                           |
 | [Student_003](Skripts/Student_003) | :heavy_check_mark: | :heavy_check_mark: | :x:                | :x:                |                                           |
 | Category                           | :heavy_check_mark: | :black_circle:     | :x:                | :x:                |                                           |
 | Product                            | :heavy_check_mark: | :heavy_check_mark: | :x:                | :x:                | `LicenseHash`                             |
