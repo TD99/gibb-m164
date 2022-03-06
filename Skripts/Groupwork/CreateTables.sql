@@ -40,6 +40,7 @@
 				"CityID" INT PRIMARY KEY IDENTITY,
 				"ZIPCode" VARCHAR(30) NOT NULL,
 				"Name" VARCHAR(100) NOT NULL,
+				"RemoveDate" DATE,
 			);
 		GO
 	--END
@@ -49,6 +50,7 @@
 			CREATE TABLE "Country"(
 				"CountryID" INT PRIMARY KEY IDENTITY,
 				"Name" VARCHAR(100) NOT NULL UNIQUE,
+				"RemoveDate" DATE,
 			);
 		GO
 	--END
