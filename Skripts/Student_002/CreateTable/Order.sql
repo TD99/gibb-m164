@@ -10,6 +10,8 @@
 			"FK_CouponID" INT,
 			"BuyDate" Date NOT NULL, 
 			"IsPaid" BIT NOT NULL,
+			"TotalAmount" SMALLMONEY,
+			"TotalBillAmount" SMALLMONEY,
 		);
 	GO
 /* 
@@ -20,4 +22,4 @@
 
 	DROP TABLE "Order";
 	*/
---END
+--EN
