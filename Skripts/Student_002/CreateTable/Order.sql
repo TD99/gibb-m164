@@ -10,7 +10,6 @@
 			"FK_CouponID" INT,
 			"BuyDate" Date NOT NULL, 
 			"IsPaid" BIT NOT NULL, 
-			"ReturnDate" Date,  
 		);
 	GO
 /* 
