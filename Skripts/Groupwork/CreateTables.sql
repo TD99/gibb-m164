@@ -32,8 +32,8 @@
 		IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='Address' AND xtype='U')
 			CREATE TABLE "Address"(
 				"AddressID" INT PRIMARY KEY IDENTITY,
-				"FK_CustomerID" INT,
-				"FK_CityID" INT,
+				"FK_CustomerID" INT NOT NULL,
+				"FK_CityID" INT NOT NULL,
 				"Street" VARCHAR(100) NOT NULL,
 				"StreetNr" VARCHAR(30) NOT NULL,
 				"IsPrimaryAddress" BIT,
@@ -49,7 +49,7 @@
 		IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='City' AND xtype='U')
 			CREATE TABLE "City"(
 				"CityID" INT PRIMARY KEY IDENTITY,
-				"FK_CountryID" INT,
+				"FK_CountryID" INT NOT NULL,
 				"ZIPCode" VARCHAR(30) NOT NULL,
 				"Name" VARCHAR(100) NOT NULL,
 				"RemoveDate" DATE,
@@ -76,6 +76,8 @@
 		GO
 		IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='OwnedProduct' AND xtype='U')
 			CREATE TABLE "OwnedProduct"(
+				"FK_CustomerID" INT NOT NULL,
+				"FK_ProductID" INT NOT NULL,
 				"LicenceHash" VARCHAR(30) NOT NULL,
 			);
 		GO
@@ -87,8 +89,8 @@
 		GO
 		IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='Wishlist' AND xtype='U')
 			CREATE TABLE "Wishlist"(
-				"FK_CustomerID" INT,
-				"FK_ProductID" INT,
+				"FK_CustomerID" INT NOT NULL,
+				"FK_ProductID" INT NOT NULL,
 			);
 		GO
 	--END
@@ -99,8 +101,8 @@
 		GO
 		IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='OrderItem' AND xtype='U')
 			CREATE TABLE "OrderItem"( 
-				"FK_OrderID" INT,
-				"FK_ProductID" INT,
+				"FK_OrderID" INT NOT NULL,
+				"FK_ProductID" INT NOT NULL,
 				"Quantity" INT NOT NULL,
 				"Price" SMALLMONEY,
 				"TotalPricePerItem" AS Quantity*Price,
@@ -115,8 +117,13 @@
 		IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='Order' AND xtype='U')
 			CREATE TABLE "Order"(
 				"OrderID" INT PRIMARY KEY IDENTITY, 
+				"FK_CustomerID" INT NOT NULL,
+				"FK_AddressID" INT NOT NULL,
+				"FK_CouponID" INT,
 				"BuyDate" Date NOT NULL, 
 				"IsPaid" BIT NOT NULL,
+				"TotalAmount" SMALLMONEY,
+				"TotalBillAmount" SMALLMONEY,
 			);
 		GO
 	--END
@@ -156,9 +163,9 @@
 		GO
 		IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='Product' AND xtype='U')
 			CREATE TABLE "Product"(
-				"ProductID" INT PRIMARY KEY IDENTITY,
-				"FK_PublisherID" INT,
-				"FK_CategoryID" INT,
+				"ProductID" INT PRIMARY KEY IDENTITY, 
+				"FK_PublisherID" INT NOT NULL,
+				"FK_CategoryID" INT NOT NULL,
 				"FK_MinPlatform" INT NOT NULL,
 				"FK_MaxPlatform" INT,
 				"Name" VARCHAR(50) NOT NULL,
@@ -178,8 +185,8 @@
 		GO
 		IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='ProductTag' AND xtype='U')
 			CREATE TABLE "ProductTag"(
-				"FK_ProductID" INT,
-				"FK_TagID" INT,
+				"FK_ProductID" INT NOT NULL,
+				"FK_TagID" INT NOT NULL,
 			);
 		GO
 	--END
@@ -191,8 +198,8 @@
 		IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='Payment' AND xtype='U')
 			CREATE TABLE "Payment"(
 				"PaymentID" INT PRIMARY KEY IDENTITY,
-				"FK_PaymentMethodID" INT,
-				"FK_OrderID" INT,
+				"FK_PaymentMethodID" INT NOT NULL,
+				"FK_OrderID" INT NOT NULL,
 				"Amount" SMALLMONEY NOT NULL,
 			);
 		GO
@@ -260,7 +267,7 @@
 				"Name" VARCHAR(50) NOT NULL,
 				"Version" VARCHAR(30),
 				"RemoveDate" DATE,
-			)
+			);
 		GO
 	--END
 --END
