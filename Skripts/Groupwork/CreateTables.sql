@@ -32,6 +32,8 @@
 		IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='Address' AND xtype='U')
 			CREATE TABLE "Address"(
 				"AddressID" INT PRIMARY KEY IDENTITY,
+				"FK_CustomerID" INT,
+				"FK_CityID" INT,
 				"Street" VARCHAR(100) NOT NULL,
 				"StreetNr" VARCHAR(30) NOT NULL,
 				"IsPrimaryAddress" BIT,
@@ -47,6 +49,7 @@
 		IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='City' AND xtype='U')
 			CREATE TABLE "City"(
 				"CityID" INT PRIMARY KEY IDENTITY,
+				"FK_CountryID" INT,
 				"ZIPCode" VARCHAR(30) NOT NULL,
 				"Name" VARCHAR(100) NOT NULL,
 				"RemoveDate" DATE,

@@ -15,8 +15,8 @@
 		INSERT INTO "Country"("Name")
 		VALUES('Italy');
 	--ROW 5
-		INSERT INTO "Country"("Name")
-		VALUES('Lichtenstein');
+		INSERT INTO "Country"("Name","RemoveDate")
+		VALUES('New Frilisrami','2012-09-20');
 	--ROW 6
 		INSERT INTO "Country"("Name")
 		VALUES('Austria');
@@ -30,8 +30,8 @@
 		INSERT INTO "Country"("Name")
 		VALUES('United Kingdom');
 	--ROW 10
-		INSERT INTO "Country"("Name")
-		VALUES('Ireland');
+		INSERT INTO "Country"("Name","RemoveDate")
+		VALUES('Nybona','2021-03-15');
 
 	/* Examples:
 	SELECT * FROM "Country" ORDER BY "CountryID" ASC;

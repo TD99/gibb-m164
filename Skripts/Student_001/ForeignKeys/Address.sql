@@ -2,5 +2,12 @@
 
 --FOREIGN KEYS ADDRESS
 	USE "test";
-	
+	--FK_CityID
+		ALTER TABLE "Address"
+		ADD CONSTRAINT "FK_CityID" FOREIGN KEY ("FK_CityID")
+		REFERENCES "City"("CityID");
+	--FK_CustomerID
+		ALTER TABLE "Address"
+		ADD CONSTRAINT "FK_CustomerID" FOREIGN KEY ("FK_CustomerID")
+		REFERENCES "Customer"("CustomerID");
 --END
