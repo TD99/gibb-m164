@@ -4,10 +4,10 @@
 	USE "test";
 	--FK_ProductID
 		ALTER TABLE "ProductTag"
-		ADD CONSTRAINT "FK_ProductID" FOREIGN KEY ("FK_ProductID")
+		ADD CONSTRAINT "FK_PT_ProductID" FOREIGN KEY ("FK_ProductID")
 		REFERENCES "Product"("ProductID");
 	--FK_TagID
 		ALTER TABLE "ProductTag"
-		ADD CONSTRAINT "FK_TagID" FOREIGN KEY ("FK_TagID")
+		ADD CONSTRAINT "FK_PT_TagID" FOREIGN KEY ("FK_TagID")
 		REFERENCES "Tag"("TagID");
 --END

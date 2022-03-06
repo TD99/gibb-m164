@@ -6,7 +6,6 @@
 		CREATE TABLE "OrderItem"( 
 			"FK_OrderID" INT,
 			"FK_ProductID" INT,
-			"FK_CouponID" INT,
 			"Quantity" INT NOT NULL, 
 			"TotalPricePerProduct" SMALLMONEY,
 		);

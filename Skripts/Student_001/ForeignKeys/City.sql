@@ -3,6 +3,6 @@
 --FOREIGN KEYS CITY
 	USE "test";
 	ALTER TABLE "City"
-	ADD CONSTRAINT "FK_CountryID" FOREIGN KEY ("FK_CountryID")
+	ADD CONSTRAINT "FK_CI_CountryID" FOREIGN KEY ("FK_CountryID")
 	REFERENCES "Country"("CountryID");
 --END

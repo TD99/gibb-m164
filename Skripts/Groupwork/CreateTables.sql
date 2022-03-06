@@ -94,6 +94,17 @@
 	--END
 
 	--CREATE TABLE ORDERITEM
+		IF EXISTS(SELECT * FROM sysobjects WHERE name='OrderItem' AND xtype='U')
+			DROP TABLE "OrderItem";
+		GO
+		IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='OrderItem' AND xtype='U')
+			CREATE TABLE "OrderItem"( 
+				"FK_OrderID" INT,
+				"FK_ProductID" INT,
+				"Quantity" INT NOT NULL, 
+				"TotalPricePerProduct" SMALLMONEY,
+			);
+		GO
 	--END
 
 	--CREATE TABLE ORDER
@@ -206,6 +217,7 @@
 		IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='Image' AND xtype='U')
 			CREATE TABLE "Image"(
 				"ImageID" INT PRIMARY KEY IDENTITY,
+				"FK_ProductID" INT,
 				"ImageURL" NVARCHAR(300),
 			);
 		GO

@@ -1,0 +1,9 @@
+--DEFALUT USER IDENTIFIER: dro135638 <-- DO NOT MODIFY
+
+--FOREIGN KEYS IMAGE
+	USE "test";
+	--FK_PaymentMethodID
+		ALTER TABLE "Image"
+		ADD CONSTRAINT "FK_IM_ProductID" FOREIGN KEY ("FK_ProductID")
+		REFERENCES "Product"("ProductID");
+--END
