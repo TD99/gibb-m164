@@ -2,17 +2,12 @@
 
 --FOREIGN KEYS PRODUCTTAG
 	USE "test";
-    
-	 ALTER TABLE "ProductTag"
-	 ADD CONSTRAINT "FK_ProductID" FOREIGN KEY ("FK_ProductID")
-	 REFERENCES "Product"("ProductID")
-	 On DELETE SET NULL
-	 ON UPDATE NO ACTION 
-
-	  ALTER TABLE "ProductTag"
-	 ADD CONSTRAINT "FK_TagID" FOREIGN KEY ("FK_TagID")
-	 REFERENCES "Tag"("TagID")
-	 On DELETE SET NULL
-	 ON UPDATE NO ACTION 
-	
+	--FK_ProductID
+		ALTER TABLE "ProductTag"
+		ADD CONSTRAINT "FK_ProductID" FOREIGN KEY ("FK_ProductID")
+		REFERENCES "Product"("ProductID");
+	--FK_TagID
+		ALTER TABLE "ProductTag"
+		ADD CONSTRAINT "FK_TagID" FOREIGN KEY ("FK_TagID")
+		REFERENCES "Tag"("TagID");
 --END

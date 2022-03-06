@@ -2,15 +2,12 @@
 
 --FOREIGN KEYS PAYMENT
 	USE "test";
-	 ALTER TABLE "Payment"
-	 ADD CONSTRAINT "FK_PaymentMethodID" FOREIGN KEY ("FK_PaymentMethodID")
-	 REFERENCES "PaymentMethod"("PaymentMethodID")
-	 On DELETE SET NULL
-	 ON UPDATE NO ACTION 
-
-	  ALTER TABLE "Payment"
-	 ADD CONSTRAINT "FK_OrderID" FOREIGN KEY ("FK_OrderID")
-	 REFERENCES "Order"("OrderID")
-	 On DELETE SET NULL
-	 ON UPDATE NO ACTION 
+	--FK_PaymentMethodID
+		ALTER TABLE "Payment"
+		ADD CONSTRAINT "FK_PaymentMethodID" FOREIGN KEY ("FK_PaymentMethodID")
+		REFERENCES "PaymentMethod"("PaymentMethodID");
+	--FK_OrderID
+		ALTER TABLE "Payment"
+		ADD CONSTRAINT "FK_OrderID" FOREIGN KEY ("FK_OrderID")
+		REFERENCES "Order"("OrderID");
 --END
