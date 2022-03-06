@@ -2,5 +2,19 @@
 
 --FOREIGN KEYS OWNEDPRODUCT
 	USE "test";
+
+	
+	 ALTER TABLE "OwnedProduct"
+	 ADD CONSTRAINT  "FK_CustomerID" FOREIGN KEY ("FK_CustomerID")
+	 REFERENCES "Customer"("CustomerID")
+	 ON DELETE SET NULL
+	 ON UPDATE NO ACTION
+	 
+	
+	 ALTER TABLE "OwnedProduct"
+	 ADD CONSTRAINT "FK_ProductID" FOREIGN KEY ("FK_ProductID")
+	 REFERENCES "Product"("ProductID")
+	 On DELETE SET NULL
+	 ON UPDATE NO ACTION 
 	
 --END

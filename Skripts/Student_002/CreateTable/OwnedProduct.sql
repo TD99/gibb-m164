@@ -4,6 +4,8 @@
 	USE "test";
 	IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='OwnedProduct' AND xtype='U')
 		CREATE TABLE "OwnedProduct"(
+		    "FK_CustomerID" INT,
+			"FK_ProductID" INT,
 			"LicenceHash" VARCHAR(30) NOT NULL,
 		);
 	GO
