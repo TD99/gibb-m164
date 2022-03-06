@@ -2,19 +2,13 @@
 
 --FOREIGN KEYS ORDERITEM
 	USE "test";
-	
-	
-	 ALTER TABLE "OrderItem"
-	 ADD CONSTRAINT  "FK_OrderID" FOREIGN KEY ("FK_OrderID")
-	 REFERENCES "Order"("OrderID")
-	 ON DELETE SET NULL
-	 ON UPDATE NO ACTION
-	 
-	
-	 ALTER TABLE "OrderItem"
-	 ADD CONSTRAINT "FK_ProductID" FOREIGN KEY ("FK_ProductID")
-	 REFERENCES "Product"("ProductID")
-	 On DELETE SET NULL
-	 ON UPDATE NO ACTION 
+	--FK_OI_OrderID
+		ALTER TABLE "OrderItem"
+		ADD CONSTRAINT  "FK_OI_OrderID" FOREIGN KEY ("FK_OrderID")
+		REFERENCES "Order"("OrderID");
+	--FK_OI_ProductID
+		ALTER TABLE "OrderItem"
+		ADD CONSTRAINT "FK_OI_ProductID" FOREIGN KEY ("FK_ProductID")
+		REFERENCES "Product"("ProductID");
 
 --END

@@ -2,22 +2,16 @@
 
 --FOREIGN KEYS ORDER
 	USE "test";
-	
-	ALTER TABLE "Order"
-	 ADD CONSTRAINT  "FK_CustomerID" FOREIGN KEY ("FK_CustomerID")
-	 REFERENCES "Customer"("CustomerID")
-	 ON DELETE SET NULL
-	 ON UPDATE NO ACTION
-
-	 ALTER TABLE "Order"
-	 ADD CONSTRAINT  "FK_AdressID" FOREIGN KEY ("FK_AdressID")
-	 REFERENCES "Adress"("AdressID")
-	 ON DELETE SET NULL
-	 ON UPDATE NO ACTION
-
-	 ALTER TABLE "Order"
-	 ADD CONSTRAINT  "FK_CouponID" FOREIGN KEY ("FK_CouponID")
-	 REFERENCES "Coupon"("CouponID")
-	 ON DELETE SET NULL
-	 ON UPDATE NO ACTION
+	--FK_OR_CustomerID
+		ALTER TABLE "Order"
+		ADD CONSTRAINT "FK_OR_CustomerID" FOREIGN KEY ("FK_CustomerID")
+		REFERENCES "Customer"("CustomerID");
+	--FK_OR_AdressID
+		ALTER TABLE "Order"
+		ADD CONSTRAINT  "FK_OR_AdressID" FOREIGN KEY ("FK_AddressID")
+		REFERENCES "Address"("AddressID");
+	--FK_OR_CouponID
+		ALTER TABLE "Order"
+		ADD CONSTRAINT  "FK_OR_CouponID" FOREIGN KEY ("FK_CouponID")
+		REFERENCES "Coupon"("CouponID");
 --END

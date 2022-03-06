@@ -2,16 +2,13 @@
 
 --FOREIGN KEYS WISHLIST
 	USE "test";
-	
-	ALTER TABLE "Wishlist"
-	 ADD CONSTRAINT  "FK_CustomerID" FOREIGN KEY ("FK_CustomerID")
-	 REFERENCES "Customer"("CustomerID")
-	 ON DELETE SET NULL
-	 ON UPDATE NO ACTION
+	--FK_WI_CustomerID
+		ALTER TABLE "Wishlist"
+		ADD CONSTRAINT "FK_WI_CustomerID" FOREIGN KEY ("FK_CustomerID")
+		REFERENCES "Customer"("CustomerID");
+	--FK_WI_ProductID
+		ALTER TABLE "Wishlist"
+		ADD CONSTRAINT  "FK_WI_ProductID" FOREIGN KEY ("FK_ProductID")
+		REFERENCES "Product"("ProductID");
 
-	 ALTER TABLE "Wishlist"
-	 ADD CONSTRAINT  "FK_ProductID" FOREIGN KEY ("FK_ProductID")
-	 REFERENCES "Product"("ProductID")
-	 ON DELETE SET NULL
-	 ON UPDATE NO ACTION
 --END
