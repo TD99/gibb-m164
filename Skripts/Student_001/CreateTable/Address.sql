@@ -5,6 +5,8 @@
 	IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='Address' AND xtype='U')
 		CREATE TABLE "Address"(
 			"AddressID" INT PRIMARY KEY IDENTITY,
+			"FK_CustomerID" INT,
+			"FK_CityID" INT,
 			"Street" VARCHAR(100) NOT NULL,
 			"StreetNr" VARCHAR(30) NOT NULL,
 			"IsPrimaryAddress" BIT,

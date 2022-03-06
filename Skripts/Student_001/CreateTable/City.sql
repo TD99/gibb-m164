@@ -5,8 +5,10 @@
 	IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='City' AND xtype='U')
 		CREATE TABLE "City"(
 			"CityID" INT PRIMARY KEY IDENTITY,
+			"FK_CountryID" INT,
 			"ZIPCode" VARCHAR(30) NOT NULL,
 			"Name" VARCHAR(100) NOT NULL,
+			"RemoveDate" DATE,
 		);
 	GO
 
