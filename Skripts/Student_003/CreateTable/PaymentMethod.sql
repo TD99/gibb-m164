@@ -6,6 +6,7 @@
 		CREATE TABLE "PaymentMethod"(
 			"PaymentMethodID" INT PRIMARY KEY IDENTITY,
 			"Name" VARCHAR(50) NOT NULL UNIQUE,
+			"RemoveDate" DATE,
 		);
 	GO
 
