@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-06T12:03:28.978Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36 Edg/99.0.1150.30" etag="QVOZ_nGv8BbsmnW7Ec8m" version="16.6.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-03-06T12:03:35.640Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36 Edg/99.0.1150.30" etag="CUUF2hmXq61wC1A5XbRK" version="16.6.6" type="github" pages="3">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Konzeptionell">
     <mxGraphModel dx="1069" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -389,7 +389,8 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="450" y="864" />
-              <mxPoint x="450" y="994" />
+              <mxPoint x="450" y="1010" />
+              <mxPoint x="483" y="1010" />
             </Array>
             <mxPoint x="430" y="750" as="sourcePoint" />
           </mxGeometry>
