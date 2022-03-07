@@ -22,30 +22,31 @@ Modul 164 bei Herr Dummermuth, MS SQL-Server
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:heavy_check_mark: [Physisch](Konzepte/Datenmodell-Physisch.png?raw=1)  
 
 :orange_circle: Skripts   
-| ***Name***                         | ***CREATE TABLE*** | ***ForeignKeys***  | ***INSERT***       | ***TRIGGERS***     | ***TO-DO***                                |
+| ***Name***                         | ***CREATE TABLE*** | ***ForeignKeys***  | ***INSERT***       | ***TRIGGERS***     | ***TO-DO***                               |
 | :--------------------------------- | :----------------- | :----------------- | :----------------- | :----------------- | :---------------------------------------- |
+| [Groupwork](Skripts/Groupwork)     | :heavy_check_mark: | :x:                | :x:                | :x:                |                                           |
 | [Student_001](Skripts/Student_001) | :heavy_check_mark: | :heavy_check_mark: | :orange_circle:    | :x:                |                                           |
 | Customer                           | :heavy_check_mark: | :black_circle:     | :heavy_check_mark: | :x:                |                                           |
 | Address                            | :heavy_check_mark: | :heavy_check_mark: | :x:                | :x:                |                                           |
-| City                               | :heavy_check_mark: | :heavy_check_mark: | :x:                | :x:                |                                           |
+| City                               | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:                |                                           |
 | Country                            | :heavy_check_mark: | :black_circle:     | :heavy_check_mark: | :x:                | Attribut `Ländervorwahl`                  |
-| [Student_002](Skripts/Student_002) | :heavy_check_mark: | :heavy_check_mark: | :x:                | :x:                |                                           |
-| OwnedProduct                       | :heavy_check_mark: | :heavy_check_mark: | :x:                | :x:                |                                           |
-| Wishlist                           | :heavy_check_mark: | :heavy_check_mark: | :x:                | :x:                |                                           |
+| [Student_002](Skripts/Student_002) | :heavy_check_mark: | :heavy_check_mark: | :orange_circle:    | :x:                |                                           |
+| OwnedProduct                       | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:                |                                           |
+| Wishlist                           | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:                |                                           |
 | OrderItem                          | :heavy_check_mark: | :heavy_check_mark: | :x:                | :x:                |                                           |
 | Order                              | :heavy_check_mark: | :heavy_check_mark: | :x:                | :x:                |                                           |
-| Coupon                             | :heavy_check_mark: | :black_circle:     | :x:                | :x:                |                                           |
-| [Student_003](Skripts/Student_003) | :heavy_check_mark: | :heavy_check_mark: | :x:                | :x:                |                                           |
-| Category                           | :heavy_check_mark: | :black_circle:     | :x:                | :x:                |                                           |
+| Coupon                             | :heavy_check_mark: | :black_circle:     | :heavy_check_mark: | :x:                |                                           |
+| [Student_003](Skripts/Student_003) | :heavy_check_mark: | :heavy_check_mark: | :orange_circle:    | :x:                |                                           |
+| Category                           | :heavy_check_mark: | :black_circle:     | :heavy_check_mark: | :x:                |                                           |
 | Product                            | :heavy_check_mark: | :heavy_check_mark: | :x:                | :x:                | `LicenseHash`                             |
 | ProductTag                         | :heavy_check_mark: | :heavy_check_mark: | :x:                | :x:                |                                           |
 | Payment                            | :heavy_check_mark: | :heavy_check_mark: | :x:                | :x:                |                                           |
-| PaymentMethod                      | :heavy_check_mark: | :black_circle:     | :x:                | :x:                |                                           |
+| PaymentMethod                      | :heavy_check_mark: | :black_circle:     | :heavy_check_mark: | :x:                |                                           |
 | [Student_004](Skripts/Student_004) | :heavy_check_mark: | :heavy_check_mark: | :orange_circle:    | :x:                |                                           |
-| Image                              | :heavy_check_mark: | :heavy_check_mark: | :x:                | :x:                |                                           |
+| Image                              | :heavy_check_mark: | :heavy_check_mark: | :orange_circle:    | :x:                |                                           |
 | Publisher                          | :heavy_check_mark: | :black_circle:     | :heavy_check_mark: | :x:                |                                           |
 | Tag                                | :heavy_check_mark: | :black_circle:     | :heavy_check_mark: | :x:                |                                           |
-| Platform                           | :heavy_check_mark: | :black_circle:     | :orange_circle:    | :x:                |                                           |
+| Platform                           | :heavy_check_mark: | :black_circle:     | :heavy_check_mark: | :x:                |                                           |
                
 ## Gruppenmitglieder
 | ***ID*** | ***Name*** | ***Verzeichnis***              |

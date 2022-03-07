@@ -2,14 +2,22 @@
 
 --INSERT INTO PLATFORM
 	USE "test";
+	INSERT INTO "Platform"("Name","Version","RemoveDate")
+	VALUES('Windows','XP','2020-05-03'),
+		  ('Windows','10',NULL),
+		  ('Windows','11',NULL),
 
-	--ROW 1
-		INSERT INTO "Platform"("Name","MinSoftwareVersion","MaxSoftwareVersion")
-		VALUES('Windows','8','11');
-	--ROW 2
-		INSERT INTO "Platform"("Name","MinSoftwareVersion","MaxSoftwareVersion")
-		VALUES('PlayStation','5','5');
-	--ROW 3
-		INSERT INTO "Platform"("Name","MinSoftwareVersion","MaxSoftwareVersion")
-		VALUES('Xbox','One','One');
+		  ('MacOS','Monterey',NULL),
+
+		  ('PlayStation','2','2019-05-19'),
+		  ('PlayStation','4',NULL),
+		  ('PlayStation','5',NULL),
+			
+		  ('XBOX','360','2022-03-07'),
+		  ('XBOX','One',NULL),
+			
+		  ('Nintendo','Switch',NULL);
+	/* Examples:
+	SELECT * FROM "Platform" ORDER BY "PlatformID" ASC;
+	*/
 --END
