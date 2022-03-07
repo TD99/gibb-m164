@@ -9,17 +9,17 @@ Modul 164 bei Herr Dummermuth, MS SQL-Server
 - [Konzepte](Konzepte)
   - [Datenmodell-Konzeptionell](Konzepte/Datenmodell-Konzeptionell.png?raw=1)
   - [Datenmodell-Logisch](Konzepte/Datenmodell-Logisch.png?raw=1)
-  - [\(Datenmodell-Physisch\)](Konzepte/Datenmodell-Physisch.png?raw=1)
+  - [Datenmodell-Physisch](Konzepte/Datenmodell-Physisch.png?raw=1)
 - [Skripts](Skripts)
   - [Groupwork](Skripts/Groupwork)
   - [Student_001 - 004](#gruppenskripts)
 
 ## Status
-:heavy_check_mark: Konzepte  
+:heavy_check_mark: [Konzepte](Konzepte/)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:heavy_check_mark: Datenmodelle  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:heavy_check_mark: Konzeptionell  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:heavy_check_mark: Logisch  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:heavy_check_mark: Physisch  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:heavy_check_mark: [Konzeptionell](Konzepte/Datenmodell-Konzeptionell.png?raw=1)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:heavy_check_mark: [Logisch](Konzepte/Datenmodell-Logisch.png?raw=1)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:heavy_check_mark: [Physisch](Konzepte/Datenmodell-Physisch.png?raw=1)  
 
 :orange_circle: Skripts   
 | ***Name***                         | ***CREATE TABLE*** | ***ForeignKeys***  | ***INSERT***       | ***TRIGGERS***     | ***TODO***                                |
