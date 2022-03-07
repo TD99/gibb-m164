@@ -17,7 +17,7 @@
 				"LastName" VARCHAR(50) NOT NULL,
 				"Birthday" DATE NOT NULL,
 				"Gender" VARCHAR(1) NOT NULL,
-				"Email" VARCHAR(200),
+				"Email" VARCHAR(200) NOT NULL,
 				"PhoneHome" VARCHAR(50),
 				"PhoneMobile" VARCHAR(50),
 				"RemoveDate" DATE,
