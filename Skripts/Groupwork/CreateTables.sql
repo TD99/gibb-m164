@@ -226,7 +226,7 @@
 			CREATE TABLE "Image"(
 				"ImageID" INT PRIMARY KEY IDENTITY,
 				"FK_ProductID" INT,
-				"ImageURL" NVARCHAR(300),
+				"ImageURL" NVARCHAR(300) NOT NULL,
 			);
 		GO
 	--END
