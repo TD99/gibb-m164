@@ -2,6 +2,6 @@
 
 --INSERT INTO ADDRESS
 	USE "test";
-	INSERT INTO "City"(...)
-	VALUES(...);
+	INSERT INTO "City"("FK_CountryID","ZIPCode","Name","RemoveDate")
+	VALUES();
 --END

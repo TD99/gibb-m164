@@ -22,7 +22,7 @@ Modul 164 bei Herr Dummermuth, MS SQL-Server
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:heavy_check_mark: [Physisch](Konzepte/Datenmodell-Physisch.png?raw=1)  
 
 :orange_circle: Skripts   
-| ***Name***                         | ***CREATE TABLE*** | ***ForeignKeys***  | ***INSERT***       | ***TRIGGERS***     | ***TODO***                                |
+| ***Name***                         | ***CREATE TABLE*** | ***ForeignKeys***  | ***INSERT***       | ***TRIGGERS***     | ***TO-DO***                                |
 | :--------------------------------- | :----------------- | :----------------- | :----------------- | :----------------- | :---------------------------------------- |
 | [Student_001](Skripts/Student_001) | :heavy_check_mark: | :heavy_check_mark: | :orange_circle:    | :x:                |                                           |
 | Customer                           | :heavy_check_mark: | :black_circle:     | :heavy_check_mark: | :x:                |                                           |
