@@ -42,10 +42,10 @@ Modul 164 bei Herr Dummermuth, MS SQL-Server
 | Payment                            | :heavy_check_mark: | :heavy_check_mark: | :x:                | :x:                |                                           |
 | PaymentMethod                      | :heavy_check_mark: | :black_circle:     | :x:                | :x:                |                                           |
 | [Student_004](Skripts/Student_004) | :heavy_check_mark: | :heavy_check_mark: | :orange_circle:    | :x:                |                                           |
-| Image                              | :heavy_check_mark: | :heavy_check_mark: | :x:                | :x:                |                                           |
+| Image                              | :heavy_check_mark: | :heavy_check_mark: | :orange_circle:    | :x:                |                                           |
 | Publisher                          | :heavy_check_mark: | :black_circle:     | :heavy_check_mark: | :x:                |                                           |
 | Tag                                | :heavy_check_mark: | :black_circle:     | :heavy_check_mark: | :x:                |                                           |
-| Platform                           | :heavy_check_mark: | :black_circle:     | :orange_circle:    | :x:                |                                           |
+| Platform                           | :heavy_check_mark: | :black_circle:     | :heavy_check_mark: | :x:                |                                           |
                
 ## Gruppenmitglieder
 | ***ID*** | ***Name*** | ***Verzeichnis***              |
