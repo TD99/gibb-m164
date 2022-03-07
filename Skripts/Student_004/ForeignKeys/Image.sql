@@ -2,7 +2,7 @@
 
 --FOREIGN KEYS IMAGE
 	USE "test";
-	--FK_PaymentMethodID
+	--FK_ImageID
 		ALTER TABLE "Image"
 		ADD CONSTRAINT "FK_IM_ProductID" FOREIGN KEY ("FK_ProductID")
 		REFERENCES "Product"("ProductID");
