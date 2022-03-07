@@ -2,6 +2,6 @@
 
 --INSERT INTO PAYMENT
 	USE "test";
-	INSERT INTO "Payment"(...)
-	VALUES(...);
+	INSERT INTO "Payment"("FK_PaymentMethodID","FK_OrderID","Amount")
+	VALUES();
 --END
