@@ -2,6 +2,6 @@
 
 --INSERT INTO IMAGE
 	USE "test";
-	INSERT INTO "Image"(...)
-	VALUES(...);
+	INSERT INTO "Image"("FK_ProductID","ImageURL")
+	VALUES(1);
 --END
