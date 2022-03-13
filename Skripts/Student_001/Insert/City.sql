@@ -14,4 +14,5 @@
 		  (9,'EC1A 1AA','London',NULL),
 		  (10,'12302','Mos Eisly',NULL);
 		  --SELECT * FROM "City"
+		  --DELETE FROM "City"
 --END
