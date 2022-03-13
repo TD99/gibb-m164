@@ -25,9 +25,9 @@ Modul 164 bei Herr Dummermuth, MS SQL-Server
 | ***Name***                         | ***CREATE TABLE*** | ***ForeignKeys***  | ***INSERT***       | ***TRIGGERS***     | ***TO-DO***                               |
 | :--------------------------------- | :----------------- | :----------------- | :----------------- | :----------------- | :---------------------------------------- |
 | [Groupwork](Skripts/Groupwork)     | :heavy_check_mark: | :x:                | :x:                | :x:                |                                           |
-| [Student_001](Skripts/Student_001) | :heavy_check_mark: | :heavy_check_mark: | :orange_circle:    | :x:                |                                           |
+| [Student_001](Skripts/Student_001) | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:                |                                           |
 | Customer                           | :heavy_check_mark: | :black_circle:     | :heavy_check_mark: | :x:                |                                           |
-| Address                            | :heavy_check_mark: | :heavy_check_mark: | :x:                | :x:                |                                           |
+| Address                            | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:                |                                           |
 | City                               | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:                |                                           |
 | Country                            | :heavy_check_mark: | :black_circle:     | :heavy_check_mark: | :x:                | Attribut `Ländervorwahl`                  |
 | [Student_002](Skripts/Student_002) | :heavy_check_mark: | :heavy_check_mark: | :orange_circle:    | :x:                |                                           |
