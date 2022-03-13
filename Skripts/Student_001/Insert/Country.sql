@@ -25,13 +25,13 @@
 		VALUES('Spain');
 	--ROW 8
 		INSERT INTO "Country"("Name")
-		VALUES('Portugal');
+		VALUES('Greenland');
 	--ROW 9
-		INSERT INTO "Country"("Name")
-		VALUES('United Kingdom');
+		INSERT INTO "Country"("Name","RemoveDate")
+		VALUES('South Africa',NULL);
 	--ROW 10
 		INSERT INTO "Country"("Name","RemoveDate")
-		VALUES('Nybona','2021-03-15');
+		VALUES('New Zealand',NULL);
 
 	/* Examples:
 	SELECT * FROM "Country" ORDER BY "CountryID" ASC;
