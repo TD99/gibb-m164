@@ -10,7 +10,7 @@
 		  ('Kauf auf Rechnung',NULL),
 		  ('Lastschrift',NULL),
 		  ('Klarna',NULL),
-		  ('Stripe',NULL),
+		  ('Stripe','2020-04-04'),
 		  ('Vorkasse',NULL),
 		  ('Payment Service Provider', NULL);
 
