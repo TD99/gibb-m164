@@ -2,36 +2,28 @@
 
 --INSERT INTO ADDRESS
 	USE "test";
-	--ROW 1
-		INSERT INTO "Country"("Name")
-		VALUES('Switzerland');
-	--ROW 2
-		INSERT INTO "Country"("Name")
-		VALUES('Germany');
-	--ROW 3
-		INSERT INTO "Country"("Name")
-		VALUES('France');
-	--ROW 4
-		INSERT INTO "Country"("Name")
-		VALUES('Italy');
-	--ROW 5
-		INSERT INTO "Country"("Name","RemoveDate")
-		VALUES('New Frilisrami','2012-09-20');
-	--ROW 6
-		INSERT INTO "Country"("Name")
-		VALUES('Austria');
-	--ROW 7
-		INSERT INTO "Country"("Name")
-		VALUES('Switzerland');
-	--ROW 8
-		INSERT INTO "Country"("Name")
-		VALUES('Greenland');
-	--ROW 9
-		INSERT INTO "Country"("Name","RemoveDate")
-		VALUES('South Africa',NULL);
-	--ROW 10
-		INSERT INTO "Country"("Name","RemoveDate")
-		VALUES('New Zealand',NULL);
+	INSERT INTO "Country"("Name","RemoveDate")
+	VALUES
+		--ROW 1
+		  ('Germany',NULL),
+		--ROW 2
+		  ('North Yemen','1990-01-01'),
+		--ROW 3
+		  ('Denmark',NULL),
+		--ROW 4
+		  ('Italy',NULL),
+		--ROW 5
+		  ('USA',NULL),
+		--ROW 6
+		  ('England',NULL),
+		--ROW 7
+		  ('Switzerland',NULL),
+		--ROW 8
+		  ('Greenland',NULL),
+		--ROW 9
+		  ('South Africa',NULL),
+		--ROW 10
+		  ('New Zealand',NULL);
 
 	/* Examples:
 	SELECT * FROM "Country" ORDER BY "CountryID" ASC;
