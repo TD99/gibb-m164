@@ -11,7 +11,8 @@
 		  (6,'1130','Wien-Hietzing',NULL),
 		  (7,'08000','Barcelona',NULL),
 		  
-		  (7,)
+		  (6,)
+		  (7,'3232','Ins',NULL),
 		  (8,'1749','Nuuk',NULL),
 		  (9,'9301','Bloemfontein',NULL),
 		  (10,'6011','Wellington',NULL);

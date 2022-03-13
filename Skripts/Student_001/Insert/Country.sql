@@ -22,7 +22,7 @@
 		VALUES('Austria');
 	--ROW 7
 		INSERT INTO "Country"("Name")
-		VALUES('Spain');
+		VALUES('Switzerland');
 	--ROW 8
 		INSERT INTO "Country"("Name")
 		VALUES('Greenland');

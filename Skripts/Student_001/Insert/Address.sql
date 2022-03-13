@@ -17,8 +17,8 @@
 		  (10,10,'Cantina','2',1,NULL),
 		  (9,9,'Warwick Ave','3',0,NULL),
 		  
-		  (6,6,'Museumstrasse','23',1,NULL)
-		  (6,7,'Bahnhofstrasse','62a',0,NULL)
+		  (6,7,'Bielstrasse','1',1,NULL),
+		  (6,7,'Bahnhofstrasse','62a',0,NULL),
 		  (7,8,'Blok','2',1,NULL),
 		  (8,9,'Tafelberg Ave','30',1,NULL),
 		  (9,10,'Taranaki Street','147',1,NULL),
