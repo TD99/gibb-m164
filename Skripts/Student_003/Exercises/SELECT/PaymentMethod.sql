@@ -2,7 +2,7 @@
 
 --SELECT PAYMENTMETHOD
 	USE "test";
-	SELECT "${YOURATTRIBUTE}"
-		FROM "${YOURTABLE}"
-		WHERE ${YOURCONDITION};
+	SELECT *
+		FROM "PaymentMethod"
+		WHERE "Name" = 'Kriptowaehrung';
 --END

@@ -2,7 +2,7 @@
 
 --SELECT PAYMENT
 	USE "test";
-	SELECT "${YOURATTRIBUTE}"
-		FROM "${YOURTABLE}"
-		WHERE ${YOURCONDITION};
+	SELECT "Amount"
+		FROM "Payment"
+		WHERE "Amount" = 103.68;
 --END

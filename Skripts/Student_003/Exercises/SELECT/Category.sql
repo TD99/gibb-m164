@@ -2,7 +2,7 @@
 
 --SELECT CATEGORY
 	USE "test";
-	SELECT "${YOURATTRIBUTE}"
-		FROM "${YOURTABLE}"
-		WHERE ${YOURCONDITION};
+	SELECT *
+		FROM "Category"
+		WHERE "Name" = 'Adventure';
 --END

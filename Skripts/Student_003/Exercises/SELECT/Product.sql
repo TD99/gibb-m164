@@ -2,7 +2,7 @@
 
 --SELECT PRODUCT
 	USE "test";
-	SELECT "${YOURATTRIBUTE}"
-		FROM "${YOURTABLE}"
-		WHERE ${YOURCONDITION};
+	SELECT "Name","Description"
+		FROM "Product"
+		WHERE  "ReleaseYear" = 2018;
 --END
