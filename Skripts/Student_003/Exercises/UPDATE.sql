@@ -2,7 +2,7 @@
 
 --UPDATE DATA
 	USE "test";
-	UPDATE "${YOURTABLE}"
-		SET ("${YOURCOLUMN}" = ${VALUE})
-		WHERE ${YOURCONDITION};
+	UPDATE "Product"
+		SET ("Name" = 'Assasins Creed Valhalla Switch')
+		WHERE "Name" = 'Assasins Creed Odyssey XBOX';
 --END
