@@ -47,7 +47,10 @@ Modul 164 bei Herr Dummermuth, MS SQL-Server
 | Publisher                          | :heavy_check_mark: | :black_circle:     | :heavy_check_mark: | :x:                |                                           |
 | Tag                                | :heavy_check_mark: | :black_circle:     | :heavy_check_mark: | :x:                |                                           |
 | Platform                           | :heavy_check_mark: | :black_circle:     | :heavy_check_mark: | :x:                |                                           |
-               
+
+## Kompetenzen
+[Zum Status](Dokumentation/Kompetenzen)
+
 ## Gruppenmitglieder
 | ***ID*** | ***Name*** | ***Verzeichnis***              |
 | :------- | :--------- | :----------------------------- |
