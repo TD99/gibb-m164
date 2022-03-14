@@ -5,13 +5,16 @@
 	UPDATE "Platform"
 		SET ("Version" = '7')
 		WHERE "Version" = 'XP';
+
 	UPDATE "Platform"
 		SET ("RemoveDate" = '2022-03-03')
 		WHERE "Version" = '10';
+
 	UPDATE "Publisher"
-		SET ("Website" = '')
-		WHERE "Name" = '';
+		SET ("Website" = 'https://www.ea.com/')
+		WHERE "Name" = 'Sega';
+
 	UPDATE "Tag"
-		SET ("Name" = '')
-		WHERE "Name" = '';
+		SET ("Name" = 'Online-PvP')
+		WHERE "Name" = 'LAN-PvP';
 --END
