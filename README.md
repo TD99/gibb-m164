@@ -24,29 +24,29 @@ Modul 164 bei Herr Dummermuth, MS SQL-Server
 :orange_circle: Skripts   
 | ***Name***                         | ***CREATE TABLE*** | ***ForeignKeys***  | ***INSERT***       | ***TRIGGERS***     | ***TO-DO***                               |
 | :--------------------------------- | :----------------- | :----------------- | :----------------- | :----------------- | :---------------------------------------- |
-| [Groupwork](Skripts/Groupwork)     | :heavy_check_mark: | :x:                | :x:                | :x:                |                                           |
-| [Student_001](Skripts/Student_001) | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:                |                                           |
-| Customer                           | :heavy_check_mark: | :black_circle:     | :heavy_check_mark: | :x:                |                                           |
-| Address                            | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:                |                                           |
-| City                               | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:                |                                           |
-| Country                            | :heavy_check_mark: | :black_circle:     | :heavy_check_mark: | :x:                | Attribut `Ländervorwahl`                  |
-| [Student_002](Skripts/Student_002) | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:                |                                           |
-| OwnedProduct                       | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:                |                                           |
-| Wishlist                           | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:                |                                           |
-| OrderItem                          | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:                |                                           |
-| Order                              | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:                |                                           |
-| Coupon                             | :heavy_check_mark: | :black_circle:     | :heavy_check_mark: | :x:                |                                           |
-| [Student_003](Skripts/Student_003) | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:                |                                           |
-| Category                           | :heavy_check_mark: | :black_circle:     | :heavy_check_mark: | :x:                |                                           |
-| Product                            | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:                | `LicenseHash`                             |
-| ProductTag                         | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:                |                                           |
-| Payment                            | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:                |                                           |
-| PaymentMethod                      | :heavy_check_mark: | :black_circle:     | :heavy_check_mark: | :x:                |                                           |
-| [Student_004](Skripts/Student_004) | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:                |                                           |
-| Image                              | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:                |                                           |
-| Publisher                          | :heavy_check_mark: | :black_circle:     | :heavy_check_mark: | :x:                |                                           |
-| Tag                                | :heavy_check_mark: | :black_circle:     | :heavy_check_mark: | :x:                |                                           |
-| Platform                           | :heavy_check_mark: | :black_circle:     | :heavy_check_mark: | :x:                |                                           |
+| [Groupwork](Skripts/Groupwork)     | :heavy_check_mark: | :x:                | :x:                | :black_circle:     |                                           |
+| [Student_001](Skripts/Student_001) | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :black_circle:     |                                           |
+| Customer                           | :heavy_check_mark: | :black_circle:     | :heavy_check_mark: | :black_circle:     |                                           |
+| Address                            | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :black_circle:     |                                           |
+| City                               | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :black_circle:     |                                           |
+| Country                            | :heavy_check_mark: | :black_circle:     | :heavy_check_mark: | :black_circle:     |                                           |
+| [Student_002](Skripts/Student_002) | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :black_circle:     |                                           |
+| OwnedProduct                       | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :black_circle:     |                                           |
+| Wishlist                           | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :black_circle:     |                                           |
+| OrderItem                          | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :black_circle:     |                                           |
+| Order                              | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :black_circle:     |                                           |
+| Coupon                             | :heavy_check_mark: | :black_circle:     | :heavy_check_mark: | :black_circle:     |                                           |
+| [Student_003](Skripts/Student_003) | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :black_circle:     |                                           |
+| Category                           | :heavy_check_mark: | :black_circle:     | :heavy_check_mark: | :black_circle:     |                                           |
+| Product                            | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :black_circle:     | `LicenseHash`                             |
+| ProductTag                         | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :black_circle:     |                                           |
+| Payment                            | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :black_circle:     |                                           |
+| PaymentMethod                      | :heavy_check_mark: | :black_circle:     | :heavy_check_mark: | :black_circle:     |                                           |
+| [Student_004](Skripts/Student_004) | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :black_circle:     |                                           |
+| Image                              | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :black_circle:     | Attribut `Description`                    |
+| Publisher                          | :heavy_check_mark: | :black_circle:     | :heavy_check_mark: | :black_circle:     |                                           |
+| Tag                                | :heavy_check_mark: | :black_circle:     | :heavy_check_mark: | :black_circle:     |                                           |
+| Platform                           | :heavy_check_mark: | :black_circle:     | :heavy_check_mark: | :black_circle:     |                                           |
 
 ## Kompetenzen
 [Zum Status](Dokumentation/Kompetenzen.xlsx)
