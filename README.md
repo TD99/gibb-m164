@@ -42,8 +42,8 @@ Modul 164 bei Herr Dummermuth, MS SQL-Server
 | ProductTag                         | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:                |                                           |
 | Payment                            | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:                |                                           |
 | PaymentMethod                      | :heavy_check_mark: | :black_circle:     | :heavy_check_mark: | :x:                |                                           |
-| [Student_004](Skripts/Student_004) | :heavy_check_mark: | :heavy_check_mark: | :orange_circle:    | :x:                |                                           |
-| Image                              | :heavy_check_mark: | :heavy_check_mark: | :orange_circle:    | :x:                |                                           |
+| [Student_004](Skripts/Student_004) | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:                |                                           |
+| Image                              | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:                |                                           |
 | Publisher                          | :heavy_check_mark: | :black_circle:     | :heavy_check_mark: | :x:                |                                           |
 | Tag                                | :heavy_check_mark: | :black_circle:     | :heavy_check_mark: | :x:                |                                           |
 | Platform                           | :heavy_check_mark: | :black_circle:     | :heavy_check_mark: | :x:                |                                           |
