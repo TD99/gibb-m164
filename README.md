@@ -30,17 +30,17 @@ Modul 164 bei Herr Dummermuth, MS SQL-Server
 | Address                            | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:                |                                           |
 | City                               | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:                |                                           |
 | Country                            | :heavy_check_mark: | :black_circle:     | :heavy_check_mark: | :x:                | Attribut `Ländervorwahl`                  |
-| [Student_002](Skripts/Student_002) | :heavy_check_mark: | :heavy_check_mark: | :orange_circle:    | :x:                |                                           |
+| [Student_002](Skripts/Student_002) | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:                |                                           |
 | OwnedProduct                       | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:                |                                           |
 | Wishlist                           | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:                |                                           |
-| OrderItem                          | :heavy_check_mark: | :heavy_check_mark: | :x:                | :x:                |                                           |
-| Order                              | :heavy_check_mark: | :heavy_check_mark: | :x:                | :x:                |                                           |
+| OrderItem                          | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:                |                                           |
+| Order                              | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:                |                                           |
 | Coupon                             | :heavy_check_mark: | :black_circle:     | :heavy_check_mark: | :x:                |                                           |
-| [Student_003](Skripts/Student_003) | :heavy_check_mark: | :heavy_check_mark: | :orange_circle:    | :x:                |                                           |
+| [Student_003](Skripts/Student_003) | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:                |                                           |
 | Category                           | :heavy_check_mark: | :black_circle:     | :heavy_check_mark: | :x:                |                                           |
-| Product                            | :heavy_check_mark: | :heavy_check_mark: | :x:                | :x:                | `LicenseHash`                             |
-| ProductTag                         | :heavy_check_mark: | :heavy_check_mark: | :x:                | :x:                |                                           |
-| Payment                            | :heavy_check_mark: | :heavy_check_mark: | :x:                | :x:                |                                           |
+| Product                            | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:                | `LicenseHash`                             |
+| ProductTag                         | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:                |                                           |
+| Payment                            | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:                |                                           |
 | PaymentMethod                      | :heavy_check_mark: | :black_circle:     | :heavy_check_mark: | :x:                |                                           |
 | [Student_004](Skripts/Student_004) | :heavy_check_mark: | :heavy_check_mark: | :orange_circle:    | :x:                |                                           |
 | Image                              | :heavy_check_mark: | :heavy_check_mark: | :orange_circle:    | :x:                |                                           |
