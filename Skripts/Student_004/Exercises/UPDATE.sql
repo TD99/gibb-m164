@@ -3,6 +3,15 @@
 --UPDATE DATA
 	USE "test";
 	UPDATE "Platform"
-		SET ("Version" = '8')
+		SET ("Version" = '7')
 		WHERE "Version" = 'XP';
+	UPDATE "Platform"
+		SET ("RemoveDate" = '2022-03-03')
+		WHERE "Version" = '10';
+	UPDATE "Publisher"
+		SET ("Website" = '')
+		WHERE "Name" = '';
+	UPDATE "Tag"
+		SET ("Name" = '')
+		WHERE "Name" = '';
 --END
