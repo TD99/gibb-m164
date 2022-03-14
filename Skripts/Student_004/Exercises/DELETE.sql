@@ -4,10 +4,13 @@
 	USE "test";
 	DELETE FROM "Platform"
 		WHERE "Name" = 'MacOS';
+
 	DELETE FROM "Platform"
-		WHERE "Name" = '';
+		WHERE "Name" = 'XBOX';
+
 	DELETE FROM "Tag"
-		WHERE "Name" = '';
+		WHERE "Name" = 'Statistiken';
+
 	DELETE FROM "Publisher"
-		WHERE "Name" = '';
+		WHERE "Name" = 'Axolot Games';
 --END
