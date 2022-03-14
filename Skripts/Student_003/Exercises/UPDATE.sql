@@ -2,7 +2,7 @@
 
 --UPDATE DATA
 	USE "test";
-	UPDATE "Product"
-		SET "Name" = 'Assasins Creed Valhalla Switch'
-		WHERE "Name" = 'Assasins Creed Odyssey XBOX';
+	UPDATE "Category"
+		SET "Name" = '2dShooter'
+		WHERE "Name" = 'Shooter';
 --END

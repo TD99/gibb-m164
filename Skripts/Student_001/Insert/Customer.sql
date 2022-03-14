@@ -26,6 +26,8 @@
 		  ('Lavinia','Underhill','1985-04-01','d','lavinia@langschool.nz',NULL,NULL,NULL);
 
 	/* Examples:
-	SELECT * FROM "Customer" ORDER BY "CustomerID" ASC;
+	SELECT * FROM "Customer" ORDER BY "CustomerID" ASC; 
+
+	DELETE FROM Customer
 	*/
 --END
