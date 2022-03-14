@@ -15,7 +15,7 @@
 		--ROW 5
 		  (5,'94122','San Francisco',NULL),
 		--ROW 6
-		  (6,'CB2 2JE','Huffinson','2022-03-01'),
+		  (6,'CB2 2JE','Huffinson','2022-03-01'), 
 		--ROW 7
 		  (7,'3232','Ins',NULL),
 		--ROW 8
@@ -26,6 +26,7 @@
 		  (10,'6011','Wellington',NULL);
 
 	/* Examples:
-	SELECT * FROM "City" ORDER BY "FK_CountryID" ASC;
+	SELECT * FROM "City" ORDER BY "FK_CountryID" ASC; 
+	DELETE FROM "City"
 	*/
 --END

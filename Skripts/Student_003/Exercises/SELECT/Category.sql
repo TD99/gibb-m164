@@ -1,0 +1,8 @@
+--DEFALUT USER IDENTIFIER: olo135597 <-- DO NOT MODIFY
+
+--SELECT CATEGORY
+	USE "test";
+	SELECT *
+		FROM "Category"
+		WHERE "Name" = 'Adventure';
+--END

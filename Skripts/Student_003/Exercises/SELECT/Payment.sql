@@ -1,0 +1,8 @@
+--DEFALUT USER IDENTIFIER: olo135597 <-- DO NOT MODIFY
+
+--SELECT PAYMENT
+	USE "test";
+	SELECT "Amount"
+		FROM "Payment"
+		WHERE "Amount" = 103.68;
+--END
