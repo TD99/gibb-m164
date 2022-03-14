@@ -30,6 +30,7 @@
 		  (10,10,'Taranaki Street','147',1,NULL);
 
 	/* Examples:
-	SELECT * FROM "Address" ORDER BY "FK_CustomerID" ASC;
+	SELECT * FROM "Address" ORDER BY "FK_CustomerID" ASC; 
+	DELETE FROM "Address"
 	*/
 --END
