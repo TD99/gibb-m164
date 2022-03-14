@@ -3,17 +3,28 @@
 --INSERT INTO CATEGORY
 	USE "test";
 	INSERT INTO "Category"("Name","Description","RemoveDate")
-	VALUES('Shooter','Es geht darum mit Gewehren Gegner abzuschiessen',NULL),
-	      ('OpenWorld','Es ist eine riesige Welt die man erkunden kann',NULL),
-		  ('MurderMystery','Es geht darum herauszufinden wer der Mörder ist',NULL),
-		  ('Sim','Man baut sich seine eigene Stadt',NULL),
-		  ('FightingGame','Es ist meistens ein 2d Kampfspiel mit fäusten',NULL),
-		  ('Adventure','Lebe ein unvergessliches Abenteuer',NULL),
-		  ('Sandbox','Spiel mit verschidene Spielfunktionen herum',NULL),
-		  ('JumpAndRun','Renne und Springe bis du zum Ende ankommst',NULL),
-		  ('RPG','Ein Rollenspiel wo man rundenbasiert Aktionen durchführt',NULL),
-		  ('Puzzle','Löse knifflige Rätsel',NULL); 
+	VALUES
+	  --ROW 1
+		('Shooter','Es geht darum mit Gewehren Gegner abzuschiessen',NULL),
+	  --ROW 2
+		('OpenWorld','Es ist eine riesige Welt die man erkunden kann',NULL),
+	  --ROW 3
+		('MurderMystery','Es geht darum herauszufinden wer der Moerder ist',NULL),
+	  --ROW 4
+		('Sim','Man baut sich seine eigene Stadt',NULL),
+	  --ROW 5
+		('FightingGame','Es ist meistens ein 2d Kampfspiel mit faeusten',NULL),
+	  --ROW 6
+		('Adventure','Lebe ein unvergessliches Abenteuer',NULL),
+	  --ROW 7
+		('Sandbox','Spiel mit verschidene Spielfunktionen herum',NULL),
+	  --ROW 8
+		('JumpAndRun','Renne und Springe bis du zum Ende ankommst',NULL),
+	  --ROW 9
+		('RPG','Ein Rollenspiel wo man rundenbasiert Aktionen durchfuehrt',NULL),
+	  --ROW 10
+		('Puzzle','Loese knifflige Raetsel',NULL); 
 
-		  --DELETE FROM "Category"
-		  --SELECT * FROM "Category"
+		--DELETE FROM "Category"
+		--SELECT * FROM "Category"
 --END
