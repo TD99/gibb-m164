@@ -2,7 +2,7 @@
 
 --UPDATE DATA
 	USE "test";
-	UPDATE "${YOURTABLE}"
-		SET ("${YOURCOLUMN}" = ${VALUE})
-		WHERE ${YOURCONDITION};
+	UPDATE "Platform"
+		SET ("Version" = '8')
+		WHERE "Version" = 'XP';
 --END

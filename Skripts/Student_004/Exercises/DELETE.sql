@@ -2,6 +2,6 @@
 
 --DELETE DATA
 	USE "test";
-	DELETE FROM "${YOURTABLE}"
-		WHERE "${YOURCOLUMN}" = ${VALUE};
+	DELETE FROM "Platform"
+		WHERE "Name" = 'MacOS';
 --END
