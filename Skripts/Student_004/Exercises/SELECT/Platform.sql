@@ -2,7 +2,7 @@
 
 --SELECT PLATFORM
 	USE "test";
-	SELECT "${YOURATTRIBUTE}"
-		FROM "${YOURTABLE}"
-		WHERE ${YOURCONDITION};
+	SELECT *
+		FROM "Platform"
+		WHERE "Version" = 'XP';
 --END

@@ -2,7 +2,7 @@
 
 --SELECT PUBLISHER
 	USE "test";
-	SELECT "${YOURATTRIBUTE}"
-		FROM "${YOURTABLE}"
-		WHERE ${YOURCONDITION};
+	SELECT *
+		FROM "Publisher"
+		WHERE "RemoveDate" = NULL;
 --END

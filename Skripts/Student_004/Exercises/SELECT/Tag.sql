@@ -2,7 +2,7 @@
 
 --SELECT TAG
 	USE "test";
-	SELECT "${YOURATTRIBUTE}"
-		FROM "${YOURTABLE}"
-		WHERE ${YOURCONDITION};
+	SELECT *
+		FROM "Tag"
+		WHERE "Name" = 'Online-PvP' AND	"Name" = 'LAN-PvP';
 --END
