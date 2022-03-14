@@ -49,7 +49,7 @@ Modul 164 bei Herr Dummermuth, MS SQL-Server
 | Platform                           | :heavy_check_mark: | :black_circle:     | :heavy_check_mark: | :x:                |                                           |
 
 ## Kompetenzen
-[Zum Status](Dokumentation/Kompetenzen)
+[Zum Status](Dokumentation/Kompetenzen.xlsx)
 
 ## Gruppenmitglieder
 | ***ID*** | ***Name*** | ***Verzeichnis***              |
