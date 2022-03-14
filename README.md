@@ -29,7 +29,7 @@ Modul 164 bei Herr Dummermuth, MS SQL-Server
 | Customer                           | :heavy_check_mark: | :black_circle:     | :heavy_check_mark: | :x:                |                                           |
 | Address                            | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:                |                                           |
 | City                               | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:                |                                           |
-| Country                            | :heavy_check_mark: | :black_circle:     | :heavy_check_mark: | :x:                | Attribut `Ländervorwahl`                  |
+| Country                            | :heavy_check_mark: | :black_circle:     | :heavy_check_mark: | :x:                |                                           |
 | [Student_002](Skripts/Student_002) | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:                |                                           |
 | OwnedProduct                       | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:                |                                           |
 | Wishlist                           | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:                |                                           |
@@ -43,7 +43,7 @@ Modul 164 bei Herr Dummermuth, MS SQL-Server
 | Payment                            | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:                |                                           |
 | PaymentMethod                      | :heavy_check_mark: | :black_circle:     | :heavy_check_mark: | :x:                |                                           |
 | [Student_004](Skripts/Student_004) | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:                |                                           |
-| Image                              | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:                |                                           |
+| Image                              | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:                | Attribut `Description`                    |
 | Publisher                          | :heavy_check_mark: | :black_circle:     | :heavy_check_mark: | :x:                |                                           |
 | Tag                                | :heavy_check_mark: | :black_circle:     | :heavy_check_mark: | :x:                |                                           |
 | Platform                           | :heavy_check_mark: | :black_circle:     | :heavy_check_mark: | :x:                |                                           |
