@@ -25,7 +25,10 @@
 		--ROW 10
 		  ('New Zealand',NULL);
 
+
+
 	/* Examples:
 	SELECT * FROM "Country" ORDER BY "CountryID" ASC;
+	DELETE FROM "Country"
 	*/
 --END
