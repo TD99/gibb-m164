@@ -4,7 +4,7 @@
 USE "test"; 
 
  BULK INSERT BInsert
-   FROM 'C:\Daten\gibb-m164\Skripts\Student_003\Exercises\covid19.csv'
+   FROM '..\..\..\Zusatzmaterial\covid19.csv'
    WITH (DATAFILETYPE = 'char', 
          FIRSTROW = 2,
          FIELDTERMINATOR = ';',
