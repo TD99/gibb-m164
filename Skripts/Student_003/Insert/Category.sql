@@ -17,7 +17,7 @@
 	  --ROW 6
 		('Adventure','Lebe ein unvergessliches Abenteuer',NULL),
 	  --ROW 7
-		('Sandbox','Spiel mit verschidene Spielfunktionen herum',NULL),
+		('Sandbox','Spiel mit verschiedene Spielfunktionen herum',NULL),
 	  --ROW 8
 		('JumpAndRun','Renne und Springe bis du zum Ende ankommst',NULL),
 	  --ROW 9
@@ -25,6 +25,14 @@
 	  --ROW 10
 		('Puzzle','Loese knifflige Raetsel',NULL); 
 
+
+	
+	    /*  INSERT INTO "Category" ("Name","Description","RemoveDate")
+       OUTPUT inserted."Name" ,inserted."Description" ,inserted."RemoveDate"
+       INTO "Publisher"
+       VALUES('MMO','Cool',NULL), ('Bandai Namco','Cool',NULL)
+       GO*/
+	
 		--DELETE FROM "Category"
 		--SELECT * FROM "Category"
 --END
