@@ -7,7 +7,7 @@ INSERT INTO "OrderItem"("FK_OrderID","FK_ProductID","Quantity","Price")
 	  --ROW 1
 		(1,2,2,52.90), --Uncharted
 	  --ROW 2
-		(2,3,2,23), --Minecraft
+		(2,3,2,23.00), --Minecraft
 	  --ROW 3
 		(2,4,1,59.99), --Assasins Creed Playstation
 	  --ROW 4
@@ -29,5 +29,7 @@ INSERT INTO "OrderItem"("FK_OrderID","FK_ProductID","Quantity","Price")
 	  --ROW 12
 		(9,17,2,19),--Scrap Mechanic
 	  --ROW 13
-		(10,18,1,5);--Among us
+		(10,18,1,5); 
+
+		SELECT * FROM "OrderItem"
 --END

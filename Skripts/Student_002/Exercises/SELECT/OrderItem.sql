@@ -2,7 +2,7 @@
 
 --SELECT ORDERITEM
 	USE "test";
-	SELECT "${YOURATTRIBUTE}"
-		FROM "${YOURTABLE}"
-		WHERE ${YOURCONDITION};
+	SELECT *
+		FROM "OrderItem"
+		WHERE Quantity >= 2;
 --END
