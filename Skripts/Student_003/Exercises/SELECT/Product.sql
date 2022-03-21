@@ -13,11 +13,17 @@
     WHERE "CategoryID" = '3');
 
 
-	
+ --Subquery
  UPDATE "Product"
  SET "FK_CategoryID" = (SELECT "CategoryID" FROM "Category"
  WHERE "CategoryID" = '7')
  WHERE "FK_CategoryID" = (SELECT "CategoryID" FROM "Category"
  WHERE "CategoryID" = '6');
 
+
+ --CheckSumm
+  SELECT CHECKSUM_AGG(CHECKSUM(*))
+  FROM "Product";
+
+  
 --END
