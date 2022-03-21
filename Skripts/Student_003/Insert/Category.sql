@@ -25,6 +25,10 @@
 	  --ROW 10
 		('Puzzle','Loese knifflige Raetsel',NULL); 
 
+	/* USE test;
+	 
+	 INSERT "Category"("Name","Description","RemoveDate")
+	 VALUES ('Strategy','Strategisch eine Schlacht fueren',NULL);*/
 
 	
 	    /*  INSERT INTO "Category" ("Name","Description","RemoveDate")
