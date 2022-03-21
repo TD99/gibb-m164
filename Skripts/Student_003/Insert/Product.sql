@@ -39,5 +39,7 @@
 	  --ROW 17
 		(9,7,2,3,'Scrap Mechanic','asldfjfei','Steige in die kreative Welt con Scrap Mechanic ein!',2016,19,7,NULL),
 	  --ROW 18
-		(10,3,2,3,'Among us','fasfeilali','Finde den Taeter heraus!',2018,5,12,NULL);
+		(10,3,2,3,'Among us','fasfeilali','Finde den Taeter heraus!',2018,5,12,NULL); 
+	  
+	  --SELECT * FROM "Product";
 --END
