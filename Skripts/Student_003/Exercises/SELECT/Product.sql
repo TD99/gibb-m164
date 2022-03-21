@@ -5,17 +5,19 @@
 	SELECT "Name","Description"
 		FROM "Product"
 		WHERE  "ReleaseYear" = 2018; 
- /*USE "test";
-	SELECT "Name", "Price", "MinAge"
- FROM "Product"
- WHERE "FK_CategoryID" = (SELECT "CategoryID" FROM "Category"
- WHERE "CategoryID" = '3');*/
+  
 
-	/*USE "test";
-	UPDATE "Product"
+
+	SELECT * FROM "Product"
+    WHERE "FK_CategoryID" = (SELECT "CategoryID" FROM "Category"
+    WHERE "CategoryID" = '3');
+
+
+	
+ UPDATE "Product"
  SET "FK_CategoryID" = (SELECT "CategoryID" FROM "Category"
- WHERE "Name" = 'RPG')
+ WHERE "CategoryID" = '7')
  WHERE "FK_CategoryID" = (SELECT "CategoryID" FROM "Category"
- WHERE "Name" = 'Sandbox');*/ 
+ WHERE "CategoryID" = '6');
 
 --END
