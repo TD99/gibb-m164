@@ -2,7 +2,7 @@
 
 --SELECT WISHLIST
 	USE "test";
-	SELECT "${YOURATTRIBUTE}"
-		FROM "${YOURTABLE}"
-		WHERE ${YOURCONDITION};
+	SELECT *
+		FROM "Wishlist"
+		WHERE FK_CustomerID = 2;
 --END
