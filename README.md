@@ -38,7 +38,7 @@ Modul 164 bei Herr Dummermuth, MS SQL-Server
 | Coupon                             | :heavy_check_mark: | :black_circle:     | :heavy_check_mark: | :black_circle:     |                                           |
 | [Student_003](Skripts/Student_003) | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :black_circle:     |                                           |
 | Category                           | :heavy_check_mark: | :black_circle:     | :heavy_check_mark: | :black_circle:     |                                           |
-| Product                            | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :black_circle:     | `LicenseHash`                             |
+| Product                            | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :black_circle:     | `PK_ProductID` FK_Product not working     |
 | ProductTag                         | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :black_circle:     |                                           |
 | Payment                            | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :black_circle:     |                                           |
 | PaymentMethod                      | :heavy_check_mark: | :black_circle:     | :heavy_check_mark: | :black_circle:     |                                           |
