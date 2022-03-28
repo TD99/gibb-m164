@@ -5,13 +5,21 @@
 	--FK_OR_CustomerID
 		ALTER TABLE "Order"
 		ADD CONSTRAINT "FK_OR_CustomerID" FOREIGN KEY ("FK_CustomerID")
-		REFERENCES "Customer"("CustomerID");
+		REFERENCES "Customer"("CustomerID")
+		ON UPDATE NO ACTION
+		ON DELETE NO ACTION;
+		
 	--FK_OR_AdressID
 		ALTER TABLE "Order"
 		ADD CONSTRAINT  "FK_OR_AdressID" FOREIGN KEY ("FK_AddressID")
-		REFERENCES "Address"("AddressID");
+		REFERENCES "Address"("AddressID")
+		ON UPDATE NO ACTION
+		ON DELETE NO ACTION;
 	--FK_OR_CouponID
 		ALTER TABLE "Order"
 		ADD CONSTRAINT  "FK_OR_CouponID" FOREIGN KEY ("FK_CouponID")
-		REFERENCES "Coupon"("CouponID");
+		REFERENCES "Coupon"("CouponID")
+		ON UPDATE NO ACTION
+		ON DELETE NO ACTION;
+		
 --END
