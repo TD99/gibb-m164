@@ -10,6 +10,7 @@
 	--FK_CustomerID
 		ALTER TABLE "Address"
 		ADD CONSTRAINT "FK_AD_CustomerID" FOREIGN KEY ("FK_CustomerID")
-		REFERENCES "Customer"("CustomerID");
+		REFERENCES "Customer"("CustomerID")
+		ON DELETE NO ACTION;
 		
 --END

@@ -7,12 +7,14 @@
 	 ALTER TABLE "OwnedProduct"
 	 ADD CONSTRAINT  "FK_OP_CustomerID" FOREIGN KEY ("FK_CustomerID")
 	 REFERENCES "Customer"("CustomerID")
+	 ON DELETE NO ACTION;
 	
 	 
 	
 	 ALTER TABLE "OwnedProduct"
 	 ADD CONSTRAINT "FK_OP_ProductID" FOREIGN KEY ("FK_ProductID")
 	 REFERENCES "Product"("ProductID")
+	 ON DELETE NO ACTION;
 	
 	
 --END

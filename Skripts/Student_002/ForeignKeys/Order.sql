@@ -6,6 +6,7 @@
 		ALTER TABLE "Order"
 		ADD CONSTRAINT "FK_OR_CustomerID" FOREIGN KEY ("FK_CustomerID")
 		REFERENCES "Customer"("CustomerID")
+		ON DELETE NO ACTION;
 		
 	--FK_OR_AdressID
 		ALTER TABLE "Order"
@@ -15,6 +16,7 @@
 	--FK_OR_CouponID
 		ALTER TABLE "Order"
 		ADD CONSTRAINT  "FK_OR_CouponID" FOREIGN KEY ("FK_CouponID")
-		REFERENCES "Coupon"("CouponID");
+		REFERENCES "Coupon"("CouponID")
+		ON DELETE NO ACTION;
 		
 --END
