@@ -9,6 +9,7 @@
 	--FK_OI_ProductID
 		ALTER TABLE "OrderItem"
 		ADD CONSTRAINT "FK_OI_ProductID" FOREIGN KEY ("FK_ProductID")
-		REFERENCES "Product"("ProductID");
+		REFERENCES "Product"("ProductID")
+		ON DELETE NO ACTION;
 
 --END

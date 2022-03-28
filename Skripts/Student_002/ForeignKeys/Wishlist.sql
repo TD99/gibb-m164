@@ -9,6 +9,7 @@
 	--FK_WI_ProductID
 		ALTER TABLE "Wishlist"
 		ADD CONSTRAINT  "FK_WI_ProductID" FOREIGN KEY ("FK_ProductID")
-		REFERENCES "Product"("ProductID");
+		REFERENCES "Product"("ProductID")
+		ON DELETE NO ACTION;
 
 --END

@@ -4,5 +4,6 @@
 	USE "test";
 	ALTER TABLE "City"
 	ADD CONSTRAINT "FK_CI_CountryID" FOREIGN KEY ("FK_CountryID")
-	REFERENCES "Country"("CountryID");
+	REFERENCES "Country"("CountryID")
+	ON DELETE NO ACTION;
 --END
