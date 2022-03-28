@@ -6,11 +6,13 @@
 		ALTER TABLE "Payment"
 		ADD CONSTRAINT "FK_PA_PaymentMethodID" FOREIGN KEY ("FK_PaymentMethodID")
 		REFERENCES "PaymentMethod"("PaymentMethodID")
+		ON UPDATE NO ACTION
 		ON DELETE NO ACTION;
 	--FK_OrderID
 		ALTER TABLE "Payment"
 		ADD CONSTRAINT "FK_PA_OrderID" FOREIGN KEY ("FK_OrderID")
 		REFERENCES "Order"("OrderID")
+		ON UPDATE NO ACTION
 		ON DELETE NO ACTION;
 		
 --END
