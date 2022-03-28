@@ -5,5 +5,7 @@
 	--FK_IM_ProductID
 		ALTER TABLE "Image"
 		ADD CONSTRAINT "FK_IM_ProductID" FOREIGN KEY ("FK_ProductID")
-		REFERENCES "Product"("ProductID");
+		REFERENCES "Product"("ProductID")
+		ON UPDATE NO ACTION
+		ON DELETE NO ACTION;
 --END

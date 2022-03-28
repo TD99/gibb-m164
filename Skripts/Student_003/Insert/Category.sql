@@ -25,12 +25,16 @@
 	  --ROW 10
 		('Puzzle','Loese knifflige Raetsel',NULL); 
 
+	/* USE test;
+	 
+	 INSERT "Category"("Name","Description","RemoveDate")
+	 VALUES ('Strategy','Strategisch eine Schlacht fueren',NULL);*/
 
 	
 	    /*  INSERT INTO "Category" ("Name","Description","RemoveDate")
        OUTPUT inserted."Name" ,inserted."Description" ,inserted."RemoveDate"
        INTO "Publisher"
-       VALUES('MMO','Cool',NULL), ('Bandai Namco','Cool',NULL)
+       VALUES('MMO','Bandai',NULL), ('Bandai Namco','Bandai',NULL)
        GO*/
 	
 		--DELETE FROM "Category"

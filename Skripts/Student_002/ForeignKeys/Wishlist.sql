@@ -5,10 +5,14 @@
 	--FK_WI_CustomerID
 		ALTER TABLE "Wishlist"
 		ADD CONSTRAINT "FK_WI_CustomerID" FOREIGN KEY ("FK_CustomerID")
-		REFERENCES "Customer"("CustomerID");
+		REFERENCES "Customer"("CustomerID")
+		ON UPDATE NO ACTION
+		ON DELETE NO ACTION;
 	--FK_WI_ProductID
 		ALTER TABLE "Wishlist"
 		ADD CONSTRAINT  "FK_WI_ProductID" FOREIGN KEY ("FK_ProductID")
-		REFERENCES "Product"("ProductID");
+		REFERENCES "Product"("ProductID")
+		ON UPDATE NO ACTION
+		ON DELETE NO ACTION;
 
 --END
