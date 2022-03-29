@@ -39,6 +39,8 @@
 	  --ROW 17
 		(17, 'https://cdn.akamai.steamstatic.com/steam/apps/387990/capsule_616x353.jpg?t=1593703247'),	--Scrap mecanic
 	  --ROW 18
-		(18, 'https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_AmongUs.jpg');	--Among us
+		(18, 'https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_AmongUs.jpg');	--Among us 
+
+	  --SELECT * FROM "Image";
 		
 --END

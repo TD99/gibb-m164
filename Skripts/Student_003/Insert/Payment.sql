@@ -25,4 +25,5 @@
 	  --ROW 10
 		(2,10,5);
 	  
+	  --SELECT * FROM "Payment";
 --END

@@ -31,5 +31,5 @@ INSERT INTO "OrderItem"("FK_OrderID","FK_ProductID","Quantity","Price")
 	  --ROW 13
 		(10,18,1,5); 
 
-		SELECT * FROM "OrderItem"
+		--SELECT * FROM "OrderItem"
 --END

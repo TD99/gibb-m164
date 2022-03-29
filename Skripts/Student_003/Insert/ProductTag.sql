@@ -68,5 +68,6 @@ VALUES
 	(17,3),
   --ROW 32
 	(18,2);
-	
+  
+  --SELECT * FROM "ProductTag";
 --END

@@ -38,5 +38,5 @@
        GO*/
 	
 		--DELETE FROM "Category"
-		--SELECT * FROM "Category"
+		--SELECT * FROM "Category";
 --END

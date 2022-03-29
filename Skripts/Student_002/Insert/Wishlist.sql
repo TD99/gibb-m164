@@ -43,5 +43,5 @@ VALUES
 	(5,2),
   --ROW 19
     (10,17);
-		
+  --SELECT * FROM "Wishlist";
 --END

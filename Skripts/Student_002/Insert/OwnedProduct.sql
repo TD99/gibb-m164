@@ -56,4 +56,6 @@
 		(9,8,'DJIEHGNGHE'),
 	  --ROW 26
 		(10,6,'FHKJDUEH7J');
+	  
+	  --SELECT * FROM "OwnedProduct";
 --END
