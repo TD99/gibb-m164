@@ -1,8 +1,0 @@
---DEFALUT USER IDENTIFIER: dro135638 <-- DO NOT MODIFY
-
---SELECT PLATFORM
-	USE "test";
-	SELECT *
-		FROM "Platform"
-		WHERE "Version" = 'XP';
---END

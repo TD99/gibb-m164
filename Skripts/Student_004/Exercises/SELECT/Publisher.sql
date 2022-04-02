@@ -1,8 +1,0 @@
---DEFALUT USER IDENTIFIER: dro135638 <-- DO NOT MODIFY
-
---SELECT PUBLISHER
-	USE "test";
-	SELECT *
-		FROM "Publisher"
-		WHERE "RemoveDate" = NULL;
---END

@@ -1,7 +1,0 @@
---DEFALUT USER IDENTIFIER: olo135597 <-- DO NOT MODIFY
-
---DELETE DATA
-	USE "test";
-	DELETE FROM "PaymentMethod"
-		WHERE "Name" = 'Klarna';
---END

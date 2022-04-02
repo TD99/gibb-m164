@@ -1,8 +1,0 @@
---DEFALUT USER IDENTIFIER: ile135624 <-- DO NOT MODIFY
-
---SELECT ORDERITEM
-	USE "test";
-	SELECT *
-		FROM "OrderItem"
-		WHERE Quantity >= 2;
---END

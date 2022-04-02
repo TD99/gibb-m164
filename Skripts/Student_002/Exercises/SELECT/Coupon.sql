@@ -1,8 +1,0 @@
---DEFALUT USER IDENTIFIER: ile135624 <-- DO NOT MODIFY
-
---SELECT COUPON
-	USE "test";
-	SELECT *
-		FROM "Coupon"
-		WHERE Code = 1344;
---END

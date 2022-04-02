@@ -1,8 +1,0 @@
---DEFALUT USER IDENTIFIER: ile135624 <-- DO NOT MODIFY
-
---SELECT WISHLIST
-	USE "test";
-	SELECT *
-		FROM "Wishlist"
-		WHERE FK_CustomerID = 2;
---END
