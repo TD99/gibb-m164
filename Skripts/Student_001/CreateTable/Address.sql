@@ -10,7 +10,7 @@
 			"Street" VARCHAR(100) NOT NULL,
 			"StreetNr" VARCHAR(30) NOT NULL,
 			"IsPrimaryAddress" BIT,
-			"RemoveDate" DATE,
+			"RemoveDate" DATE
 		);
 	GO
 

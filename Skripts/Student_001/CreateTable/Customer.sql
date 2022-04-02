@@ -12,7 +12,7 @@
 			"Email" VARCHAR(200) NOT NULL,
 			"PhoneHome" VARCHAR(50),
 			"PhoneMobile" VARCHAR(50),
-			"RemoveDate" DATE,
+			"RemoveDate" DATE
 		);
 	GO
 

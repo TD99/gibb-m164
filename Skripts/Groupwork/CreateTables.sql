@@ -1,11 +1,5 @@
---CREATE DATABASE 
-    IF NOT EXISTS(SELECT * FROM sys.databases WHERE name='test')
-        CREATE DATABASE "test";
-    GO
-	USE "test";
---END
-
 --CREATE TABLES
+	USE "test";
 	--CREATE TABLE CUSTOMER
 		IF EXISTS(SELECT * FROM sysobjects WHERE name='Customer' AND xtype='U')
 			DROP TABLE "Customer";
@@ -20,7 +14,7 @@
 				"Email" VARCHAR(200) NOT NULL,
 				"PhoneHome" VARCHAR(50),
 				"PhoneMobile" VARCHAR(50),
-				"RemoveDate" DATE,
+				"RemoveDate" DATE
 			);
 		GO
 	--END
@@ -37,7 +31,7 @@
 				"Street" VARCHAR(100) NOT NULL,
 				"StreetNr" VARCHAR(30) NOT NULL,
 				"IsPrimaryAddress" BIT,
-				"RemoveDate" DATE,
+				"RemoveDate" DATE
 			);
 		GO
 	--END
@@ -52,7 +46,7 @@
 				"FK_CountryID" INT NOT NULL,
 				"ZIPCode" VARCHAR(30) NOT NULL,
 				"Name" VARCHAR(100) NOT NULL,
-				"RemoveDate" DATE,
+				"RemoveDate" DATE
 			);
 		GO
 	--END
@@ -65,7 +59,7 @@
 			CREATE TABLE "Country"(
 				"CountryID" INT PRIMARY KEY IDENTITY,
 				"Name" VARCHAR(100) NOT NULL UNIQUE,
-				"RemoveDate" DATE,
+				"RemoveDate" DATE
 			);
 		GO
 	--END
@@ -78,7 +72,7 @@
 			CREATE TABLE "OwnedProduct"(
 				"FK_CustomerID" INT NOT NULL,
 				"FK_ProductID" INT NOT NULL,
-				"LicenceHash" VARCHAR(30) NOT NULL,
+				"LicenceHash" VARCHAR(30) NOT NULL
 			);
 		GO
 	--END
@@ -90,7 +84,7 @@
 		IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='Wishlist' AND xtype='U')
 			CREATE TABLE "Wishlist"(
 				"FK_CustomerID" INT NOT NULL,
-				"FK_ProductID" INT NOT NULL,
+				"FK_ProductID" INT NOT NULL
 			);
 		GO
 	--END
@@ -105,7 +99,7 @@
 				"FK_ProductID" INT NOT NULL,
 				"Quantity" INT NOT NULL,
 				"Price" SMALLMONEY,
-				"TotalPricePerItem" AS Quantity*Price,
+				"TotalPricePerItem" AS Quantity*Price
 			);
 		GO
 	--END
@@ -123,7 +117,7 @@
 				"BuyDate" Date NOT NULL, 
 				"IsPaid" BIT NOT NULL,
 				"TotalAmount" SMALLMONEY,
-				"TotalBillAmount" SMALLMONEY,
+				"TotalBillAmount" SMALLMONEY
 			);
 		GO
 	--END
@@ -138,7 +132,7 @@
 				"Code" VARCHAR(50) NOT NULL UNIQUE,
 				"StartDate" DATE NOT NULL,
 				"EndDate" DATE,
-				"Percentage" REAL NOT NULL,
+				"Percentage" REAL NOT NULL
 			);
 		GO
 	--END
@@ -152,7 +146,7 @@
 				"CategoryID" INT PRIMARY KEY IDENTITY,
 				"Name" VARCHAR(50) NOT NULL UNIQUE,
 				"Description" VARCHAR(500),
-				"RemoveDate" DATE,
+				"RemoveDate" DATE
 			);
 		GO
 	--END
@@ -174,7 +168,7 @@
 				"ReleaseYear" SMALLINT,
 				"Price" SMALLMONEY NOT NULL,
 				"MinAge" TINYINT NOT NULL,
-				"RemoveDate" DATE,
+				"RemoveDate" DATE
 			);
 		GO
 	--END
@@ -186,7 +180,7 @@
 		IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='ProductTag' AND xtype='U')
 			CREATE TABLE "ProductTag"(
 				"FK_ProductID" INT NOT NULL,
-				"FK_TagID" INT NOT NULL,
+				"FK_TagID" INT NOT NULL
 			);
 		GO
 	--END
@@ -200,7 +194,7 @@
 				"PaymentID" INT PRIMARY KEY IDENTITY,
 				"FK_PaymentMethodID" INT NOT NULL,
 				"FK_OrderID" INT NOT NULL,
-				"Amount" SMALLMONEY NOT NULL,
+				"Amount" SMALLMONEY NOT NULL
 			);
 		GO
 	--END
@@ -213,7 +207,7 @@
 			CREATE TABLE "PaymentMethod"(
 				"PaymentMethodID" INT PRIMARY KEY IDENTITY,
 				"Name" VARCHAR(50) NOT NULL UNIQUE,
-				"RemoveDate" DATE,
+				"RemoveDate" DATE
 			);
 		GO
 	--END
@@ -226,7 +220,7 @@
 			CREATE TABLE "Image"(
 				"ImageID" INT PRIMARY KEY IDENTITY,
 				"FK_ProductID" INT,
-				"ImageURL" NVARCHAR(300) NOT NULL,
+				"ImageURL" NVARCHAR(300) NOT NULL
 			);
 		GO
 	--END
@@ -240,7 +234,7 @@
 				"PublisherID" INT PRIMARY KEY IDENTITY,
 				"Name" VARCHAR(50) NOT NULL,
 				"Website" NVARCHAR(300),
-				"RemoveDate" DATE,
+				"RemoveDate" DATE
 			);
 		GO
 	--END
@@ -252,7 +246,7 @@
 		IF NOT EXISTS(SELECT * FROM sysobjects WHERE name='Tag' AND xtype='U')
 			CREATE TABLE "Tag"(
 				"TagID" INT PRIMARY KEY IDENTITY,
-				"Name" VARCHAR(50) NOT NULL,
+				"Name" VARCHAR(50) NOT NULL
 			);
 		GO
 	--END
@@ -266,7 +260,7 @@
 				"PlatformID" INT PRIMARY KEY IDENTITY,
 				"Name" VARCHAR(50) NOT NULL,
 				"Version" VARCHAR(30),
-				"RemoveDate" DATE,
+				"RemoveDate" DATE
 			);
 		GO
 	--END
