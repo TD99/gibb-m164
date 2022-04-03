@@ -21,7 +21,7 @@ Modul 164 bei Herr Dummermuth, MS SQL-Server
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:white_check_mark: [Logisch](Konzepte/Datenmodell-Logisch.png?raw=1)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:white_check_mark: [Physisch](Konzepte/Datenmodell-Physisch.png?raw=1)  
 
-:orange_circle: Skripts   
+:white_check_mark: Skripts   
 | ***Name***                         | ***CREATE TABLE*** | ***ForeignKeys***     | ***INSERT***       | ***TRIGGERS***        | ***TO-DO***        |
 | :--------------------------------- | :----------------- | :-------------------- | :----------------- | :-------------------- | :----------------- |
 | [Groupwork](Skripts/Groupwork)     | :white_check_mark: | :white_check_mark:    | :white_check_mark: | :white_square_button: |                    |
