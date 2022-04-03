@@ -24,7 +24,7 @@ Modul 164 bei Herr Dummermuth, MS SQL-Server
 :orange_circle: Skripts   
 | ***Name***                         | ***CREATE TABLE*** | ***ForeignKeys***  | ***INSERT***       | ***TRIGGERS***     | ***TO-DO***                               |
 | :--------------------------------- | :----------------- | :----------------- | :----------------- | :----------------- | :---------------------------------------- |
-| [Groupwork](Skripts/Groupwork)     | :white_check_mark: | :x:                | :x:                | :black_circle:     |                                           |
+| [Groupwork](Skripts/Groupwork)     | :white_check_mark: | :white_check_mark: | :white_check_mark: | :black_circle:     |                                           |
 | [Student_001](Skripts/Student_001) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :black_circle:     |                                           |
 | Customer                           | :white_check_mark: | :black_circle:     | :white_check_mark: | :black_circle:     |                                           |
 | Address                            | :white_check_mark: | :white_check_mark: | :white_check_mark: | :black_circle:     |                                           |
