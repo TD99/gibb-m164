@@ -48,13 +48,7 @@ Modul 164 bei Herr Dummermuth, MS SQL-Server
 | Tag                                | :white_check_mark: | :white_square_button: | :white_check_mark: | :white_square_button: |                    |
 | Platform                           | :white_check_mark: | :white_square_button: | :white_check_mark: | :white_square_button: |                    |
 
-## Probleme und Fehler
-- Insert bei FKs bei Student_003
-
-## Kompetenzen
-[Zum Status](Dokumentation/Kompetenzen.xlsx)
-
-## Gruppenmitglieder
+## Übungsverzeichnisse
 | ***ID*** | ***Name*** | ***Verzeichnis***              |
 | :------- | :--------- | :----------------------------- |
 | 001      | Tim D.     | [Gehe zu](Skripts/Student_001) |
@@ -69,6 +63,6 @@ Modul 164 bei Herr Dummermuth, MS SQL-Server
 - GitHub
   - [Webseite](https://github.com/)
   - [Desktop-App](https://github.com/desktop/desktop#where-can-i-get-it)
-- Tabnine
-  - [Webseite](https://www.tabnine.com/)
-  - [Addon for VS Code](https://www.tabnine.com/install/vscode)
+- VSCode
+  - [Webseite](https://vscode.dev/)
+  - [Desktop-App](https://code.visualstudio.com/)
