@@ -24,29 +24,29 @@ Modul 164 bei Herr Dummermuth, MS SQL-Server
 :orange_circle: Skripts   
 | ***Name***                         | ***CREATE TABLE*** | ***ForeignKeys***  | ***INSERT***       | ***TRIGGERS***     | ***TO-DO***                               |
 | :--------------------------------- | :----------------- | :----------------- | :----------------- | :----------------- | :---------------------------------------- |
-| [Groupwork](Skripts/Groupwork)     | :white_check_mark: | :white_check_mark: | :white_check_mark: | :black_circle:     |                                           |
-| [Student_001](Skripts/Student_001) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :black_circle:     |                                           |
-| Customer                           | :white_check_mark: | :black_circle:     | :white_check_mark: | :black_circle:     |                                           |
-| Address                            | :white_check_mark: | :white_check_mark: | :white_check_mark: | :black_circle:     |                                           |
-| City                               | :white_check_mark: | :white_check_mark: | :white_check_mark: | :black_circle:     |                                           |
-| Country                            | :white_check_mark: | :black_circle:     | :white_check_mark: | :black_circle:     |                                           |
-| [Student_002](Skripts/Student_002) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :black_circle:     |                                           |
-| OwnedProduct                       | :white_check_mark: | :white_check_mark: | :white_check_mark: | :black_circle:     |                                           |
-| Wishlist                           | :white_check_mark: | :white_check_mark: | :white_check_mark: | :black_circle:     |                                           |
-| OrderItem                          | :white_check_mark: | :white_check_mark: | :white_check_mark: | :black_circle:     |                                           |
-| Order                              | :white_check_mark: | :white_check_mark: | :white_check_mark: | :black_circle:     |                                           |
-| Coupon                             | :white_check_mark: | :black_circle:     | :white_check_mark: | :black_circle:     |                                           |
-| [Student_003](Skripts/Student_003) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :black_circle:     |                                           |
-| Category                           | :white_check_mark: | :black_circle:     | :white_check_mark: | :black_circle:     |                                           |
-| Product                            | :white_check_mark: | :white_check_mark: | :white_check_mark: | :black_circle:     | `PK_ProductID` FK_Product not working     |
-| ProductTag                         | :white_check_mark: | :white_check_mark: | :white_check_mark: | :black_circle:     |                                           |
-| Payment                            | :white_check_mark: | :white_check_mark: | :white_check_mark: | :black_circle:     |                                           |
-| PaymentMethod                      | :white_check_mark: | :black_circle:     | :white_check_mark: | :black_circle:     |                                           |
-| [Student_004](Skripts/Student_004) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :black_circle:     |                                           |
-| Image                              | :white_check_mark: | :white_check_mark: | :white_check_mark: | :black_circle:     | Attribut `Description`                    |
-| Publisher                          | :white_check_mark: | :black_circle:     | :white_check_mark: | :black_circle:     |                                           |
-| Tag                                | :white_check_mark: | :black_circle:     | :white_check_mark: | :black_circle:     |                                           |
-| Platform                           | :white_check_mark: | :black_circle:     | :white_check_mark: | :black_circle:     |                                           |
+| [Groupwork](Skripts/Groupwork)     | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_square_button:     |                                           |
+| [Student_001](Skripts/Student_001) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_square_button:     |                                           |
+| Customer                           | :white_check_mark: | :white_square_button:     | :white_check_mark: | :white_square_button:     |                                           |
+| Address                            | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_square_button:     |                                           |
+| City                               | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_square_button:     |                                           |
+| Country                            | :white_check_mark: | :white_square_button:     | :white_check_mark: | :white_square_button:     |                                           |
+| [Student_002](Skripts/Student_002) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_square_button:     |                                           |
+| OwnedProduct                       | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_square_button:     |                                           |
+| Wishlist                           | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_square_button:     |                                           |
+| OrderItem                          | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_square_button:     |                                           |
+| Order                              | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_square_button:     |                                           |
+| Coupon                             | :white_check_mark: | :white_square_button:     | :white_check_mark: | :white_square_button:     |                                           |
+| [Student_003](Skripts/Student_003) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_square_button:     |                                           |
+| Category                           | :white_check_mark: | :white_square_button:     | :white_check_mark: | :white_square_button:     |                                           |
+| Product                            | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_square_button:     | `PK_ProductID` FK_Product not working     |
+| ProductTag                         | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_square_button:     |                                           |
+| Payment                            | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_square_button:     |                                           |
+| PaymentMethod                      | :white_check_mark: | :white_square_button:     | :white_check_mark: | :white_square_button:     |                                           |
+| [Student_004](Skripts/Student_004) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_square_button:     |                                           |
+| Image                              | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_square_button:     | Attribut `Description`                    |
+| Publisher                          | :white_check_mark: | :white_square_button:     | :white_check_mark: | :white_square_button:     |                                           |
+| Tag                                | :white_check_mark: | :white_square_button:     | :white_check_mark: | :white_square_button:     |                                           |
+| Platform                           | :white_check_mark: | :white_square_button:     | :white_check_mark: | :white_square_button:     |                                           |
 
 ## Probleme und Fehler
 - Insert bei FKs bei Student_003
