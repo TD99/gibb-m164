@@ -12,9 +12,9 @@ Modul 164 bei Herr Dummermuth, MS SQL-Server
   - [Datenmodell-Physisch](Konzepte/Datenmodell-Physisch.png?raw=1)
 - [Skripts](Skripts)
   - [Groupwork](Skripts/Groupwork)
-    - [Übungen](Skripts/Groupwork/0_Exercises)
-    - [Übungsdatenbank](Skripts/Groupwork/1_Debug)
-    - [Fertige Datenbank](Skripts/Groupwork/2_Release)
+    - ***[Übungen](Skripts/Groupwork/0_Exercises)***
+    - ***[Übungsdatenbank](Skripts/Groupwork/1_Debug)***
+    - ***[Fertige Datenbank](Skripts/Groupwork/2_Release)***
   - [Benutzerverzeichnisse](#benutzerverzeichnisse)
 
 ## Status
