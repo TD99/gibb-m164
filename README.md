@@ -15,7 +15,7 @@ Modul 164 bei Herr Dummermuth, MS SQL-Server
     - [Übungen](Skripts/Groupwork/0_Exercises)
     - [Übungsdatenbank](Skripts/Groupwork/1_Debug)
     - [Fertige Datenbank](Skripts/Groupwork/2_Release)
-  - [Benutzerverzeichnisse](#übungsverzeichnisse)
+  - [Benutzerverzeichnisse](#benutzerverzeichnisse)
 
 ## Status
 :white_check_mark: [Konzepte](Konzepte/)  
