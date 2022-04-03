@@ -4,11 +4,11 @@
 		INSERT INTO "Customer"("FirstName","LastName","Birthday","Gender","Email","PhoneHome","PhoneMobile","RemoveDate")
 		VALUES
 			--ROW 1
-			('Izaak','Riley','2017-06-09','m','izaak.riley@goodmail.com','+45543466576',NULL,NULL),
+			('Izaak','Riley','2017-06-09','d','izaak.riley@goodmail.com','+45543466576',NULL,NULL),
 			--ROW 2
 			('Melanie','Wannemaker','1950-04-20','f','melanie.wannemaker@einrot.com','+41315219062',NULL,NULL),
 			--ROW 3
-			('Teresio','Greece','1999-02-02','d','teresio.greece@cuvox.it',NULL,'+393609230031',NULL),
+			('Teresio','Greece','1999-02-02','m','teresio.greece@cuvox.it',NULL,'+393609230031',NULL),
 			--ROW 4
 			('Ishin','Kumagai','2001-06-01','m','ishin.kumagai@salessquad.com',NULL,NULL,'2020-10-03'),
 			--ROW 5
@@ -22,7 +22,7 @@
 			--ROW 9
 			('Ghenet','Underhill','1983-12-31','f','underhill.ghenet@survivalzoo.nz',NULL,NULL,'2022-02-12'),
 			--ROW 10
-			('Lavinia','Underhill','1985-04-01','d','lavinia@langschool.nz',NULL,NULL,NULL);
+			('Lavinia','Underhill','1985-04-01','f','lavinia@langschool.nz',NULL,NULL,NULL);
 	--END
 
 	--INSERT INTO COUNTRY
@@ -64,7 +64,7 @@
 			--ROW 5
 			(5,'94122','San Francisco',NULL),
 			--ROW 6
-			(6,'CB2 2JE','Huffinson','2022-03-01'), 
+			(6,'CB2 2JE','Huffinson','2022-03-01'),
 			--ROW 7
 			(7,'3232','Ins',NULL),
 			--ROW 8
@@ -108,50 +108,50 @@
 		INSERT INTO "Coupon"("Code","StartDate","EndDate","Percentage")
 		VALUES
 		--ROW 1
-		(1348,'2019-06-03','2023-06-02',2.00),
+		('beginner-6742','2019-06-03',NULL,2.00),
 		--ROW 2
-		(1355,'2019-07-03','2023-03-07',2.50),
+		('10games-8654','2019-07-03',NULL,5.00),
 		--ROW 3
-		(1387,'2019-03-08','2023-10-20',4.30),
+		('50games-9632','2019-03-08',NULL,17.00),
 		--ROW 4
-		(13486,'2019-04-03','2023-02-24',10.00),
+		('10days-4853','2019-04-03',NULL,15.00),
 		--ROW 5
-		(14544,'2019-06-03','2023-12-03',2.60),
+		('summer2019-5832','2019-06-01','2019-08-31',7.60),
 		--ROW 6
-		(14547,'2019-03-07','2023-10-09',14.00),
+		('vip-3847','2019-03-07',NULL,33.00),
 		--ROW 7
-		(19364,'2019-09-03','2023-11-30',22.00),
+		('vipplus-0943','2019-10-10',NULL,50.00),
 		--ROW 8
-		(10425,'2019-03-02','2023-12-04',11.00),
+		('cybermonday2019-4932','2019-11-29','2019-11-29',17.00),
 		--ROW 9
-		(17838,'2019-10-10','2023-01-12',23.20),
+		('blackfridayweek2019-3749','2021-11-22','2021-11-26',24.00),
 		--ROW 10
-		(18144,'2019-04-06','2023-06-05',13.20);
+		('20years-5921','2019-01-01','2019-01-01',13.20);
 	--END
 
 	--INSERT INTO ORDER
 		INSERT INTO "Order"("FK_CustomerID","FK_AddressID","FK_CouponID","BuyDate","IsPaid","TotalAmount","TotalBillAmount")
 		VALUES
 		--ROW 1
-		(1,1,1,'2020-03-03',1,105.8,103.68),
+		(1,1,1,'2020-03-03',1,105.80,103.68),
 		--ROW 2
-		(2,2,3,'2020-05-05',1,105.99,101.43),
+		(2,2,3,'2020-05-05',1,105.99,87.97),
 		--ROW 3
-		(3,5,2,'2020-06-02',0,80,78.00),
+		(3,5,2,'2020-06-02',0,80.00,76.00),
 		--ROW 4
-		(4,4,NULL,'2020-08-02',1,160,160),
+		(4,4,NULL,'2020-08-02',1,160.00,160.00),
 		--ROW 5
-		(5,3,6,'2022-01-15',1,362.2,311.49),
+		(5,3,6,'2022-01-15',1,362.20,242.76),
 		--ROW 6
-		(6,6,4,'2019-08-14',1,40,36),
+		(6,6,4,'2019-08-14',1,40.00,34.00),
 		--ROW 7
-		(7,1,3,'2020-08-15',0,240,229.68),
+		(7,1,3,'2020-08-15',0,240.00,199.20),
 		--ROW 8
 		(8,7,NULL,'2020-02-08',1,52.90,52.90),
 		--ROW 9
-		(9,8,1,'2021-04-19',1,38,37.24),
+		(9,8,1,'2021-04-19',1,38.00,37.24),
 		--ROW 10
-		(10,10,NULL,'2022-09-09',1,5,5);
+		(10,10,NULL,'2022-09-09',1,5.00,5.00);
 	--END
 
 	--INSERT INTO CATEGORY
@@ -166,13 +166,13 @@
 		--ROW 4
 		('Sim','Man baut sich seine eigene Stadt',NULL),
 		--ROW 5
-		('FightingGame','Es ist meistens ein 2d Kampfspiel mit faeusten',NULL),
+		('FightingGame','Es ist meistens ein 2d Kampfspiel mit Faeusten',NULL),
 		--ROW 6
 		('Adventure','Lebe ein unvergessliches Abenteuer',NULL),
 		--ROW 7
-		('Sandbox','Spiel mit verschiedene Spielfunktionen herum',NULL),
+		('Sandbox','Spiel mit verschiedenen Spielfunktionen herum',NULL),
 		--ROW 8
-		('JumpAndRun','Renne und Springe bis du zum Ende ankommst',NULL),
+		('JumpAndRun','Renne und springe zum Ende',NULL),
 		--ROW 9
 		('RPG','Ein Rollenspiel wo man rundenbasiert Aktionen durchfuehrt',NULL),
 		--ROW 10
@@ -201,7 +201,7 @@
 		--ROW 9
 		('Vorkasse',NULL),
 		--ROW 10
-		('Payment Service Provider', NULL);
+		('Payment Service Provider',NULL);
 	--END
 
 	--INSERT INTO PAYMENT
@@ -210,23 +210,23 @@
 		--ROW 1
 		(1,1,103.68),
 		--ROW 2
-		(9,2,101.43),
+		(9,2,87.97),
 		--ROW 3
-		(5,3,78.00),
+		(5,3,76.00),
 		--ROW 4
-		(4,4,160),
+		(4,4,160.00),
 		--ROW 5
-		(3,5,311.49),
+		(3,5,242.76),
 		--ROW 6
-		(10,6,36),
+		(10,6,34.00),
 		--ROW 7
-		(2,7,229.68),
+		(2,7,199.20),
 		--ROW 8
 		(6,8,52.90),
 		--ROW 9
 		(7,9,37.24),
 		--ROW 10
-		(2,10,5);
+		(2,10,5.00);
 	--END
 
 	--INSERT INTO PUBLISHER
@@ -349,17 +349,17 @@
 		INSERT INTO "Image"("FK_ProductID","ImageURL")
 		VALUES
 		--ROW 1
-		(1, 'https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_SuperSmashBrosUltimate_02_image1600w.jpg'),	--smash bros
+		(1,'https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_SuperSmashBrosUltimate_02_image1600w.jpg'),	--smash bros
 		--ROW 2
-		(2, 'https://image.api.playstation.com/vulcan/ap/rnd/202111/2001/9Vdas199J3tqxTIBWGijbpjW.png'),	--uncharted
+		(2,'https://image.api.playstation.com/vulcan/ap/rnd/202111/2001/9Vdas199J3tqxTIBWGijbpjW.png'),	--uncharted
 		--ROW 3
-		(3, 'https://www.minecraft.net/content/dam/games/minecraft/key-art/Minecraft-xbox-one.jpg'),	--minecraft java edition
+		(3,'https://www.minecraft.net/content/dam/games/minecraft/key-art/Minecraft-xbox-one.jpg'),	--minecraft java edition
 		--ROW 4
-		(4, 'https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6ATMRpo1frFP3DbIeyi9St/722d172a54dcb47a415f0d23092e194c/AC_CrossoverStories_KA_960x540_DE.jpg'),	--Assassin's creed
+		(4,'https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6ATMRpo1frFP3DbIeyi9St/722d172a54dcb47a415f0d23092e194c/AC_CrossoverStories_KA_960x540_DE.jpg'),	--Assassin's creed
 		--ROW 5
-		(5, 'https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6ATMRpo1frFP3DbIeyi9St/722d172a54dcb47a415f0d23092e194c/AC_CrossoverStories_KA_960x540_DE.jpg'),	--Assassin's creed
+		(5,'https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6ATMRpo1frFP3DbIeyi9St/722d172a54dcb47a415f0d23092e194c/AC_CrossoverStories_KA_960x540_DE.jpg'),	--Assassin's creed
 		--ROW 6
-		(6, 'https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6ATMRpo1frFP3DbIeyi9St/722d172a54dcb47a415f0d23092e194c/AC_CrossoverStories_KA_960x540_DE.jpg'),	--Assassin's creed
+		(6,'https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6ATMRpo1frFP3DbIeyi9St/722d172a54dcb47a415f0d23092e194c/AC_CrossoverStories_KA_960x540_DE.jpg'),	--Assassin's creed
 		--ROW 7
 		(7,'https://image.api.playstation.com/vulcan/img/rnd/202105/1714/WHeOu95nW2SZQy6H5IKgE2Bg.png'),	--Jedi fallen order
 		--ROW 8
@@ -367,11 +367,11 @@
 		--ROW 9
 		(9,'https://image.api.playstation.com/vulcan/img/rnd/202105/1714/WHeOu95nW2SZQy6H5IKgE2Bg.png'),	--Jedi fallen order
 		--ROW 10
-		(10, 'https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3ynMy93xlHyh1KG0U3NEmZ/5eee306e21753242ea88b027fe24f148/wd2-ubicom-game_info-connect_with_friends-v1.jpg'),	--Watch Dogs
+		(10,'https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3ynMy93xlHyh1KG0U3NEmZ/5eee306e21753242ea88b027fe24f148/wd2-ubicom-game_info-connect_with_friends-v1.jpg'),	--Watch Dogs
 		--ROW 11
-		(11, 'https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3ynMy93xlHyh1KG0U3NEmZ/5eee306e21753242ea88b027fe24f148/wd2-ubicom-game_info-connect_with_friends-v1.jpg'),	--Watch Dogs
+		(11,'https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3ynMy93xlHyh1KG0U3NEmZ/5eee306e21753242ea88b027fe24f148/wd2-ubicom-game_info-connect_with_friends-v1.jpg'),	--Watch Dogs
 		--ROW 12
-		(12, 'https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3ynMy93xlHyh1KG0U3NEmZ/5eee306e21753242ea88b027fe24f148/wd2-ubicom-game_info-connect_with_friends-v1.jpg'),	--Watch Dogs
+		(12,'https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3ynMy93xlHyh1KG0U3NEmZ/5eee306e21753242ea88b027fe24f148/wd2-ubicom-game_info-connect_with_friends-v1.jpg'),	--Watch Dogs
 		--ROW 13
 		(13,'https://m.media-amazon.com/images/I/81AwSLaEBpL._SL1500_.jpg'),	--sonic mania
 		--ROW 14
@@ -379,11 +379,11 @@
 		--ROW 15
 		(15,'https://m.media-amazon.com/images/I/81AwSLaEBpL._SL1500_.jpg'),	--sonic mania
 		--ROW 16
-		(16, 'https://pbs.twimg.com/media/EwiL0COXMAQzLgZ.jpg'),	--terraformers
+		(16,'https://pbs.twimg.com/media/EwiL0COXMAQzLgZ.jpg'),	--terraformers
 		--ROW 17
-		(17, 'https://cdn.akamai.steamstatic.com/steam/apps/387990/capsule_616x353.jpg?t=1593703247'),	--Scrap mecanic
+		(17,'https://cdn.akamai.steamstatic.com/steam/apps/387990/capsule_616x353.jpg?t=1593703247'),	--Scrap mecanic
 		--ROW 18
-		(18, 'https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_AmongUs.jpg');	--Among us 
+		(18,'https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_AmongUs.jpg');	--Among us 
 	--END
 
 	--INSERT INTO OWNEDPRODUCT
