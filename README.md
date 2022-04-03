@@ -12,7 +12,10 @@ Modul 164 bei Herr Dummermuth, MS SQL-Server
   - [Datenmodell-Physisch](Konzepte/Datenmodell-Physisch.png?raw=1)
 - [Skripts](Skripts)
   - [Groupwork](Skripts/Groupwork)
-  - [Student_001 - 004](#gruppenskripts)
+    - [Übungen](Skripts/Groupwork/0_Exercises)
+    - [Übungsdatenbank](Skripts/Groupwork/1_Debug)
+    - [Fertige Datenbank](Skripts/Groupwork/2_Release)
+  - [Benutzerverzeichnisse](#übungsverzeichnisse)
 
 ## Status
 :white_check_mark: [Konzepte](Konzepte/)  
@@ -48,7 +51,7 @@ Modul 164 bei Herr Dummermuth, MS SQL-Server
 | Tag                                | :white_check_mark: | :white_square_button: | :white_check_mark: | :white_square_button: |                    |
 | Platform                           | :white_check_mark: | :white_square_button: | :white_check_mark: | :white_square_button: |                    |
 
-## Übungsverzeichnisse
+## Benutzerverzeichnisse
 | ***ID*** | ***Name*** | ***Verzeichnis***              |
 | :------- | :--------- | :----------------------------- |
 | 001      | Tim D.     | [Gehe zu](Skripts/Student_001) |
