@@ -1,7 +1,158 @@
---DATABASE
-	USE "test";
---END
-
 --FOREIGN KEYS
+	USE "test";
+	--ADDRESS
+		--FK_CustomerID
+			ALTER TABLE "Address"
+			ADD CONSTRAINT "FK_AD_CustomerID" FOREIGN KEY ("FK_CustomerID")
+			REFERENCES "Customer"("CustomerID")
+			ON UPDATE NO ACTION
+			ON DELETE NO ACTION;
+		--FK_CityID
+			ALTER TABLE "Address"
+			ADD CONSTRAINT "FK_AD_CityID" FOREIGN KEY ("FK_CityID")
+			REFERENCES "City"("CityID")
+			ON UPDATE NO ACTION
+			ON DELETE NO ACTION;
+	--END
 
+	--CITY
+		--FK_CountryID
+			ALTER TABLE "City"
+			ADD CONSTRAINT "FK_CI_CountryID" FOREIGN KEY ("FK_CountryID")
+			REFERENCES "Country"("CountryID")
+			ON UPDATE NO ACTION
+			ON DELETE NO ACTION;
+	--END
+
+	--OWNEDPRODUCT
+		--FK_CustomerID
+			ALTER TABLE "OwnedProduct"
+			ADD CONSTRAINT  "FK_OP_CustomerID" FOREIGN KEY ("FK_CustomerID")
+			REFERENCES "Customer"("CustomerID")
+			ON UPDATE NO ACTION
+			ON DELETE NO ACTION;
+		--FK_ProductID
+			ALTER TABLE "OwnedProduct"
+			ADD CONSTRAINT "FK_OP_ProductID" FOREIGN KEY ("FK_ProductID")
+			REFERENCES "Product"("ProductID")
+			ON UPDATE NO ACTION
+			ON DELETE NO ACTION;
+	--END
+
+	--WISHLIST
+		--FK_CustomerID
+			ALTER TABLE "Wishlist"
+			ADD CONSTRAINT "FK_WI_CustomerID" FOREIGN KEY ("FK_CustomerID")
+			REFERENCES "Customer"("CustomerID")
+			ON UPDATE NO ACTION
+			ON DELETE NO ACTION;
+		--FK_ProductID
+			ALTER TABLE "Wishlist"
+			ADD CONSTRAINT  "FK_WI_ProductID" FOREIGN KEY ("FK_ProductID")
+			REFERENCES "Product"("ProductID")
+			ON UPDATE NO ACTION
+			ON DELETE NO ACTION;
+	--END
+
+	--ORDERITEM
+		--FK_OrderID
+			ALTER TABLE "OrderItem"
+			ADD CONSTRAINT  "FK_OI_OrderID" FOREIGN KEY ("FK_OrderID")
+			REFERENCES "Order"("OrderID")
+			ON UPDATE NO ACTION
+			ON DELETE NO ACTION;
+		--FK_ProductID
+			ALTER TABLE "OrderItem"
+			ADD CONSTRAINT "FK_OI_ProductID" FOREIGN KEY ("FK_ProductID")
+			REFERENCES "Product"("ProductID")
+			ON UPDATE NO ACTION
+			ON DELETE NO ACTION;
+	--END
+
+	--ORDER
+		--FK_CustomerID
+			ALTER TABLE "Order"
+			ADD CONSTRAINT "FK_OR_CustomerID" FOREIGN KEY ("FK_CustomerID")
+			REFERENCES "Customer"("CustomerID")
+			ON UPDATE NO ACTION
+			ON DELETE NO ACTION;
+		--FK_AdressID
+			ALTER TABLE "Order"
+			ADD CONSTRAINT  "FK_OR_AdressID" FOREIGN KEY ("FK_AddressID")
+			REFERENCES "Address"("AddressID")
+			ON UPDATE NO ACTION
+			ON DELETE NO ACTION;
+		--FK_CouponID
+			ALTER TABLE "Order"
+			ADD CONSTRAINT  "FK_OR_CouponID" FOREIGN KEY ("FK_CouponID")
+			REFERENCES "Coupon"("CouponID")
+			ON UPDATE NO ACTION
+			ON DELETE NO ACTION;
+	--END
+
+	--PRODUCT
+		--FK_PublisherID
+			ALTER TABLE "Product"
+			ADD CONSTRAINT  "FK_PR_PublisherID" FOREIGN KEY ("FK_PublisherID")
+			REFERENCES "Publisher"("PublisherID")
+			ON UPDATE NO ACTION
+			ON DELETE NO ACTION;
+		--FK_CategoryID
+			ALTER TABLE "Product"
+			ADD CONSTRAINT "FK_PR_CategoryID" FOREIGN KEY ("FK_CategoryID")
+			REFERENCES "Category"("CategoryID")
+			ON UPDATE NO ACTION
+			ON DELETE NO ACTION;
+		--FK_MinPlatform
+			ALTER TABLE "Product"
+			ADD CONSTRAINT "FK_PR_MinPlatform" FOREIGN KEY ("FK_MinPlatform")
+			REFERENCES "Platform"("PlatformID")
+			ON UPDATE NO ACTION
+			ON DELETE NO ACTION;
+		--FK_MaxPlatform
+			ALTER TABLE "Product"
+			ADD CONSTRAINT "FK_PR_MaxPlatform" FOREIGN KEY ("FK_MaxPlatform")
+			REFERENCES "Platform"("PlatformID")
+			ON UPDATE NO ACTION
+			ON DELETE NO ACTION;
+	--END
+
+	--PRODUCTTAG
+		--FK_ProductID
+			ALTER TABLE "ProductTag"
+			ADD CONSTRAINT "FK_PT_ProductID" FOREIGN KEY ("FK_ProductID")
+			REFERENCES "Product"("ProductID")
+			ON UPDATE NO ACTION
+			ON DELETE NO ACTION;
+		--FK_TagID
+			ALTER TABLE "ProductTag"
+			ADD CONSTRAINT "FK_PT_TagID" FOREIGN KEY ("FK_TagID")
+			REFERENCES "Tag"("TagID")
+			ON UPDATE NO ACTION
+			ON DELETE NO ACTION;
+	--END
+
+	--PAYMENT
+		--FK_PaymentMethodID
+			ALTER TABLE "Payment"
+			ADD CONSTRAINT "FK_PA_PaymentMethodID" FOREIGN KEY ("FK_PaymentMethodID")
+			REFERENCES "PaymentMethod"("PaymentMethodID")
+			ON UPDATE NO ACTION
+			ON DELETE NO ACTION;
+		--FK_OrderID
+			ALTER TABLE "Payment"
+			ADD CONSTRAINT "FK_PA_OrderID" FOREIGN KEY ("FK_OrderID")
+			REFERENCES "Order"("OrderID")
+			ON UPDATE NO ACTION
+			ON DELETE NO ACTION;
+	--END
+
+	--IMAGE
+		--FK_ProductID
+			ALTER TABLE "Image"
+			ADD CONSTRAINT "FK_IM_ProductID" FOREIGN KEY ("FK_ProductID")
+			REFERENCES "Product"("ProductID")
+			ON UPDATE NO ACTION
+			ON DELETE NO ACTION;
+	--END
 --END
