@@ -308,41 +308,41 @@
 		INSERT INTO "Product"("FK_PublisherID","FK_CategoryID","FK_MinPlatform","FK_MaxPlatform","Name","DownloadURL","Description","ReleaseYear","Price","MinAge","RemoveDate")
 		VALUES
 		--ROW 1
-		(1,5,10,10,'Super Smash bros Ultimate','fs-prod-cdn.nintendo-europe.com','Trage Kaempfe mit Nintendo Charakter aus!',2018,80,12,NULL),
+		(1,5,10,10,'Super Smash Bros Ultimate','https://www.smashbros.com/de_DE/','Trage Kaempfe mit Nintendo Charakter aus!',2018,80,12,NULL),
 		--ROW 2
-		(2,6,6,7,'Uncharted: Legacy of Thieves','store.playstation.com','Erlebe ein gefaehrliches Abenteuer mit einer krassen Story',2022,52.90,16,NULL),
+		(2,6,6,7,'Uncharted: Legacy of Thieves','https://www.playstation.com/de-ch/games/uncharted-legacy-of-thieves-collection/','Erlebe ein gefaehrliches Abenteuer mit einer krassen Story',2022,52.90,16,NULL),
 		--ROW 3
-		(4,7,1,3,'Minecraft Java Edition','minecraft.net\asdfiselrj','Baue deine eigene Welt',2009,23.00,10,NULL),
+		(4,7,1,3,'Minecraft Java Edition','https://www.minecraft.net/download','Baue deine eigene Welt',2009,23.00,10,NULL),
 		--ROW 4
-		(6,2,6,7,'Assasins Creed Odyssey Playstation','asdfeoetlseld','Erlebe die Zeit vom antiken Griechenland',2018,59.99,18,NULL),
+		(6,2,6,7,'Assasins Creed Odyssey Playstation','https://www.playstation.com/de-de/games/assassins-creed-odyssey/','Erlebe die Zeit vom antiken Griechenland',2018,59.99,18,NULL),
 		--ROW 5
-		(6,2,2,3,'Assasins Creed Odyssey PC','asdfeoodsafjifasekd','Erlebe die Zeit vom antiken Griechenland',2018,59.99,18,NULL),
+		(6,2,2,3,'Assasins Creed Odyssey PC','https://www.ubisoft.com/de-de/game/assassins-creed/odyssey','Erlebe die Zeit vom antiken Griechenland',2018,59.99,18,NULL),
 		--ROW 6
-		(6,2,9,9,'Assasins Creed Odyssey XBOX','fadskoeaalsdf','Erlebe die Zeit vom antiken Griechenland',2018,59.99,18,NULL),
+		(6,2,9,9,'Assasins Creed Odyssey XBOX','https://www.xbox.com/de-DE/games/assassins-creed-odyssey','Erlebe die Zeit vom antiken Griechenland',2018,59.99,18,NULL),
 		--ROW 7
-		(5,6,6,7,'Jedi Fallen Order Playstation','asdfrleasdozsdl','Ueberlebe als der letzte Jedi',2019,59.90,16,NULL),
+		(5,6,6,7,'Jedi Fallen Order Playstation','https://www.playstation.com/de-ch/games/star-wars-jedi-fallen-order/','Ueberlebe als der letzte Jedi',2019,59.90,16,NULL),
 		--ROW 8
-		(5,6,2,3,'Jedi Fallen Order PC','asdfaleofasdgsdl','Ueberlebe als der letzte Jedi',2019,59.90,16,NULL),
+		(5,6,2,3,'Jedi Fallen Order PC','https://www.ea.com/de-de/games/starwars/jedi-fallen-order','Ueberlebe als der letzte Jedi',2019,59.90,16,NULL),
 		--ROW 9
-		(5,6,9,9,'Jedi Fallen Order XBOX','asdfhleofasasdl','Ueberlebe als der letzte Jedi',2019,59.90,16,NULL),
+		(5,6,9,9,'Jedi Fallen Order XBOX','https://www.xbox.com/de-CH/games/star-wars-jedi-fallen-order','Ueberlebe als der letzte Jedi',2019,59.90,16,NULL),
 		--ROW 10
-		(6,2,6,7,'Watch Dogs: Legion Playstation','asdfejawcwm','Fuehre die Revolution aus!',2020,60,18,NULL),
+		(6,2,6,7,'Watch Dogs: Legion Playstation','https://www.playstation.com/de-ch/games/watch-dogs-legion/','Fuehre die Revolution aus!',2020,60,18,NULL),
 		--ROW 11
-		(6,2,2,3,'Watch Dogs: Legion PC','asdfejafewm','Fuehre die Revolution aus!',2020,60,18,NULL),
+		(6,2,2,3,'Watch Dogs: Legion PC','https://www.ubisoft.com/de-de/game/watch-dogs/legion','Fuehre die Revolution aus!',2020,60,18,NULL),
 		--ROW 12
-		(6,2,9,9,'Watch Dogs: Legion XBOX','asdfejathwm','Fuehre die Revolution aus!',2020,60,18,NULL),
+		(6,2,9,9,'Watch Dogs: Legion XBOX','https://www.xbox.com/de-CH/games/watch-dogs-legion','Fuehre die Revolution aus!',2020,60,18,NULL),
 		--ROW 13
-		(7,8,10,10,'Sonic Mania Switch','asdlfeiaasdfsldfj','Spiele die Klassiker der Sonic Reihe',2017,20.90,3,NULL),
+		(7,8,10,10,'Sonic Mania Switch','https://www.nintendo.ch/de/Spiele/Nintendo-Switch-Download-Software/Sonic-Mania-1174779.html','Spiele die Klassiker der Sonic Reihe',2017,20.90,3,NULL),
 		--ROW 14
-		(7,8,6,7,'Sonic Mania Playstation','asdlfasdeiasldfj','Spiele die Klassiker der Sonic Reihe',2017,20.90,3,NULL),
+		(7,8,6,7,'Sonic Mania Playstation','https://www.playstation.com/de-ch/games/sonic-mania/','Spiele die Klassiker der Sonic Reihe',2017,20.90,3,NULL),
 		--ROW 15
-		(7,8,9,9,'Sonic Mania XBOX','asdlfefdiasldfj','Spiele die Klassiker der Sonic Reihe',2017,20.90,3,NULL),
+		(7,8,9,9,'Sonic Mania XBOX','https://www.xbox.com/de-DE/games/store/sonic-mania/bxh46nqt9w4q','Spiele die Klassiker der Sonic Reihe',2017,20.90,3,NULL),
 		--ROW 16
-		(8,4,2,3,'Terraformers','asdhfieal','Kolonialisiere Mars',2022,20,7,NULL),
+		(8,4,2,3,'Terraformers','https://store.steampowered.com/app/1244800/Terraformers/','Kolonialisiere den Mars',2022,20,7,NULL),
 		--ROW 17
-		(9,7,2,3,'Scrap Mechanic','asldfjfei','Steige in die kreative Welt con Scrap Mechanic ein!',2016,19,7,NULL),
+		(9,7,2,3,'Scrap Mechanic','https://store.steampowered.com/app/387990/Scrap_Mechanic/','Steige in die kreative Welt von Scrap Mechanic ein!',2016,19,7,NULL),
 		--ROW 18
-		(10,3,2,3,'Among us','fasfeilali','Finde den Taeter heraus!',2018,5,12,NULL);
+		(10,3,2,3,'Among us','https://store.steampowered.com/app/945360/Among_Us/','Finde den Taeter heraus!',2018,5,12,NULL);
 	--END
 
 	--INSERT INTO IMAGE
@@ -390,57 +390,57 @@
 		INSERT INTO "OwnedProduct"("FK_CustomerID","FK_ProductID","LicenceHash")
 		VALUES
 		--ROW 1
-		(1,2,'BASDFKJHKJ'),
+		(1,2,'50da5133-4adb-4d47-be67-38983c29b0a9'),
 		--ROW 2
-		(1,2,'BASFJEKJEK'),
+		(1,2,'c65ebef0-953c-47e0-a25d-7820ff299239'),
 		--ROW 3
-		(2,3,'BKBDFKJAHF'),
+		(2,3,'94a14bf0-e9bc-4621-892c-305c61070a4b'),
 		--ROW 4
-		(2,3,'JDIEWKWLEI'),
+		(2,3,'890e13e3-86f7-4ece-b540-76aff846e030'),
 		--ROW 5
-		(2,4,'HKJHDFUE3A'),
+		(2,4,'ca576b0c-5798-4781-8a1b-8ee9b361c80d'),
 		--ROW 6
-		(3,1,'FKJ478938A'),
+		(3,1,'3616b08f-6c86-491d-9399-6dfc81706a7a'),
 		--ROW 7
-		(4,1,'HGKJHD34GH'),
+		(4,1,'d2a06482-0b71-4f49-98c2-bc20e12eeab8'),
 		--ROW 8
-		(4,1,'HFJDFUEUJE'),
+		(4,1,'723598e9-be4a-4279-a336-57da5f14a170'),
 		--ROW 9
-		(5,5,'asdlkfjIDi'),
+		(5,5,'b01dba54-e8bf-4d1f-8252-3e1792d209c8'),
 		--ROW 10
-		(5,5,'asdflkjIie'),
+		(5,5,'df7b5740-b8bb-4426-b7da-46bf9d8e88ce'),
 		--ROW 11
-		(5,5,'HFuehasdfu'),
+		(5,5,'9f887834-96ed-4928-9bc9-5f1128624ba5'),
 		--ROW 12
-		(5,7,'LKJFDLJIFE'),
+		(5,7,'c9326923-d26a-49eb-ba93-9d91b5c8b3bf'),
 		--ROW 13
-		(5,9,'lkLKFjeaf7'),
+		(5,9,'f72c00fd-3736-4077-b14f-af8d858fad31'),
 		--ROW 14
-		(5,9,'asdlfkjoie'),
+		(5,9,'98717526-8888-4671-b256-4ac8a7f82817'),
 		--ROW 15
-		(5,9,'asldfjiewo'),
+		(5,9,'de565c1a-7ba3-4953-995e-63a849a8b697'),
 		--ROW 16
-		(5,9,'alsdfkjieo'),
+		(5,9,'8bf8762f-e8b8-4d4e-b14d-8484e487403d'),
 		--ROW 17
-		(6,3,'asdfieowlq'),
+		(6,3,'dc448e56-a142-4e31-a55b-b93d947ae13c'),
 		--ROW 18
-		(6,3,'fuejshdkfu'),
+		(6,3,'c51fece9-5787-4f25-b4c8-4911f10fb535'),
 		--ROW 19
-		(7,10,'asdfhuekjw'),
+		(7,10,'530963d9-b736-4435-91f0-42a71848ab67'),
 		--ROW 20
-		(7,10,'fasdfjieow'),
+		(7,10,'f8e88166-6e66-4888-afcc-59bd72843847'),
 		--ROW 21
-		(7,10,'asdkflielw'),
+		(7,10,'3d00e76e-33f2-4add-a3b3-f7ff2af4df53'),
 		--ROW 22
-		(7,10,'werikdiekd'),
+		(7,10,'fb673158-b20d-454e-8b08-7f48ab25071d'),
 		--ROW 23
-		(8,2,'asdfielwold'),
+		(8,2,'b750a5b8-494b-40c1-a464-739ba38b1d18'),
 		--ROW 24
-		(9,8,'JFLJ30LFUH'),
+		(9,8,'29febf8c-4753-40aa-b155-1de030af80b4'),
 		--ROW 25
-		(9,8,'DJIEHGNGHE'),
+		(9,8,'e6e1768a-b1de-4e3f-becb-c5e0730098ba'),
 		--ROW 26
-		(10,6,'FHKJDUEH7J');
+		(10,6,'38b16e69-6b90-4212-8b4c-8f186a3a99aa');
 	--END
 
 	--INSERT INTO WISHLIST
@@ -494,7 +494,7 @@
 		--ROW 2
 		(2,3,2,23.00),	--Minecraft
 		--ROW 3
-		(2,4,1,59.99),	--Assasins Creed Playstation
+		(2,4,1,59.99),	--Assasins Creed
 		--ROW 4
 		(3,1,1,80),		--Smash
 		--ROW 5
@@ -504,7 +504,7 @@
 		--ROW 7
 		(5,7,1,59.90),	--Jedi Fallen Order
 		--ROW 8
-		(5,9,4,59.90),	--
+		(5,9,4,59.90),	--Jedi Fallen Order
 		--ROW 9
 		(6,16,2,20),	--Terraformers
 		--ROW 10
@@ -514,7 +514,7 @@
 		--ROW 12
 		(9,17,2,19),	--Scrap Mechanic
 		--ROW 13
-		(10,18,1,5);	--
+		(10,18,1,5);	--Among Us
 	--END
 
 	--INSERT INTO PRODUCTTAG
