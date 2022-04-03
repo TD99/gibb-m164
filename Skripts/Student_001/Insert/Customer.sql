@@ -1,6 +1,6 @@
 --DEFALUT USER IDENTIFIER: tdu135585 <-- DO NOT MODIFY
 
---INSERT INTO ADDRESS
+--INSERT INTO CUSTOMER
 	USE "test";
 	INSERT INTO "Customer"("FirstName","LastName","Birthday","Gender","Email","PhoneHome","PhoneMobile","RemoveDate")
 	VALUES
