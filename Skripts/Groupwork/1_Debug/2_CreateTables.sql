@@ -72,7 +72,7 @@
 			CREATE TABLE "OwnedProduct"(
 				"FK_CustomerID" INT NOT NULL,
 				"FK_ProductID" INT NOT NULL,
-				"LicenceHash" VARCHAR(30) NOT NULL
+				"LicenceHash" VARCHAR(200) NOT NULL
 			);
 		GO
 	--END
